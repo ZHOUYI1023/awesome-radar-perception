@@ -27,7 +27,7 @@ A curated list of radar datasets, detection, tracking and fusion. <br>Keep updat
 |Zendar SAR |Zendar|[Website](https://www.zendar.io/dataset.html); [Paper](https://ieeexplore.ieee.org/document/9150648); [Github](https://github.com/ZendarInc/ZendarSDK) |
 | CRUW | University of Washington |[Website](https://www.cruwdataset.org/home); [Paper](https://ieeexplore.ieee.org/document/9353210); [Github](https://github.com/yizhou-wang/RODNet)|
 | CARRADA | Valeo | [Website](https://arthurouaknine.github.io/codeanddata/carrada); [Paper](https://arxiv.org/abs/2005.01456); [Github](https://github.com/valeoai/carrada_dataset)|
-| Radar Scenes | Mercedes-Benz AG | [Website](https://radar-scenes.com/); [Paper](https://arxiv.org/abs/2104.02493) ; [Github]((https://github.com/oleschum/radar_scenes/)) |
+| Radar Scenes | Mercedes-Benz AG | [Website](https://radar-scenes.com/); [Paper](https://arxiv.org/abs/2104.02493) ; [Github](https://github.com/oleschum/radar_scenes/) |
 | RaDICaL | UIUC | [Website](https://publish.illinois.edu/radicaldata/); [Papers](https://ieeexplore.ieee.org/document/9361086); [Github](https://moodoki.github.io/radical_sdk/) |
 | Hires2019 | Astyx | [Dateset](https://github.com/under-the-radar/radar_dataset_astyx); [Paper](https://ieeexplore.ieee.org/document/8904734) |
 | USVInland | Orca-Tech | [Website](http://www.orca-tech.cn/datasets/USVInland/Introduction); [Paper](https://ieeexplore.ieee.org/abstract/document/9381638) |
