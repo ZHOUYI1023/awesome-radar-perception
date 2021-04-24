@@ -11,7 +11,7 @@ A curated list of radar datasets, detection, tracking and fusion. <br>Keep updat
 * [Oculli Eagle](https://www.oculii.com/eagle)
 * [Vayyar](https://vayyar.com/auto/)
 * [Astyx (Acquired by Cruise)](https://www.astyx.com/technology.html)
-* Huawei 4D radar [ews](https://sparrowsnews.com/2021/04/20/huawei-4d-imaging-radar/)
+* Huawei 4D radar [news](https://sparrowsnews.com/2021/04/20/huawei-4d-imaging-radar/)
 * ZF PREMIUM [news](https://www.just-auto.com/news/zf-secures-saic-production-contract-for-full-range-radar_id201221.aspx)
 * Waymo [news](https://blog.waymo.com/2020/03/introducing-5th-generation-waymo-driver.html)
 
@@ -21,14 +21,14 @@ A curated list of radar datasets, detection, tracking and fusion. <br>Keep updat
 | ---------- | :-----------: | :-----------: |
 | Oxford Radar Robocar | University of Oxford | [Website](https://oxford-robotics-institute.github.io/radar-robotcar-dataset/); [Paper](https://ieeexplore.ieee.org/abstract/document/9196884); [Github](https://github.com/oxford-robotics-institute/radar-robotcar-dataset-sdk) |
 |RADIATE| Heriot Watt University|[Website](http://pro.hw.ac.uk/radiate/doc/dataset/); [Paper](https://arxiv.org/abs/2010.09076); [Github](https://github.com/marcelsheeny/radiate_sdk/tree/master/vehicle_detection)|
-| MulRan | KAIST |[Website](https://sites.google.com/view/mulran-pr/dataset); [Paper](https://ieeexplore.ieee.org/abstract/document/9197298) ;[Github](https://github.com/irapkaist/file_player_mulran)|
+| MulRan | KAIST |[Website](https://sites.google.com/view/mulran-pr/dataset); [Paper](https://ieeexplore.ieee.org/abstract/document/9197298); [Github](https://github.com/irapkaist/file_player_mulran)|
 | nuScenes | Aptiv | [Website](https://scale.com/open-datasets/nuscenes); [Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Caesar_nuScenes_A_Multimodal_Dataset_for_Autonomous_Driving_CVPR_2020_paper.html) |
 |DENSE| Ulm University |[Website](https://www.uni-ulm.de/en/in/driveu/projects/dense-datasets); [Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Bijelic_Seeing_Through_Fog_Without_Seeing_Fog_Deep_Multimodal_Sensor_Fusion_CVPR_2020_paper.html)|
 |Zendar SAR |Zendar|[Website](https://www.zendar.io/dataset.html); [Paper](https://ieeexplore.ieee.org/document/9150648); [Github](https://github.com/ZendarInc/ZendarSDK) |
 | CRUW | University of Washington |[Website](https://www.cruwdataset.org/home); [Paper](https://ieeexplore.ieee.org/document/9353210); [Github](https://github.com/yizhou-wang/RODNet)|
-| CARRADA | Valeo | [Website](https://arthurouaknine.github.io/codeanddata/carrada); [Paper](); [Github](https://github.com/valeoai/carrada_dataset)|
+| CARRADA | Valeo | [Website](https://arthurouaknine.github.io/codeanddata/carrada); [Paper](https://arxiv.org/abs/2005.01456); [Github](https://github.com/valeoai/carrada_dataset)|
 | Radar Scenes | Mercedes-Benz AG | [Website](https://radar-scenes.com/); [Paper](https://arxiv.org/abs/2104.02493) ; [Github]((https://github.com/oleschum/radar_scenes/)) |
-| RaDICaL | UIUC | [Website](https://publish.illinois.edu/radicaldata/); [Papers](https://ieeexplore.ieee.org/document/9361086) ; [Github](https://moodoki.github.io/radical_sdk/) |
+| RaDICaL | UIUC | [Website](https://publish.illinois.edu/radicaldata/); [Papers](https://ieeexplore.ieee.org/document/9361086); [Github](https://moodoki.github.io/radical_sdk/) |
 | Hires2019 | Astyx | [Dateset](https://github.com/under-the-radar/radar_dataset_astyx); [Paper](https://ieeexplore.ieee.org/document/8904734) |
 | USVInland | Orca-Tech | [Website](http://www.orca-tech.cn/datasets/USVInland/Introduction); [Paper](https://ieeexplore.ieee.org/abstract/document/9381638) |
 | DopNet | UCL | [Website](http://dop-net.com/); [Paper](https://digital-library.theiet.org/content/journals/10.1049/el.2019.4153)|
@@ -41,7 +41,7 @@ A curated list of radar datasets, detection, tracking and fusion. <br>Keep updat
 | The Micro-Doppler Effect in Radar | Victor C. Chen |
 | Robotic Navigation and Mapping with Radar | Martin Adams etc. |
 
-## TI tutorials
+## TI Tutorials
 * [Introduction to mmwaveSensing: FMCW Radars](https://training.ti.com/sites/default/files/docs/mmwaveSensing-FMCW-offlineviewing_0.pdf)
 * [The fundamentals of millimeter wave sensors](https://www.ti.com/lit/wp/spyy005a/spyy005a.pdf?ts=1619205965675)
 * [Using a complex-baseband architecture in FMCW radar systems](https://www.ti.com/lit/wp/spyy007/spyy007.pdf)
