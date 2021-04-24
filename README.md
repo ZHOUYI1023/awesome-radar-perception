@@ -1,5 +1,5 @@
 # Awesome Radar Perception
-A curated list of radar datasets, detection, tracking and fusion. Keep updating.<br>Author: Yi Zhou<br>Contact: zhouyi1023@tju.edu.cn
+A curated list of radar datasets, detection, tracking and fusion. <br>Keep updating.<br>Author: Yi Zhou<br>Contact: zhouyi1023@tju.edu.cn
 
 
 ## Imaging Radar Products
@@ -48,8 +48,8 @@ A curated list of radar datasets, detection, tracking and fusion. Keep updating.
 * [MIMO radar](https://www.ti.com/lit/an/swra554a/swra554a.pdf)
 
 ## Review Papers
-* IEEE Signal Processing Magazine Special Issues
-Autonomous Driving [Part I Sensing and Perception](https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9127839&punumber=79)
+* IEEE Signal Processing Magazine Special Issues<br>
+Autonomous Driving [Part I Sensing and Perception](https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9127839&punumber=79)<br>
 Radar Systems for Modern Civilian Applications [Part I](https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8746851&punumber=79) [Part II](https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8827988&punumber=79)
 * [Antenna Concepts for Millimeter-Wave Automotive Radar Sensors](https://ieeexplore.ieee.org/document/6165323)
 * [Micro-Doppler Effect in Radar: Phenomenon, Model, and Simulation Study](https://ieeexplore.ieee.org/document/1603402)
