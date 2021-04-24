@@ -1,21 +1,19 @@
 # Awesome Radar Perception
-A curated list of radar datasets, detection, tracking and fusion. Keep updating.
-Author: Yi Zhou
-Contact: zhouyi1023@tju.edu.cn
+A curated list of radar datasets, detection, tracking and fusion. Keep updating.<br>Author: Yi Zhou<br>Contact: zhouyi1023@tju.edu.cn
 
 
 ## Imaging Radar Products
 
-[TI AWR2243](https://www.ti.com/tool/MMWCAS-RF-EVM?keyMatch=AWR2243%20CASCADE&tisearch=search-everything)
-[Arbe Phoenix](https://arberobotics.com/product/)
-[Continental ARS 540](https://www.continental-automotive.com/en-gl/Passenger-Cars/Autonomous-Mobility/Enablers/Radars/Long-Range-Radar/ARS540)
-[Oculli Falcon](https://www.oculii.com/falcon)
-[Oculli Eagle](https://www.oculii.com/eagle)
-[Vayyar](https://vayyar.com/auto/)
-[Astyx (Acquired by Cruise)](https://www.astyx.com/technology.html)
-Huawei 4D radar [ews](https://sparrowsnews.com/2021/04/20/huawei-4d-imaging-radar/)
-ZF PREMIUM [news](https://www.just-auto.com/news/zf-secures-saic-production-contract-for-full-range-radar_id201221.aspx)
-Waymo [news](https://blog.waymo.com/2020/03/introducing-5th-generation-waymo-driver.html)
+* [TI AWR2243](https://www.ti.com/tool/MMWCAS-RF-EVM?keyMatch=AWR2243%20CASCADE&tisearch=search-everything)
+* [Arbe Phoenix](https://arberobotics.com/product/)
+* [Continental ARS 540](https://www.continental-automotive.com/en-gl/Passenger-Cars/Autonomous-Mobility/Enablers/Radars/Long-Range-Radar/ARS540)
+* [Oculli Falcon](https://www.oculii.com/falcon)
+* [Oculli Eagle](https://www.oculii.com/eagle)
+* [Vayyar](https://vayyar.com/auto/)
+* [Astyx (Acquired by Cruise)](https://www.astyx.com/technology.html)
+* Huawei 4D radar [ews](https://sparrowsnews.com/2021/04/20/huawei-4d-imaging-radar/)
+* ZF PREMIUM [news](https://www.just-auto.com/news/zf-secures-saic-production-contract-for-full-range-radar_id201221.aspx)
+* Waymo [news](https://blog.waymo.com/2020/03/introducing-5th-generation-waymo-driver.html)
 
 
 ## Radar Datasets
@@ -50,9 +48,9 @@ Waymo [news](https://blog.waymo.com/2020/03/introducing-5th-generation-waymo-dri
 * [MIMO radar](https://www.ti.com/lit/an/swra554a/swra554a.pdf)
 
 ## Review Papers
-* IEEE Signal Processing Magazine
-Special Issue on Autonomous Driving [Part I Sensing and Perception](https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9127839&punumber=79)
-Special Issue on Radar Systems for Modern Civilian Applications [Part I](https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8746851&punumber=79) [Part II](https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8827988&punumber=79)
+* IEEE Signal Processing Magazine Special Issues
+Autonomous Driving [Part I Sensing and Perception](https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9127839&punumber=79)
+Radar Systems for Modern Civilian Applications [Part I](https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8746851&punumber=79) [Part II](https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8827988&punumber=79)
 * [Antenna Concepts for Millimeter-Wave Automotive Radar Sensors](https://ieeexplore.ieee.org/document/6165323)
 * [Micro-Doppler Effect in Radar: Phenomenon, Model, and Simulation Study](https://ieeexplore.ieee.org/document/1603402)
 * [Application of Deep Learning on Millimeter-Wave Radar Signals: A Review](https://www.mdpi.com/1424-8220/21/6/1951)
