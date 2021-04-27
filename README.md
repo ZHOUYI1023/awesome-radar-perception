@@ -132,6 +132,7 @@ Radar Systems for Modern Civilian Applications [Part I](https://ieeexplore.ieee.
 * [CenterFusion: Center-based Radar and Camera Fusion for 3D Object Detection](https://arxiv.org/abs/2011.04841)
 * [Radar-Camera Sensor Fusion for Joint Object Detection and Distance Estimation in Autonomous Vehicles](https://arxiv.org/abs/2009.08428)
 * [People Tracking by Cooperative Fusion of RADAR and Camera Sensors](https://ieeexplore.ieee.org/document/8917238)
+* [Radar Camera Fusion via Representation Learning in Autonomous Driving](https://arxiv.org/abs/2103.07825)
 
 
 #### Radar Lidar Vision Fusion
