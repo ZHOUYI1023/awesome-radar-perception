@@ -1,6 +1,6 @@
 # Awesome Radar Perception
 A curated list of radar datasets, detection, tracking and fusion. <br>Keep updating.<br>Author: Yi Zhou<br>Contact: zhouyi1023@tju.edu.cn
-
+<br>Update some public-available codes, see [useful_codes.md](./useful_codes.md)
 
 ## Imaging Radar Products
 
@@ -31,7 +31,9 @@ A curated list of radar datasets, detection, tracking and fusion. <br>Keep updat
 | RaDICaL | UIUC | [Website](https://publish.illinois.edu/radicaldata/); [Papers](https://ieeexplore.ieee.org/document/9361086); [Github](https://moodoki.github.io/radical_sdk/) |
 | Hires2019 | Astyx | [Dateset](https://github.com/under-the-radar/radar_dataset_astyx); [Paper](https://ieeexplore.ieee.org/document/8904734) |
 | USVInland | Orca-Tech | [Website](http://www.orca-tech.cn/datasets/USVInland/Introduction); [Paper](https://ieeexplore.ieee.org/abstract/document/9381638) |
-| DopNet | UCL | [Website](http://dop-net.com/); [Paper](https://digital-library.theiet.org/content/journals/10.1049/el.2019.4153)|
+| DopNet | UCL | [Website](http://dop-net.com/); [Paper](https://digital-library.theiet.org/content/journals/10.1049/el.2019.4153) |
+| RADDet | University of Ottawa | [Paper](https://arxiv.org/abs/2105.00363); [Github](https://github.com/ZhangAoCanada/RADDet) |
+| Solinteraction Data | University of St Andrews | [Paper](https://dl.acm.org/doi/abs/10.1145/3287078); [Github](https://github.com/tcboy88/solinteractiondata) |
 
 ## Fundamental Books
 | Book Title      | Author     |    
@@ -64,6 +66,9 @@ Radar Systems for Modern Civilian Applications [Part I](https://ieeexplore.ieee.
 * [There and Back Again: Learning to Simulate Radar Data for Real-World Applications](https://arxiv.org/abs/2011.14389)
 * [Diversified Radar Micro-Doppler Simulations as Training Data for Deep Residual Neural Networks](https://ieeexplore.ieee.org/document/8378629)
 * [Measurements revealing Challenges in Radar Sensor Modeling for Virtual Validation of Autonomous Driving](https://link.springer.com/chapter/10.1007/978-3-030-58523-5_29)
+* [Virtual Radar: Real-Time Millimeter-Wave Radar Sensor Simulation for Perception-Driven Robotics](https://ieeexplore.ieee.org/abstract/document/9387149)
+* [Vid2Doppler: Synthesizing Doppler Radar Data from Videos for Training Privacy-Preserving Activity Recognition](https://dl.acm.org/doi/abs/10.1145/3411764.3445138)
+* [Scalable and Physical Radar Sensor Simulation for Interacting Digital Twins](https://ieeexplore.ieee.org/abstract/document/9205224)
 
 ## Calibration
 #### Radar & Multi Radars
@@ -92,51 +97,58 @@ Radar Systems for Modern Civilian Applications [Part I](https://ieeexplore.ieee.
 
 
 ## Radar Detection
-* [Off-the-shelf sensor vs. experimental radar - How much resolution is necessary in automotive radar classification?](https://ieeexplore.ieee.org/abstract/document/9190338)
-* [Potential of Radar for Static Object Classification using Deep Learning Methods](https://ieeexplore.ieee.org/document/7533931)
-* [Vehicle Detection With Automotive Radar Using Deep Learning on Range-Azimuth-Doppler Tensors](https://ieeexplore.ieee.org/document/9022248)
-* [CNN based Road User Detection using the 3D Radar Cube](https://ieeexplore.ieee.org/document/8962258)
-* [Probabilistic Oriented Object Detection in Automotive Radar](https://ieeexplore.ieee.org/document/9150751)
-* [RadarNet: Exploiting Radar for Robust Perception of Dynamic Objects](https://link.springer.com/chapter/10.1007/978-3-030-58523-5_29)
-* [Through Fog High Resolution Imaging Using MillimeterWave Radar](https://openaccess.thecvf.com/content_CVPR_2020/html/Guan_Through_Fog_High-Resolution_Imaging_Using_Millimeter_Wave_Radar_CVPR_2020_paper.html)
+* 2020-[Off-the-shelf sensor vs. experimental radar - How much resolution is necessary in automotive radar classification?](https://ieeexplore.ieee.org/abstract/document/9190338)
+* 2016-[Potential of Radar for Static Object Classification using Deep Learning Methods](https://ieeexplore.ieee.org/document/7533931)
+* 2019-[Vehicle Detection With Automotive Radar Using Deep Learning on Range-Azimuth-Doppler Tensors](https://ieeexplore.ieee.org/document/9022248)
+* 2020-[CNN based Road User Detection using the 3D Radar Cube](https://ieeexplore.ieee.org/document/8962258)
+* 2020-[Probabilistic Oriented Object Detection in Automotive Radar](https://ieeexplore.ieee.org/document/9150751)
+* 2020-[RadarNet: Exploiting Radar for Robust Perception of Dynamic Objects](https://link.springer.com/chapter/10.1007/978-3-030-58523-5_29)
+* 2020-[Through Fog High Resolution Imaging Using MillimeterWave Radar](https://openaccess.thecvf.com/content_CVPR_2020/html/Guan_Through_Fog_High-Resolution_Imaging_Using_Millimeter_Wave_Radar_CVPR_2020_paper.html)
 * [Using Machine Learning to Detect Ghost Images in Automotive Radar](https://ieeexplore.ieee.org/document/9294631)
-* [Deep Learning-based Object Classification on Automotive Radar Spectra](https://ieeexplore.ieee.org/document/8835775)
-* [DeepReflecs: Deep Learning for Automotive Object Classification with Radar Reflections](https://arxiv.org/abs/2010.09273)
-* [CNN based Road User Detection using the 3D Radar Cube](https://ieeexplore.ieee.org/document/8962258)
-* [Radar-based Feature Design and Multiclass Classification for Road User Recognition](https://ieeexplore.ieee.org/document/8500607)
+* 2019-[Deep Learning-based Object Classification on Automotive Radar Spectra](https://ieeexplore.ieee.org/document/8835775)
+* 2020-[DeepReflecs: Deep Learning for Automotive Object Classification with Radar Reflections](https://arxiv.org/abs/2010.09273)
+* 2020-[CNN based Road User Detection using the 3D Radar Cube](https://ieeexplore.ieee.org/document/8962258)
+* 2018-[Radar-based Feature Design and Multiclass Classification for Road User Recognition](https://ieeexplore.ieee.org/document/8500607)
+* 2021-[RADDet: Range-Azimuth-Doppler based Radar Object Detection for Dynamic Road Users](https://arxiv.org/abs/2105.00363)
+* 2020-[RAMP-CNN: A Novel Neural Network for Enhanced Automotive Radar Object Recognition](https://ieeexplore.ieee.org/abstract/document/9249018)
+* 2019-[Experiments with mmwave automotive radar test-bed](https://ieeexplore.ieee.org/abstract/document/9048939)
+* 2019-[Robust and Adaptive Radar Elliptical Density-Based Spatial Clustering and labeling for mmWave Radar Point Cloud Data](https://ieeexplore.ieee.org/abstract/document/9048869)
+* 2020-[MmWave Radar Point Cloud Segmentation using GMM in Multimodal Traffic Monitoring](https://ieeexplore.ieee.org/abstract/document/9114662)
 
 ## Radar Tracking
-* [Automated Ground Truth Estimation For Automotive Radar Tracking ApplicationsWith Portable GNSS And IMU Devices](https://ieeexplore.ieee.org/document/8768169)
-* [Extended Object Tracking Using Hierarchical Truncation Measurement Model with Automotive Radar](https://ieeexplore.ieee.org/abstract/document/9054614)
-* [An RLS-Based Instantaneous Velocity Estimator for Extended Radar Tracking](https://arxiv.org/abs/2002.10098)
-* [mID: Tracking and Identifying People with Millimeter Wave Radar](https://ieeexplore.ieee.org/document/8804831)
-* [LiRaNet: End-to-End Trajectory Prediction using Spatio-Temporal Radar Fusion](https://arxiv.org/abs/2010.00731)
+* 2019-[Automated Ground Truth Estimation For Automotive Radar Tracking ApplicationsWith Portable GNSS And IMU Devices](https://ieeexplore.ieee.org/document/8768169)
+* 2020-[Extended Object Tracking Using Hierarchical Truncation Measurement Model with Automotive Radar](https://ieeexplore.ieee.org/abstract/document/9054614)
+* 2020-[An RLS-Based Instantaneous Velocity Estimator for Extended Radar Tracking](https://arxiv.org/abs/2002.10098)
+* 2019-[mID: Tracking and Identifying People with Millimeter Wave Radar](https://ieeexplore.ieee.org/document/8804831)
+* 2020-[LiRaNet: End-to-End Trajectory Prediction using Spatio-Temporal Radar Fusion](https://arxiv.org/abs/2010.00731)
 
 
 ## Fusion
 #### Cross-Modal Supervision
-* [Radar as a Teacher: Weakly Supervised Vehicle Detection using Radar Labels](https://ieeexplore.ieee.org/document/9196855)
-* [Automotive radar and camera fusion using Generative Adversarial Networks](https://www.sciencedirect.com/science/article/abs/pii/S1077314219300530)
-* [RODNet: A Real-Time Radar Object Detection Network Cross-Supervised by Camera-Radar Fused Object 3D Localization](https://ieeexplore.ieee.org/document/9353210)
-* [RSS-Net: Weakly-Supervised Multi-Class Semantic Segmentation with FMCW Radar](https://ieeexplore.ieee.org/document/9304674)
-* [Warping of Radar Data into Camera Image for Cross-Modal Supervision in Automotive Applications](https://arxiv.org/abs/2012.12809)
-* [Weakly Supervised Deep Learning Method for Vulnerable Road User Detection in FMCW Radar](https://ieeexplore.ieee.org/document/9294399)
+* 2020-[Radar as a Teacher: Weakly Supervised Vehicle Detection using Radar Labels](https://ieeexplore.ieee.org/document/9196855)
+* 2019-[Automotive radar and camera fusion using Generative Adversarial Networks](https://www.sciencedirect.com/science/article/abs/pii/S1077314219300530)
+* 2021-[RODNet: A Real-Time Radar Object Detection Network Cross-Supervised by Camera-Radar Fused Object 3D Localization](https://ieeexplore.ieee.org/document/9353210)
+* 2020-[RSS-Net: Weakly-Supervised Multi-Class Semantic Segmentation with FMCW Radar](https://ieeexplore.ieee.org/document/9304674)
+* 2020-[Warping of Radar Data into Camera Image for Cross-Modal Supervision in Automotive Applications](https://arxiv.org/abs/2012.12809)
+* 2020-[Weakly Supervised Deep Learning Method for Vulnerable Road User Detection in FMCW Radar](https://ieeexplore.ieee.org/document/9294399)
 
 #### Radar Vision Fusion
-* [Distant Vehicle Detection Using Radar and Vision](https://ieeexplore.ieee.org/document/8794312)
-* [Radar and Camera Early Fusion for Vehicle Detection in Advanced Driver Assistance Systems](https://ml4ad.github.io/files/papers/Radar%20and%20Camera%20Early%20Fusion%20for%20Vehicle%20Detection%20in%20Advanced%20Driver%20Assistance%20Systems.pdf)
-* [A Deep Learning-based Radar and Camera Sensor Fusion Architecture for Object Detection](https://ieeexplore.ieee.org/document/8916629)
-* [Depth Estimation from Monocular Images and Sparse Radar Data](https://arxiv.org/abs/2010.00058)
-* [Deep Learning Based 3D Object Detection for Automotive Radar and Camera](https://ieeexplore.ieee.org/document/8904867)
-* [RRPN: Radar Region Proposal Network for Object Detection in Autonomous Vehicles](https://ieeexplore.ieee.org/document/8803392)
-* [CenterFusion: Center-based Radar and Camera Fusion for 3D Object Detection](https://arxiv.org/abs/2011.04841)
-* [Radar-Camera Sensor Fusion for Joint Object Detection and Distance Estimation in Autonomous Vehicles](https://arxiv.org/abs/2009.08428)
-* [People Tracking by Cooperative Fusion of RADAR and Camera Sensors](https://ieeexplore.ieee.org/document/8917238)
-* [Radar Camera Fusion via Representation Learning in Autonomous Driving](https://arxiv.org/abs/2103.07825)
-
+* 2019-[Distant Vehicle Detection Using Radar and Vision](https://ieeexplore.ieee.org/document/8794312)
+* 2019-[Radar and Camera Early Fusion for Vehicle Detection in Advanced Driver Assistance Systems](https://ml4ad.github.io/files/papers/Radar%20and%20Camera%20Early%20Fusion%20for%20Vehicle%20Detection%20in%20Advanced%20Driver%20Assistance%20Systems.pdf)
+* 2019-[A Deep Learning-based Radar and Camera Sensor Fusion Architecture for Object Detection](https://ieeexplore.ieee.org/document/8916629)
+* 2020-[Depth Estimation from Monocular Images and Sparse Radar Data](https://arxiv.org/abs/2010.00058)
+* 2019-[Deep Learning Based 3D Object Detection for Automotive Radar and Camera](https://ieeexplore.ieee.org/document/8904867)
+* 2019-[RRPN: Radar Region Proposal Network for Object Detection in Autonomous Vehicles](https://ieeexplore.ieee.org/document/8803392)
+* 2020-[CenterFusion: Center-based Radar and Camera Fusion for 3D Object Detection](https://arxiv.org/abs/2011.04841)
+* 2020-[Radar-Camera Sensor Fusion for Joint Object Detection and Distance Estimation in Autonomous Vehicles](https://arxiv.org/abs/2009.08428)
+* 2019-[People Tracking by Cooperative Fusion of RADAR and Camera Sensors](https://ieeexplore.ieee.org/document/8917238)
+* 2019-[A DNN-LSTM based Target Tracking Approach using mmWave Radar and Camera Sensor Fusion](https://ieeexplore.ieee.org/abstract/document/9058168)
+* 2021-[Radar Camera Fusion via Representation Learning in Autonomous Driving](https://arxiv.org/abs/2103.07825)
+* 2020-[Radar+ RGB Fusion For Robust Object Detection In Autonomous Vehicle](https://ieeexplore.ieee.org/abstract/document/9191046)
+* 2021-[milliEye: A Lightweight mmWave Radar and Camera Fusion System for Robust Object Detection](http://aiot.ie.cuhk.edu.hk/papers/milliEye.pdf)
 
 #### Radar Lidar Vision Fusion
-* [High Dimensional Frustum PointNet for 3D Object Detection from Camera, LiDAR, and Radar](https://ieeexplore.ieee.org/abstract/document/9304655)
-* [Seeing Through FogWithout Seeing Fog: Deep Multimodal Sensor Fusion in Unseen Adverse Weather](https://ieeexplore.ieee.org/abstract/document/9304655)
-* [Multiple Sensor Fusion and Classification for Moving Object Detection and Tracking](https://ieeexplore.ieee.org/document/7283636)
+* 2020-[High Dimensional Frustum PointNet for 3D Object Detection from Camera, LiDAR, and Radar](https://ieeexplore.ieee.org/abstract/document/9304655)
+* 2020-[Seeing Through FogWithout Seeing Fog: Deep Multimodal Sensor Fusion in Unseen Adverse Weather](https://ieeexplore.ieee.org/abstract/document/9304655)
+* 2016-[Multiple Sensor Fusion and Classification for Moving Object Detection and Tracking](https://ieeexplore.ieee.org/document/7283636)
 
