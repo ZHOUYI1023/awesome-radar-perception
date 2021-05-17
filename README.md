@@ -114,6 +114,7 @@ Radar Systems for Modern Civilian Applications [Part I](https://ieeexplore.ieee.
 * 2019-[Experiments with mmwave automotive radar test-bed](https://ieeexplore.ieee.org/abstract/document/9048939)
 * 2019-[Robust and Adaptive Radar Elliptical Density-Based Spatial Clustering and labeling for mmWave Radar Point Cloud Data](https://ieeexplore.ieee.org/abstract/document/9048869)
 * 2020-[MmWave Radar Point Cloud Segmentation using GMM in Multimodal Traffic Monitoring](https://ieeexplore.ieee.org/abstract/document/9114662)
+* 2020-[Pointillism: Accurate 3D Bounding Box Estimation with Multi-Radars](https://dl.acm.org/doi/10.1145/3384419.3430783)
 
 ## Radar Tracking
 * 2019-[Automated Ground Truth Estimation For Automotive Radar Tracking ApplicationsWith Portable GNSS And IMU Devices](https://ieeexplore.ieee.org/document/8768169)
