@@ -238,6 +238,18 @@ Dataset: Self-collected
   organization={IEEE}
 }
 
+## MVRSS
+https://github.com/valeoai/MVRSS
+
+Dataset: Carrada
+
+@article{ouaknine2021multi,
+  title={Multi-View Radar Semantic Segmentation},
+  author={Ouaknine, Arthur and Newson, Alasdair and P{\'e}rez, Patrick and Tupin, Florence and Rebut, Julien},
+  journal={arXiv preprint arXiv:2103.16214},
+  year={2021}
+}
+
 # SLAM
 ## RaLL
 https://github.com/ZJUYH/RaLL
