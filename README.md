@@ -122,7 +122,7 @@ Radar Systems for Modern Civilian Applications [Part I](https://ieeexplore.ieee.
 * 2020-[An RLS-Based Instantaneous Velocity Estimator for Extended Radar Tracking](https://arxiv.org/abs/2002.10098)
 * 2019-[mID: Tracking and Identifying People with Millimeter Wave Radar](https://ieeexplore.ieee.org/document/8804831)
 * 2020-[LiRaNet: End-to-End Trajectory Prediction using Spatio-Temporal Radar Fusion](https://arxiv.org/abs/2010.00731)
-
+* 2021-[Integrated Classification and Localization of Targets Using Bayesian Framework In Automotive Radars](https://ieeexplore.ieee.org/abstract/document/9414131)
 
 ## Fusion
 #### Cross-Modal Supervision
