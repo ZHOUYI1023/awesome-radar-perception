@@ -25,7 +25,7 @@ A curated list of radar datasets, detection, tracking and fusion. <br>Keep updat
 | nuScenes | Aptiv | [Website](https://scale.com/open-datasets/nuscenes); [Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Caesar_nuScenes_A_Multimodal_Dataset_for_Autonomous_Driving_CVPR_2020_paper.html) |
 |DENSE| Ulm University |[Website](https://www.uni-ulm.de/en/in/driveu/projects/dense-datasets); [Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Bijelic_Seeing_Through_Fog_Without_Seeing_Fog_Deep_Multimodal_Sensor_Fusion_CVPR_2020_paper.html)|
 |Zendar SAR |Zendar|[Website](https://www.zendar.io/dataset.html); [Paper](https://ieeexplore.ieee.org/document/9150648); [Github](https://github.com/ZendarInc/ZendarSDK) |
-| CRUW | University of Washington |[Website](https://www.cruwdataset.org/home); [Paper](https://ieeexplore.ieee.org/document/9353210); [Github](https://github.com/yizhou-wang/RODNet)|
+| CRUW | University of Washington |[Website](https://www.cruwdataset.org/home); [Paper](https://arxiv.org/abs/2105.05207); [Github](https://github.com/yizhou-wang/RODNet)|
 | CARRADA | Valeo | [Website](https://arthurouaknine.github.io/codeanddata/carrada); [Paper](https://arxiv.org/abs/2005.01456); [Github](https://github.com/valeoai/carrada_dataset)|
 | Radar Scenes | Mercedes-Benz AG | [Website](https://radar-scenes.com/); [Paper](https://arxiv.org/abs/2104.02493) ; [Github](https://github.com/oleschum/radar_scenes/) |
 | RaDICaL | UIUC | [Website](https://publish.illinois.edu/radicaldata/); [Papers](https://ieeexplore.ieee.org/document/9361086); [Github](https://moodoki.github.io/radical_sdk/) |
