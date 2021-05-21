@@ -14,7 +14,7 @@ A curated list of radar datasets, detection, tracking and fusion. <br>Keep updat
 * Huawei 4D radar [news](https://sparrowsnews.com/2021/04/20/huawei-4d-imaging-radar/)
 * ZF PREMIUM [news](https://www.just-auto.com/news/zf-secures-saic-production-contract-for-full-range-radar_id201221.aspx)
 * Waymo [news](https://blog.waymo.com/2020/03/introducing-5th-generation-waymo-driver.html)
-* A list of automotive radar companies [link](ttps://mp.weixin.qq.com/s/JP6dOljpCiyGny4y-nmGqw)
+* A list of automotive radar companies [link](https://mp.weixin.qq.com/s/JP6dOljpCiyGny4y-nmGqw)
 
 ## Radar Datasets
 | Dataset      | Affiliation | Links     |    
