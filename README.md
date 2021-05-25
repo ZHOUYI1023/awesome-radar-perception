@@ -60,6 +60,7 @@ Radar Systems for Modern Civilian Applications [Part I](https://ieeexplore.ieee.
 * [Automotive Radar Signal Processing:Research Directions and Practical Challenges](https://ieeexplore.ieee.org/document/9369027)
 * [Millimeter-Wave Technology for Automotive Radar Sensors in the 77 GHz Frequency Band](https://ieeexplore.ieee.org/document/6127923)
 * [Recent Evolution of Automotive ImagingRadar and Its Information content](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/iet-rsn.2018.0026)
+* [Application of Deep Learning on Millimeter-Wave Radar Signals: A Review](https://www.mdpi.com/1424-8220/21/6/1951)
 
 
 ## Simulation
