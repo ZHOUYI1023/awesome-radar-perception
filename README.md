@@ -36,6 +36,10 @@ A curated list of radar datasets, detection, tracking and fusion. <br>Keep updat
 | Solinteraction Data | University of St Andrews | [Paper](https://dl.acm.org/doi/abs/10.1145/3287078); [Github](https://github.com/tcboy88/solinteractiondata) |
 | ColoRadar | University of Colorado Boulder |  [Website](https://arpg.github.io/coloradar/); [Paper](https://arxiv.org/abs/2103.04510) |
 
+## Workshop
+
+[2021 ICRA Radar Perception for All-Weather Autonomy](https://sites.google.com/view/radar-robotics/home)
+
 ## Fundamental Books
 | Book Title      | Author     |    
 | ---------- | :-----------: |
