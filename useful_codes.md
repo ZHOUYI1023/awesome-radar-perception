@@ -276,6 +276,13 @@ Dataset: MulRan & Oxford Robotcar
   year={2021},
   status={Accept}
   }
+  
+  ## hero_radar_odometry
+  https://github.com/utiasASRL/hero_radar_odometry
+  
+  Dataset: Oxford Robotcar
+  
+  
 
 # Human
 ## solinteractiondata
