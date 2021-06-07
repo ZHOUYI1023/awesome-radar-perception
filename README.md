@@ -129,6 +129,7 @@ Radar Systems for Modern Civilian Applications [Part I](https://ieeexplore.ieee.
 * 2020-[LiRaNet: End-to-End Trajectory Prediction using Spatio-Temporal Radar Fusion](https://arxiv.org/abs/2010.00731)
 * 2021-[Integrated Classification and Localization of Targets Using Bayesian Framework In Automotive Radars](https://ieeexplore.ieee.org/abstract/document/9414131)
 * 2021-[Road-Map Aided GM-PHD Filter for Multi-Vehicle Tracking with Automotive Radar](https://ieeexplore.ieee.org/document/9403944)
+* 2021-[Learning-based Extended Object Tracking Using HierarchicalTruncation Measurement Model with Automotive Radar](https://ieeexplore.ieee.org/document/9351598)
 
 ## Fusion
 #### Cross-Modal Supervision
