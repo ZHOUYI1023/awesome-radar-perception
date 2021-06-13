@@ -38,8 +38,8 @@ A curated list of radar datasets, detection, tracking and fusion. <br>Keep updat
 
 ## Workshop
 
-[2021 ICRA Radar Perception for All-Weather Autonomy](https://sites.google.com/view/radar-robotics/home)
-[2021 ICASSP Recent Advances in mmWave Radar Sensing for Autonomous Vehicles](https://www.2021.ieeeicassp.org/Papers/ViewSession_MS.asp?Sessionid=1280)
+* [2021 ICRA Radar Perception for All-Weather Autonomy](https://sites.google.com/view/radar-robotics/home)
+* [2021 ICASSP Recent Advances in mmWave Radar Sensing for Autonomous Vehicles](https://www.2021.ieeeicassp.org/Papers/ViewSession_MS.asp?Sessionid=1280)
 
 ## Fundamental Books
 | Book Title      | Author     |    
