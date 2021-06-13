@@ -39,6 +39,7 @@ A curated list of radar datasets, detection, tracking and fusion. <br>Keep updat
 ## Workshop
 
 [2021 ICRA Radar Perception for All-Weather Autonomy](https://sites.google.com/view/radar-robotics/home)
+[2021 ICASSP Recent Advances in mmWave Radar Sensing for Autonomous Vehicles](https://www.2021.ieeeicassp.org/Papers/ViewSession_MS.asp?Sessionid=1280)
 
 ## Fundamental Books
 | Book Title      | Author     |    
@@ -120,6 +121,7 @@ Radar Systems for Modern Civilian Applications [Part I](https://ieeexplore.ieee.
 * 2019-[Robust and Adaptive Radar Elliptical Density-Based Spatial Clustering and labeling for mmWave Radar Point Cloud Data](https://ieeexplore.ieee.org/abstract/document/9048869)
 * 2020-[MmWave Radar Point Cloud Segmentation using GMM in Multimodal Traffic Monitoring](https://ieeexplore.ieee.org/abstract/document/9114662)
 * 2020-[Pointillism: Accurate 3D Bounding Box Estimation with Multi-Radars](https://dl.acm.org/doi/10.1145/3384419.3430783)
+* 2021-[A New Automotive Radar 4D Point Clouds Detector by Using Deep Learning](https://ieeexplore.ieee.org/document/9413682)
 
 ## Radar Tracking
 * 2019-[Automated Ground Truth Estimation For Automotive Radar Tracking ApplicationsWith Portable GNSS And IMU Devices](https://ieeexplore.ieee.org/document/8768169)
@@ -130,6 +132,7 @@ Radar Systems for Modern Civilian Applications [Part I](https://ieeexplore.ieee.
 * 2021-[Integrated Classification and Localization of Targets Using Bayesian Framework In Automotive Radars](https://ieeexplore.ieee.org/abstract/document/9414131)
 * 2021-[Road-Map Aided GM-PHD Filter for Multi-Vehicle Tracking with Automotive Radar](https://ieeexplore.ieee.org/document/9403944)
 * 2021-[Learning-based Extended Object Tracking Using HierarchicalTruncation Measurement Model with Automotive Radar](https://ieeexplore.ieee.org/document/9351598)
+* 2021-[Extended Object Tracking With Automotive Radar Using B-Spline Chained Ellipses Model](https://ieeexplore.ieee.org/document/9415080)
 
 ## Fusion
 #### Cross-Modal Supervision
