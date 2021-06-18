@@ -26,6 +26,9 @@ https://github.com/chstetco/virtualradar
   publisher={IEEE}
 }
 
+## OpenRadar
+https://github.com/PreSenseRadar/OpenRadar
+
 # Radar Detection
 ## GridBasedDBSCAN
 https://github.com/e-271/GridBasedDBSCAN
@@ -135,6 +138,22 @@ Dataset: nuScenes
   pages={1986--1990},
   year={2020},
   organization={IEEE}
+}
+
+## RadarVoxelFusionNet
+https://github.com/TUMFTM/RadarVoxelFusionNet
+
+Dataset: nuScenes
+
+@Article{nobis21fusion,
+    author={Felix Nobis, Ehsan Shafiei, Phillip Karle, Johannes Betz and Markus Lienkamp},
+    title={Radar Voxel Fusion for 3D Object Detection},
+    journal={Applied Sciences},
+    volume={11},
+    year={2021},
+    number={12},
+    article-number={5598},
+    doi={https://doi.org/10.3390/app11125598}
 }
 
 ## radar_depth
@@ -249,6 +268,7 @@ Dataset: Carrada
   journal={arXiv preprint arXiv:2103.16214},
   year={2021}
 }
+
 
 # SLAM
 ## RaLL
