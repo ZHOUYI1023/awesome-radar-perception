@@ -110,7 +110,7 @@ Radar Systems for Modern Civilian Applications [Part I](https://ieeexplore.ieee.
 * 2020-[Probabilistic Oriented Object Detection in Automotive Radar](https://ieeexplore.ieee.org/document/9150751)
 * 2020-[RadarNet: Exploiting Radar for Robust Perception of Dynamic Objects](https://link.springer.com/chapter/10.1007/978-3-030-58523-5_29)
 * 2020-[Through Fog High Resolution Imaging Using MillimeterWave Radar](https://openaccess.thecvf.com/content_CVPR_2020/html/Guan_Through_Fog_High-Resolution_Imaging_Using_Millimeter_Wave_Radar_CVPR_2020_paper.html)
-* [Using Machine Learning to Detect Ghost Images in Automotive Radar](https://ieeexplore.ieee.org/document/9294631)
+* 2020-[Using Machine Learning to Detect Ghost Images in Automotive Radar](https://ieeexplore.ieee.org/document/9294631)
 * 2019-[Deep Learning-based Object Classification on Automotive Radar Spectra](https://ieeexplore.ieee.org/document/8835775)
 * 2020-[DeepReflecs: Deep Learning for Automotive Object Classification with Radar Reflections](https://arxiv.org/abs/2010.09273)
 * 2020-[CNN based Road User Detection using the 3D Radar Cube](https://ieeexplore.ieee.org/document/8962258)
@@ -162,4 +162,4 @@ Radar Systems for Modern Civilian Applications [Part I](https://ieeexplore.ieee.
 * 2020-[High Dimensional Frustum PointNet for 3D Object Detection from Camera, LiDAR, and Radar](https://ieeexplore.ieee.org/abstract/document/9304655)
 * 2020-[Seeing Through FogWithout Seeing Fog: Deep Multimodal Sensor Fusion in Unseen Adverse Weather](https://ieeexplore.ieee.org/abstract/document/9304655)
 * 2016-[Multiple Sensor Fusion and Classification for Moving Object Detection and Tracking](https://ieeexplore.ieee.org/document/7283636)
-
+* 2021-[Radar Voxel Fusion for 3D Object Detection](https://www.mdpi.com/2076-3417/11/12/5598)
