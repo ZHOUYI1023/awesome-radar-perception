@@ -179,6 +179,18 @@ Dataset: self-collected
   year={2021}
 }
 
+## MVDNet
+https://github.com/qiank10/MVDNet
+
+Dataset: Oxford Robotcar
+
+@inproceedings{qian2021robust,
+  title={Robust Multimodal Vehicle Detection in Foggy Weather Using Complementary Lidar and Radar Signals},
+  author={Qian, Kun and Zhu, Shilin and Zhang, Xinyu and Li, Li Erran},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={444--453},
+  year={2021}
+}
 
 # 4D Radar Detection
 ## voxelnet-astyx
@@ -297,10 +309,10 @@ Dataset: MulRan & Oxford Robotcar
   status={Accept}
   }
   
-  ## hero_radar_odometry
-  https://github.com/utiasASRL/hero_radar_odometry
+## hero_radar_odometry
+https://github.com/utiasASRL/hero_radar_odometry
   
-  Dataset: Oxford Robotcar
+Dataset: Oxford Robotcar
   
   
 

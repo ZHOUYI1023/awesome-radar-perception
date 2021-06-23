@@ -122,6 +122,7 @@ Radar Systems for Modern Civilian Applications [Part I](https://ieeexplore.ieee.
 * 2020-[MmWave Radar Point Cloud Segmentation using GMM in Multimodal Traffic Monitoring](https://ieeexplore.ieee.org/abstract/document/9114662)
 * 2020-[Pointillism: Accurate 3D Bounding Box Estimation with Multi-Radars](https://dl.acm.org/doi/10.1145/3384419.3430783)
 * 2021-[A New Automotive Radar 4D Point Clouds Detector by Using Deep Learning](https://ieeexplore.ieee.org/document/9413682)
+* 2021-[Robust Multimodal Vehicle Detection in Foggy WeatherUsing Complementary Lidar and Radar Signals](https://openaccess.thecvf.com/content/CVPR2021/papers/Qian_Robust_Multimodal_Vehicle_Detection_in_Foggy_Weather_Using_Complementary_Lidar_CVPR_2021_paper.pdf)
 
 ## Radar Tracking
 * 2019-[Automated Ground Truth Estimation For Automotive Radar Tracking ApplicationsWith Portable GNSS And IMU Devices](https://ieeexplore.ieee.org/document/8768169)
