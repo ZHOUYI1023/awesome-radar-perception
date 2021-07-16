@@ -17,25 +17,39 @@ A curated list of radar datasets, detection, tracking and fusion. <br>Keep updat
 * A list of automotive radar companies [link](https://mp.weixin.qq.com/s/JP6dOljpCiyGny4y-nmGqw)
 
 ## Radar Datasets
+
+### Detection / Tracking
+| Dataset      | Affiliation | Links     |    
+| ---------- | :-----------: | :-----------: |
+| nuScenes | Aptiv | [Website](https://scale.com/open-datasets/nuscenes); [Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Caesar_nuScenes_A_Multimodal_Dataset_for_Autonomous_Driving_CVPR_2020_paper.html) |
+|DENSE| Ulm University |[Website](https://www.uni-ulm.de/en/in/driveu/projects/dense-datasets); [Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Bijelic_Seeing_Through_Fog_Without_Seeing_Fog_Deep_Multimodal_Sensor_Fusion_CVPR_2020_paper.html)|
+| CRUW | University of Washington |[Website](https://www.cruwdataset.org/home); [Paper](https://arxiv.org/abs/2105.05207); [Github](https://github.com/yizhou-wang/RODNet)|
+| CARRADA | Valeo | [Website](https://arthurouaknine.github.io/codeanddata/carrada); [Paper](https://arxiv.org/abs/2005.01456); [Github](https://github.com/valeoai/carrada_dataset)|
+| RaDICaL | UIUC | [Website](https://publish.illinois.edu/radicaldata/); [Papers](https://ieeexplore.ieee.org/document/9361086); [Github](https://moodoki.github.io/radical_sdk/) |
+| RADDet | University of Ottawa | [Paper](https://arxiv.org/abs/2105.00363); [Github](https://github.com/ZhangAoCanada/RADDet) |
+| SCORP | University of Ottawa | [Website](https://sensorcortek.ai/paper-and-datasets/); [Paper](https://arxiv.org/abs/2004.03449) |
+| Hires2019 (4D) | Astyx | [Dateset](https://github.com/under-the-radar/radar_dataset_astyx); [Paper](https://ieeexplore.ieee.org/document/8904734) |
+| Radar Scenes | Mercedes-Benz AG | [Website](https://radar-scenes.com/); [Paper](https://arxiv.org/abs/2104.02493) ; [Github](https://github.com/oleschum/radar_scenes/) |
+
+
+### Odometry / SLAM / Place Recognition
 | Dataset      | Affiliation | Links     |    
 | ---------- | :-----------: | :-----------: |
 | Oxford Radar Robocar | University of Oxford | [Website](https://oxford-robotics-institute.github.io/radar-robotcar-dataset/); [Paper](https://ieeexplore.ieee.org/abstract/document/9196884); [Github](https://github.com/oxford-robotics-institute/radar-robotcar-dataset-sdk) |
 |RADIATE| Heriot Watt University|[Website](http://pro.hw.ac.uk/radiate/doc/dataset/); [Paper](https://arxiv.org/abs/2010.09076); [Github](https://github.com/marcelsheeny/radiate_sdk/tree/master/vehicle_detection)|
 | MulRan | KAIST |[Website](https://sites.google.com/view/mulran-pr/dataset); [Paper](https://ieeexplore.ieee.org/abstract/document/9197298); [Github](https://github.com/irapkaist/file_player_mulran)|
-| nuScenes | Aptiv | [Website](https://scale.com/open-datasets/nuscenes); [Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Caesar_nuScenes_A_Multimodal_Dataset_for_Autonomous_Driving_CVPR_2020_paper.html) |
-|DENSE| Ulm University |[Website](https://www.uni-ulm.de/en/in/driveu/projects/dense-datasets); [Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Bijelic_Seeing_Through_Fog_Without_Seeing_Fog_Deep_Multimodal_Sensor_Fusion_CVPR_2020_paper.html)|
-|Zendar SAR |Zendar|[Website](https://www.zendar.io/dataset.html); [Paper](https://ieeexplore.ieee.org/document/9150648); [Github](https://github.com/ZendarInc/ZendarSDK) |
-| CRUW | University of Washington |[Website](https://www.cruwdataset.org/home); [Paper](https://arxiv.org/abs/2105.05207); [Github](https://github.com/yizhou-wang/RODNet)|
-| CARRADA | Valeo | [Website](https://arthurouaknine.github.io/codeanddata/carrada); [Paper](https://arxiv.org/abs/2005.01456); [Github](https://github.com/valeoai/carrada_dataset)|
-| Radar Scenes | Mercedes-Benz AG | [Website](https://radar-scenes.com/); [Paper](https://arxiv.org/abs/2104.02493) ; [Github](https://github.com/oleschum/radar_scenes/) |
-| RaDICaL | UIUC | [Website](https://publish.illinois.edu/radicaldata/); [Papers](https://ieeexplore.ieee.org/document/9361086); [Github](https://moodoki.github.io/radical_sdk/) |
-| Hires2019 | Astyx | [Dateset](https://github.com/under-the-radar/radar_dataset_astyx); [Paper](https://ieeexplore.ieee.org/document/8904734) |
-| USVInland | Orca-Tech | [Website](http://www.orca-tech.cn/datasets/USVInland/Introduction); [Paper](https://ieeexplore.ieee.org/abstract/document/9381638) |
-| DopNet | UCL | [Website](http://dop-net.com/); [Paper](https://digital-library.theiet.org/content/journals/10.1049/el.2019.4153) |
-| RADDet | University of Ottawa | [Paper](https://arxiv.org/abs/2105.00363); [Github](https://github.com/ZhangAoCanada/RADDet) |
-| Solinteraction Data | University of St Andrews | [Paper](https://dl.acm.org/doi/abs/10.1145/3287078); [Github](https://github.com/tcboy88/solinteractiondata) |
 | ColoRadar | University of Colorado Boulder |  [Website](https://arpg.github.io/coloradar/); [Paper](https://arxiv.org/abs/2103.04510) |
-| SCORP | University of Ottawa | [Website](https://sensorcortek.ai/paper-and-datasets/); [Paper](https://arxiv.org/abs/2004.03449) |
+| USVInland | Orca-Tech | [Website](http://www.orca-tech.cn/datasets/USVInland/Introduction); [Paper](https://ieeexplore.ieee.org/abstract/document/9381638) |
+|Zendar SAR |Zendar|[Website](https://www.zendar.io/dataset.html); [Paper](https://ieeexplore.ieee.org/document/9150648); [Github](https://github.com/ZendarInc/ZendarSDK) |
+
+
+### Micro-doppler Signature / Motion
+| Dataset      | Affiliation | Links     |    
+| ---------- | :-----------: | :-----------: |
+| DopNet | UCL | [Website](http://dop-net.com/); [Paper](https://digital-library.theiet.org/content/journals/10.1049/el.2019.4153) |
+| Open Radar Datasets | Norwegian Defence Research Establishment etc. | [Paper](https://ieeexplore.ieee.org/abstract/document/9455239); [Github](https://github.com/openradarinitiative/open_radar_datasets) |
+| Radar signatures of human activities  | University of Glasgow | [Paper](https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/el.2019.2378); [Dataset](http://researchdata.gla.ac.uk/848/) |
+| Solinteraction Data | University of St Andrews | [Paper](https://dl.acm.org/doi/abs/10.1145/3287078); [Github](https://github.com/tcboy88/solinteractiondata) |
 
 ## Workshop
 
