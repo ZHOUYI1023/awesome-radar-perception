@@ -29,6 +29,17 @@ https://github.com/chstetco/virtualradar
 ## OpenRadar
 https://github.com/PreSenseRadar/OpenRadar
 
+## HawkEye
+https://github.com/JaydenG1019/HawkEye-Data-Code
+
+@InProceedings{Guan_2020_CVPR,
+author = {Guan, Junfeng and Madani, Sohrab and Jog, Suraj and Gupta, Saurabh and Hassanieh, Haitham},
+title = {Through Fog High-Resolution Imaging Using Millimeter Wave Radar},
+booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {June},
+year = {2020}
+}
+
 # Radar Detection
 ## GridBasedDBSCAN
 https://github.com/e-271/GridBasedDBSCAN
