@@ -1,7 +1,11 @@
-cff-version: 1.2.0
-authors:
-- family-names: "Zhou"
-  given-names: "Yi"
-  orcid: "https://orcid.org/0000-0000-0000-0000"
+# YAML 1.2
+---
+authors: 
+  -
+    family-names: Zhou
+    given-names: Yi
+cff-version: "1.1.0"
+message: "If you use this repo, please cite it using these metadata."
+repository-code: "https://github.com/ZHOUYI1023/awesome-radar-perception"
 title: "A Survey of Radar Perception: Datasets, Methods and Applications"
-url: "https://github.com/ZHOUYI1023/awesome-radar-perception"
+...
