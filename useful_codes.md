@@ -179,6 +179,9 @@ Dataset: nuScenes
   year={2020}
 }
 
+## vision_depth
+https://github.com/isl-org/MiDaS.git
+
 ## milliEye
 https://github.com/sxontheway/milliEye
 
