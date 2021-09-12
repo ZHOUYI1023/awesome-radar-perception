@@ -32,7 +32,7 @@ A curated list of radar datasets, detection, tracking and fusion. <br>Keep updat
 | HawkEye | UIUC | [Website](https://jaydeng1019.github.io/HawkEye/); [Github](https://github.com/JaydenG1019/HawkEye-Data-Code); [Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Guan_Through_Fog_High-Resolution_Imaging_Using_Millimeter_Wave_Radar_CVPR_2020_paper.html) |
 | PREVENTION | Universidad de Alcalá | [Website](https://prevention-dataset.uah.es/); [Paper](https://ieeexplore.ieee.org/abstract/document/8917433) |[[1]](https://arxiv.org/abs/2101.05043)[[2]](https://ieeexplore.ieee.org/abstract/document/9294732)[[3]](https://ieeexplore.ieee.org/abstract/document/9294326)[[4]](https://ieeexplore.ieee.org/abstract/document/9257983)
 | PixSet| Leddar | [Website](https://leddartech.com/solutions/leddar-pixset-dataset/); [Paper](https://arxiv.org/abs/2102.12010) |
-
+| AIODrive | CMU | [Website](http://www.aiodrive.org); [Paper](https://www.researchgate.net/profile/Xinshuo-Weng/publication/347112693_All-In-One_Drive_A_Large-Scale_Comprehensive_Perception_Dataset_with_High-Density_Long-Range_Point_Clouds/links/5fd8156492851c13fe8925e8/All-In-One-Drive-A-Large-Scale-Comprehensive-Perception-Dataset-with-High-Density-Long-Range-Point-Clouds.pdf) |
 
 ### Odometry / SLAM / Place Recognition
 | Dataset      | Affiliation | Links     |   
@@ -44,6 +44,8 @@ A curated list of radar datasets, detection, tracking and fusion. <br>Keep updat
 | USVInland | Orca-Tech | [Website](http://www.orca-tech.cn/datasets/USVInland/Introduction); [Paper](https://ieeexplore.ieee.org/abstract/document/9381638) |
 |Zendar SAR |Zendar|[Website](https://www.zendar.io/dataset.html); [Paper](https://ieeexplore.ieee.org/document/9150648); [Github](https://github.com/ZendarInc/ZendarSDK) |
 | SCORP | University of Ottawa | [Website](https://sensorcortek.ai/paper-and-datasets/); [Paper](https://arxiv.org/abs/2004.03449) |
+| EU Long-term Dataset | UTBM | [Website](https://epan-utbm.github.io/utbm_robocar_dataset/); [Paper](https://ieeexplore.ieee.org/abstract/document/9341406) |
+
 
 ### Micro-doppler Signature / Motion
 | Dataset      | Affiliation | Links     |    

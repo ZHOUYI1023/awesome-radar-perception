@@ -234,6 +234,13 @@ Non-official implementaion
   year={2018}
 }
 
+## Xilinx center point
+https://github.com/Xilinx/Vitis-AI/tree/master/models/AI-Model-Zoo/model-list/pt_centerpoint_astyx_2560_40_54G_1.4
+
+Dataset: Astyx HiRes
+
+Documents: https://www.xilinx.com/html_docs/vitis_ai/1_4/lib_samples.html#nef1622520899596
+
 # Segmentation
 ## radar_road_seg
 https://github.com/itaiorr/radar_road_seg
@@ -434,3 +441,6 @@ https://github.com/JunshengFu/tracking-with-Extended-Kalman-Filter
 
 ## tracking-with-Unscented-Kalman-Filter 
 https://github.com/JunshengFu/tracking-with-Unscented-Kalman-Filter
+
+## apollo radar
+https://github.com/ApolloAuto/apollo/tree/master/modules/perception/radar
