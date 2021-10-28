@@ -19,10 +19,10 @@ A curated list of radar datasets, detection, tracking and fusion. <br>Keep updat
 ## Radar Datasets
 
 ### Detection / Tracking
-| Dataset      | Affiliation | Dataset Links     |   Citation |
+| Dataset | Affiliation | Dataset Links | Citation |
 | ---------- | :-----------: | :-----------: | :-----------: |
-| nuScenes | Aptiv | [Website](https://scale.com/open-datasets/nuscenes); [Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Caesar_nuScenes_A_Multimodal_Dataset_for_Autonomous_Driving_CVPR_2020_paper.html) |
-|DENSE| Ulm University |[Website](https://www.uni-ulm.de/en/in/driveu/projects/dense-datasets); [Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Bijelic_Seeing_Through_Fog_Without_Seeing_Fog_Deep_Multimodal_Sensor_Fusion_CVPR_2020_paper.html)|[[1]](https://openaccess.thecvf.com/content_CVPR_2020/html/Bijelic_Seeing_Through_Fog_Without_Seeing_Fog_Deep_Multimodal_Sensor_Fusion_CVPR_2020_paper.html)[[2]](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11748/1174806/Drivable-path-detection-using-CNN-sensor-fusion-for-autonomous-driving/10.1117/12.2587993.short?SSO=1)|
+| nuScenes | Aptiv | [Website](https://www.nuscenes.org/); [Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Caesar_nuScenes_A_Multimodal_Dataset_for_Autonomous_Driving_CVPR_2020_paper.html) |
+|DENSE| Ulm University |[Website](https://www.uni-ulm.de/en/in/driveu/projects/dense-datasets); [Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Bijelic_Seeing_Through_Fog_Without_Seeing_Fog_Deep_Multimodal_Sensor_Fusion_CVPR_2020_paper.html); [Github](https://github.com/princeton-computational-imaging/SeeingThroughFog)|[[1]](https://openaccess.thecvf.com/content_CVPR_2020/html/Bijelic_Seeing_Through_Fog_Without_Seeing_Fog_Deep_Multimodal_Sensor_Fusion_CVPR_2020_paper.html)[[2]](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11748/1174806/Drivable-path-detection-using-CNN-sensor-fusion-for-autonomous-driving/10.1117/12.2587993.short?SSO=1)|
 | CRUW | University of Washington |[Website](https://www.cruwdataset.org/home); [Paper](https://arxiv.org/abs/2105.05207); [Github](https://github.com/yizhou-wang/RODNet)|[[1]](https://openaccess.thecvf.com/content/WACV2021/html/Wang_RODNet_Radar_Object_Detection_Using_Cross-Modal_Supervision_WACV_2021_paper.html)[[2]](https://ieeexplore.ieee.org/abstract/document/9353210/)[[3]](https://arxiv.org/abs/2107.01469)
 | CARRADA | Valeo | [Website](https://arthurouaknine.github.io/codeanddata/carrada); [Paper](https://arxiv.org/abs/2005.01456); [Github](https://github.com/valeoai/carrada_dataset)|[[1]](https://arxiv.org/abs/2103.16214)
 | RaDICaL | UIUC | [Website](https://publish.illinois.edu/radicaldata/); [Papers](https://ieeexplore.ieee.org/document/9361086); [Github](https://moodoki.github.io/radical_sdk/) |[[1]](https://arxiv.org/abs/2108.06031)
@@ -33,6 +33,7 @@ A curated list of radar datasets, detection, tracking and fusion. <br>Keep updat
 | PREVENTION | Universidad de Alcalá | [Website](https://prevention-dataset.uah.es/); [Paper](https://ieeexplore.ieee.org/abstract/document/8917433) |[[1]](https://arxiv.org/abs/2101.05043)[[2]](https://ieeexplore.ieee.org/abstract/document/9294732)[[3]](https://ieeexplore.ieee.org/abstract/document/9294326)[[4]](https://ieeexplore.ieee.org/abstract/document/9257983)
 | PixSet| Leddar | [Website](https://leddartech.com/solutions/leddar-pixset-dataset/); [Paper](https://arxiv.org/abs/2102.12010) |
 | AIODrive | CMU | [Website](http://www.aiodrive.org); [Paper](https://www.researchgate.net/profile/Xinshuo-Weng/publication/347112693_All-In-One_Drive_A_Large-Scale_Comprehensive_Perception_Dataset_with_High-Density_Long-Range_Point_Clouds/links/5fd8156492851c13fe8925e8/All-In-One-Drive-A-Large-Scale-Comprehensive-Perception-Dataset-with-High-Density-Long-Range-Point-Clouds.pdf) |
+|Zendar SAR |Zendar|[Website](https://www.zendar.io/dataset.html); [Paper](https://ieeexplore.ieee.org/document/9150648); [Github](https://github.com/ZendarInc/ZendarSDK) |
 
 ### Odometry / SLAM / Place Recognition
 | Dataset      | Affiliation | Links     |   
@@ -42,7 +43,6 @@ A curated list of radar datasets, detection, tracking and fusion. <br>Keep updat
 | MulRan | KAIST |[Website](https://sites.google.com/view/mulran-pr/dataset); [Paper](https://ieeexplore.ieee.org/abstract/document/9197298); [Github](https://github.com/irapkaist/file_player_mulran)|
 | ColoRadar | University of Colorado Boulder |  [Website](https://arpg.github.io/coloradar/); [Paper](https://arxiv.org/abs/2103.04510) |
 | USVInland | Orca-Tech | [Website](http://www.orca-tech.cn/datasets/USVInland/Introduction); [Paper](https://ieeexplore.ieee.org/abstract/document/9381638) |
-|Zendar SAR |Zendar|[Website](https://www.zendar.io/dataset.html); [Paper](https://ieeexplore.ieee.org/document/9150648); [Github](https://github.com/ZendarInc/ZendarSDK) |
 | SCORP | University of Ottawa | [Website](https://sensorcortek.ai/paper-and-datasets/); [Paper](https://arxiv.org/abs/2004.03449) |
 | EU Long-term Dataset | UTBM | [Website](https://epan-utbm.github.io/utbm_robocar_dataset/); [Paper](https://ieeexplore.ieee.org/abstract/document/9341406) |
 
@@ -244,10 +244,11 @@ Radar Systems for Modern Civilian Applications [Part I](https://ieeexplore.ieee.
 #### Range Azimuth Doppler
 * 2019-[Experiments with mmWave Automotive Radar Test-bed](https://ieeexplore.ieee.org/abstract/document/9048939)
 * 2019-[Vehicle Detection With Automotive Radar Using Deep Learning on Range-Azimuth-Doppler Tensors](https://openaccess.thecvf.com/content_ICCVW_2019/html/CVRSUAD/Major_Vehicle_Detection_With_Automotive_Radar_Using_Deep_Learning_on_Range-Azimuth-Doppler_ICCVW_2019_paper.html)
-* 2020-[2020-CNN Based Road User Detection Using the 3D Radar Cube](https://ieeexplore.ieee.org/abstract/document/8962258)
+* 2020-[CNN Based Road User Detection Using the 3D Radar Cube](https://ieeexplore.ieee.org/abstract/document/8962258)
 * 2020-[RAMP-CNN A Novel Neural Network for Enhanced Automotive Radar Object Recognition](https://ieeexplore.ieee.org/abstract/document/9249018)
 * 2021-[Multi-View Radar Semantic Segmentation](https://arxiv.org/abs/2103.16214)
 * 2021-[High-resolution radar road segmentation using weakly supervised learning](https://www.nature.com/articles/s42256-020-00288-6)
+* 2021-[Graph Convolutional Networks for 3D Object Detection on Radar Data](https://openaccess.thecvf.com/content/ICCV2021W/AVVision/html/Meyer_Graph_Convolutional_Networks_for_3D_Object_Detection_on_Radar_Data_ICCVW_2021_paper.html)
 
 #### Raw Signal
 * 2018-[Classification of Intra-Pulse Modulation of Radar Signals by Feature Fusion Based Convolutional Neural Networks](https://ieeexplore.ieee.org/abstract/document/8553176)
@@ -270,6 +271,7 @@ Radar Systems for Modern Civilian Applications [Part I](https://ieeexplore.ieee.
 * 2020-[Radar+ RGB Fusion For Robust Object Detection In Autonomous Vehicle](https://ieeexplore.ieee.org/abstract/document/9191046)
 * 2020-[Low-level Sensor Fusion for 3D Vehicle Detection using Radar Range-Azimuth Heatmap and Monocular Image](https://openaccess.thecvf.com/content/ACCV2020/html/Kim_Low-level_Sensor_Fusion_Network_for_3D_Vehicle_Detection_using_Radar_ACCV_2020_paper.html)
 * 2021-[Radar Camera Fusion via Representation Learning in Autonomous Driving](https://arxiv.org/abs/2103.07825)
+* 2021-[Robust Small Object Detection on the Water Surface through Fusion of Camera and MillimeterWave Radar](https://openaccess.thecvf.com/content/ICCV2021/html/Cheng_Robust_Small_Object_Detection_on_the_Water_Surface_Through_Fusion_ICCV_2021_paper.html)
 
 ### Region Proposal Based
 * 2019-[RRPN: Radar Region Proposal Network for Object Detection in Autonomous Vehicles](https://ieeexplore.ieee.org/document/8803392)
@@ -299,8 +301,7 @@ Radar Systems for Modern Civilian Applications [Part I](https://ieeexplore.ieee.
 * 2020-[A Roadside Camera-Radar Sensing Fusion System for Intelligent Transportation](https://ieeexplore.ieee.org/abstract/document/9337488?casa_token=4Wws9Vyc4UcAAAAA:ktkw199jc7Wtlk2CjHDxOPMQnPCTWINWTZUqEuuTFuL3TsC-P3_U7wqSEQfOPNj72oNt98KFATY)
 * 2020-[Cooperative Multi-Sensor Tracking of VulnerableRoad Users in the Presence of Missing Detections](https://www.mdpi.com/1424-8220/20/17/4817)
 * 2020-[Robust Target Detection and Tracking Algorithm Based on Roadside Radar and Camera ](https://www.mdpi.com/1424-8220/21/4/1116)
-
-
+* 2021-[Full-Velocity Radar Returns by Radar-Camera Fusion](https://arxiv.org/abs/2108.10637)
 
 ## Radar Lidar Fusion
 * 2017-[Vehicle Tracking Using Extended Object Methods: An Approach for Fusing Radar and Laser](https://ieeexplore.ieee.org/document/7989029)
