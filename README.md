@@ -241,6 +241,14 @@ Radar Systems for Modern Civilian Applications [Part I](https://ieeexplore.ieee.
 * 2020-[Object Detection and 3d Estimation Via an FMCW Radar Using a Fully Convolutional Network](https://ieeexplore.ieee.org/abstract/document/9054511)
 * 2021-[Detecting High-Speed Maneuvering Targets by Exploiting Range-Doppler Relationship for LFM Radar](https://ieeexplore.ieee.org/abstract/document/9347707)
 
+#### ROD2021 Challenge Paper
+* 2021-[Radar Object Detection Using Data Merging, Enhancement and Fusion](https://dl.acm.org/doi/10.1145/3460426.3463653)
+* 2021-[Squeeze-and-Excitation network-Based Radar Object Detection with Weighted Location Fusion](https://dl.acm.org/doi/abs/10.1145/3460426.3463654)
+* 2021-[Scene-aware Learning Network for Radar Object Detection](https://dl.acm.org/doi/10.1145/3460426.3463655)
+* 2021-[DANet: Dimension Apart Network for Radar Object Detection](https://dl.acm.org/doi/10.1145/3460426.3463656)
+* 2021-[Efficient-ROD: Efficient Radar Object Detection based on Densely Connected Residual Network](https://dl.acm.org/doi/abs/10.1145/3460426.3463657)
+* 2021-[ROD2021 Challenge: A Summary for Radar Object Detection Challenge for Autonomous Driving Applications](https://dl.acm.org/doi/10.1145/3460426.3463658)
+
 #### Range Azimuth Doppler
 * 2019-[Experiments with mmWave Automotive Radar Test-bed](https://ieeexplore.ieee.org/abstract/document/9048939)
 * 2019-[Vehicle Detection With Automotive Radar Using Deep Learning on Range-Azimuth-Doppler Tensors](https://openaccess.thecvf.com/content_ICCVW_2019/html/CVRSUAD/Major_Vehicle_Detection_With_Automotive_Radar_Using_Deep_Learning_on_Range-Azimuth-Doppler_ICCVW_2019_paper.html)
@@ -322,7 +330,6 @@ Radar Systems for Modern Civilian Applications [Part I](https://ieeexplore.ieee.
 * 2021-[Depth Estimation from Monocular Images and Sparse Radar Data](https://ieeexplore.ieee.org/abstract/document/9340998)
 * 2021-[Radar-Camera Pixel Depth Association for Depth Completion](https://openaccess.thecvf.com/content/CVPR2021/html/Long_Radar-Camera_Pixel_Depth_Association_for_Depth_Completion_CVPR_2021_paper.html)
 * 2021-[R4Dyn: Exploring Radar for Self-Supervised Monocular Depth Estimation of Dynamic Scenes](https://arxiv.org/abs/2108.04814)
-
 
 
 ## Radar Tracking

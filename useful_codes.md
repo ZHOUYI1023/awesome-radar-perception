@@ -68,6 +68,7 @@ Dataset: RADDet
   year={2021}
 }
 
+
 ## RTCNet
 https://github.com/tudelft-iv/RTCnet
 
@@ -93,6 +94,30 @@ Dataset: CRUW
   journal={IEEE Journal of Selected Topics in Signal Processing},
   year={2021},
   publisher={IEEE}
+}
+
+## RADER-DCSN
+https://github.com/jesse1029/RADER-DCSN
+
+Dataset: CRUW
+
+@inproceedings{hsu2021efficient,
+  title={Efficient-ROD: Efficient Radar Object Detection based on Densely Connected Residual Network},
+  author={Hsu, Chih-Chung and Lee, Chieh and Chen, Lin and Hung, Min-Kai and Lin, Yu-Lun and Wang, Xian-Yu},
+  booktitle={Proceedings of the 2021 International Conference on Multimedia Retrieval},
+  pages={526--532},
+  year={2021}
+}
+
+## modelConfusion 
+https://github.com/sunpengliang/modelConfusion
+
+@inproceedings{sun2021squeeze,
+  title={Squeeze-and-Excitation network-Based Radar Object Detection With Weighted Location Fusion},
+  author={Sun, Pengliang and Niu, Xuetong and Sun, Pengfei and Xu, Kele},
+  booktitle={Proceedings of the 2021 International Conference on Multimedia Retrieval},
+  pages={545--552},
+  year={2021}
 }
 
 # Camera Radar Fusion
