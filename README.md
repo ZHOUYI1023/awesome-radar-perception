@@ -46,7 +46,6 @@ A curated list of radar datasets, detection, tracking and fusion. <br>Keep updat
 | SCORP | University of Ottawa | [Website](https://sensorcortek.ai/paper-and-datasets/); [Paper](https://arxiv.org/abs/2004.03449) |
 | EU Long-term Dataset | UTBM | [Website](https://epan-utbm.github.io/utbm_robocar_dataset/); [Paper](https://ieeexplore.ieee.org/abstract/document/9341406) |
 
-
 ### Micro-doppler Signature / Motion
 | Dataset      | Affiliation | Links     |    
 | ---------- | :-----------: | :-----------: |
@@ -162,6 +161,7 @@ Radar Systems for Modern Civilian Applications [Part I](https://ieeexplore.ieee.
 * 2018-[Precise Ego-Motion Estimation with Millimeter-Wave Radar under Diverse and Challenging Conditions](https://ieeexplore.ieee.org/abstract/document/8460687)
 * 2019-[An Instantaneous 3D Ego-Velocity Measurement Algorithm for Frequency Modulated Continuous Wave Doppler Radar Data](https://www.proquest.com/openview/0354baf8a7e55480288b5abc6bb52677/1?pq-origsite=gscholar&cbl=18750&diss=y)
 * 2020-[Radar-Inertial Ego-Velocity Estimation for Visually Degraded Environments](https://ieeexplore.ieee.org/abstract/document/9196666)
+* 2020-[milliEgo: Single-chip mmWave Aided Egomotion Estimation with Deep Sensor Fusion](https://dl.acm.org/doi/abs/10.1145/3384419.3430776?casa_token=-THoSVYXSK0AAAAA:W29x9r07Oow3kwQL8zyj9BtJj6liQLYi0yzsB47PzK7H3B8Mi3LHExeql9h7_5CR8o2EEBMqU7j_DMI)
 
 ## Static Objects and Surrounding Environments
 ### Classification
@@ -183,8 +183,11 @@ Radar Systems for Modern Civilian Applications [Part I](https://ieeexplore.ieee.
 * 2021-[Unsupervised Place Recognition with Deep Embedding Learning over Radar Videos](https://arxiv.org/abs/2106.06703)
 * 2020-[Deep Learning for Autonomous and Driver Assistant Systems](https://ruor.uottawa.ca/handle/10393/40852)
 * 2020-[A Scalable Framework for Robust Vehicle State Estimation with a Fusion of a Low-Cost IMU, the GNSS, Radar, a Camera and Lidar](https://ieeexplore.ieee.org/abstract/document/9341419)
+* 2020-[See Through Smoke: Robust Indoor Mapping with Low-cost mmWave Radar](https://dl.acm.org/doi/abs/10.1145/3386901.3388945?casa_token=lMQ6u0JpykAAAAAA:AyBOL6HY0OWSncmMdssUvXBo31y2vXISKDquU5cMom68xbwWz0s68Tz1OJVhRrL6WpZF-Gz8ntDwD8A)
+* 2021-[AutoPlace: Robust Place Recognition with Low-cost Single-chip Automotive Radar](https://arxiv.org/abs/2109.08652)
 * 2021-[Do We Need to Compensate for Motion Distortion and Doppler Effects in Spinning Radar Navigation](https://ieeexplore.ieee.org/abstract/document/9327473)
 * 2021-[Cross-Modal Contrastive Learning of Representations for Navigation using Lightweight, Low-Cost Millimeter Wave Radar for Adverse Environmental Conditions](https://ieeexplore.ieee.org/abstract/document/9362209)
+
 
 ## Detection of Dynamic Objects
 ### Clustering

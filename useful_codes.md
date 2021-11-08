@@ -356,8 +356,27 @@ Dataset: MulRan & Oxford Robotcar
 https://github.com/utiasASRL/hero_radar_odometry
   
 Dataset: Oxford Robotcar
-  
-  
+
+## milliMap  
+https://github.com/ChristopherLu/milliMap
+
+@inproceedings{lu2020millimap,
+  title={See Through Smoke: Robust Indoor Mapping with Low-cost mmWave Radar},
+  author={Chris Xiaoxuan Lu, Stefano Rosa, Peijun Zhao, Bing Wang, Changhao Chen, John A. Stankovic, Niki Trigoni and Andrew Markham},  
+  booktitle={ACM International Conference on Mobile Systems, Applications, and Services (MobiSys)},
+  year={2020}
+}
+
+## milliEgo
+https://github.com/ChristopherLu/milliEgo
+
+@inproceedings{lu2020milliego,
+  title={milliEgo: single-chip mmWave radar aided egomotion estimation via deep sensor fusion},
+  author={Lu, Chris Xiaoxuan and Saputra, Muhamad Risqi U and Zhao, Peijun and Almalioglu, Yasin and de Gusmao, Pedro PB and Chen, Changhao and Sun, Ke and Trigoni, Niki and Markham, Andrew},
+  booktitle={Proceedings of the 18th Conference on Embedded Networked Sensor Systems (SenSys)},
+  year={2020}
+}
+
 
 # Human
 ## solinteractiondata
