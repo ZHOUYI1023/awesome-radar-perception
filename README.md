@@ -65,6 +65,7 @@ A curated list of radar datasets, detection, tracking and fusion. <br>Keep updat
 * Seminar: Automotive Radar – A Signal Processing Perspective on Current Technology and Future Systems[[Video]](https://www.youtube.com/watch?v=IxoPYhXY30k&t=11s)[[Slides]](https://cloud.gardill.net/s/tjoSLSB7fXWTEBb)
 * [2021 ICRA Radar Perception for All-Weather Autonomy](https://sites.google.com/view/radar-robotics/home)
 * [2021 ICASSP Recent Advances in mmWave Radar Sensing for Autonomous Vehicles](https://www.2021.ieeeicassp.org/Papers/ViewSession_MS.asp?Sessionid=1280)
+* [IEEE AESS Virtual Distinguished Lecturer Webinar Series](http://ieee-aess.org/webinar-series-home/2021)
 
 ## Fundamental Books
 | Book Title      | Author     |    
