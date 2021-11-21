@@ -99,7 +99,7 @@ Radar Systems for Modern Civilian Applications [Part I](https://ieeexplore.ieee.
 * [A Review of Recent Advancements Including Machine Learning on Synthetic Aperture Radar using Millimeter-Wave Radar](https://ieeexplore.ieee.org/abstract/document/9266501)
 * [Application of Deep Learning on Millimeter-Wave Radar Signal A Review](https://www.mdpi.com/1424-8220/21/6/1951)
 * [A Comprehensive Survey of Machine Learning Applied to Radar Signal Processing](https://arxiv.org/abs/2009.13702)
-
+* [Object detection for automotive radar point clouds – a comparison](https://aiperspectives.springeropen.com/articles/10.1186/s42467-021-00012-z)
 
 ## Radar Characteristics
 ### Reflection Signature
