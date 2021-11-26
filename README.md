@@ -102,6 +102,10 @@ Radar Systems for Modern Civilian Applications [Part I](https://ieeexplore.ieee.
 * [Object detection for automotive radar point clouds – a comparison](https://aiperspectives.springeropen.com/articles/10.1186/s42467-021-00012-z)
 
 ## Radar Characteristics
+### RCS
+2018-[Review of Radar Classification & RCS Characterisation Techniques for Small UAVs or Drones](http://eprints.gla.ac.uk/164563/)
+2021-[Machine Learning-Based Target Classification for MMW Radar in Autonomous Driving](https://ieeexplore.ieee.org/document/9319548)
+
 ### Reflection Signature
 * 2017-[Radar Reflection Characteristics of Vehicles for Contour and Feature Estimation](https://ieeexplore.ieee.org/abstract/document/8126352)
 * 2018-[Radar and Lidar Target Signatures of Various Object Types and Evaluation of Extended Object Tracking Methods for Autonomous Driving Applications](https://ieeexplore.ieee.org/abstract/document/8455395)
