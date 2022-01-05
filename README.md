@@ -103,8 +103,8 @@ Radar Systems for Modern Civilian Applications [Part I](https://ieeexplore.ieee.
 
 ## Radar Characteristics
 ### RCS
-2018-[Review of Radar Classification & RCS Characterisation Techniques for Small UAVs or Drones](http://eprints.gla.ac.uk/164563/)
-2021-[Machine Learning-Based Target Classification for MMW Radar in Autonomous Driving](https://ieeexplore.ieee.org/document/9319548)
+* 2018-[Review of Radar Classification & RCS Characterisation Techniques for Small UAVs or Drones](http://eprints.gla.ac.uk/164563/)
+* 2021-[Machine Learning-Based Target Classification for MMW Radar in Autonomous Driving](https://ieeexplore.ieee.org/document/9319548)
 
 ### Reflection Signature
 * 2017-[Radar Reflection Characteristics of Vehicles for Contour and Feature Estimation](https://ieeexplore.ieee.org/abstract/document/8126352)
@@ -151,7 +151,7 @@ Radar Systems for Modern Civilian Applications [Part I](https://ieeexplore.ieee.
 * [Multi-Radar Self-Calibration Method using High-Definition Digital Maps for Autonomous Driving](https://ieeexplore.ieee.org/document/8569272/)
 ### Radar-Camera
 * [Obstacle Detection Using Millimeter-wave Radar and Its Visualization on Image Sequence](https://ieeexplore.ieee.org/document/1334537/)
-* [Radar and vision sensors calibration for outdoor 3D reconstruction]()
+* [Radar and vision sensors calibration for outdoor 3D reconstruction](https://ieeexplore.ieee.org/abstract/document/7139473)
 * [Spatio-Temporal Multisensor Calibration Based on Gaussian Processes Moving Object Tracking](https://arxiv.org/abs/1904.04187)
 * [Targetless Rotational Auto-Calibration of Radar and Camera for Intelligent Transportation Systems](https://ieeexplore.ieee.org/document/8917135)
 * [A Continuous-Time Approach for 3D Radar-to-Camera Extrinsic Calibration](https://arxiv.org/abs/2103.07505)
