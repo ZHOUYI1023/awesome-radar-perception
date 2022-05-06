@@ -13,7 +13,9 @@ In my review paper (still under review), there is a table with more detials.
 | PixSet| TI AWR1843| Sparse PC | 3D bbox, TrackID|  [Website](https://leddartech.com/solutions/leddar-pixset-dataset/)|
 | Radar Scenes | 77GHz Middle-Range Radar x4 | Dense PC |2D point-wise, TrackID| [Website](https://radar-scenes.com/)|
 | Zendar SAR | SAR | ADC, RD, PC|Pointwise Mask of Moving Vehicle |[Github](https://github.com/ZendarInc/ZendarSDK) |
-Brief Review: nuScenes, DENSE and Pixset are for sensor fusion, but not particularly address the role of radar. Radar scenes provides point-wise annotations for radar point cloud, but has no other modalities. Zendar seems no longer available for downloading.
+
+
+<br>Brief Review: nuScenes, DENSE and Pixset are for sensor fusion, but not particularly address the role of radar. Radar scenes provides point-wise annotations for radar point cloud, but has no other modalities. Zendar seems no longer available for downloading.
 
 
 ### Pre-CFAR Datasets for Detection
@@ -24,7 +26,9 @@ Brief Review: nuScenes, DENSE and Pixset are for sensor fusion, but not particul
 | RADDet | TI AWR1843 | RAD | 3D bbox for RAD tensor | [Github](https://github.com/ZhangAoCanada/RADDet) |
 | RaDICaL | TI IWR1443 | ADC | 2D bbox | [Website](https://publish.illinois.edu/radicaldata/)|
 | GhentVRU | TI AWR1243 Short Range | RAD | Segmentation Mask for VRUs| [Paper](https://ieeexplore.ieee.org/document/9294399) |
-Brief Review: CARRADA is too simple, CRUW uses RA maps, RADDet provides annotations for RAD tensor, RADICaL provides raw ADC data and signal processing toolboxes, GhentVRU can be accssed by contacting with authors.
+
+
+<br>Brief Review: CARRADA is too simple, CRUW uses RA maps, RADDet provides annotations for RAD tensor, RADICaL provides raw ADC data and signal processing toolboxes, GhentVRU can be accssed by contacting with authors.
 
 ### 4D Radar Datasets for Detection
 | Dataset | Radar Type | Data Type| Annotation | Link |
@@ -33,11 +37,13 @@ Brief Review: CARRADA is too simple, CRUW uses RA maps, RADDet provides annotati
 | View-of-Delft | ZF FRGen21 Short Range| PC | 3D bbox |[Website](https://intelligent-vehicles.org/datasets/view-of-delft/)|
 | RADIal | Valeo Middel Range DDM | ADC,RAD,PC | Point-level Vehicle; Open Space Mask|[Github](https://github.com/valeoai/RADIal)|
 | TJ4DRadSet | Oculii Eagle Long Range | PC |  3D bbox, TrackID| [Paper](https://arxiv.org/abs/2204.13483) |
-Brief Review: Astyx is small, VoD focuses on VRU classification, RADIal's annotation is coarse but provides raw data, TJ4D features for its long range detection. Both VoD and TJ4D are not yet public available.
+
+
+<br>Brief Review: Astyx is small, VoD focuses on VRU classification, RADIal's annotation is coarse but provides raw data, TJ4D features for its long range detection. Both VoD and TJ4D are not yet public available.
 
 ### Specific Tasks
 | Dataset | Radar Type | Task | Link |
-| ---- |----| ---- | ---- | ---- |
+| ---- |----| ---- | ---- |
 | HawkEye | SAR | Static vehicle classification | [Website](https://jaydeng1019.github.io/HawkEye/)|
 | PREVENTION | Conti ARS308 + SRR208 x2 | Trajectory Prediction | [Website](https://prevention-dataset.uah.es/)|
 | SCORP | 76GHz | Open space segmentation | [Website](https://sensorcortek.ai/paper-and-datasets/) |
@@ -51,7 +57,7 @@ Brief Review: Astyx is small, VoD focuses on VRU classification, RADIal's annota
 
 ### Odometry and Localization
 | Dataset | Radar Type | Task | Link |
-| ---- |----| ---- | ---- | ---- |
+| ---- |----| ---- | ---- | 
 | Oxford Radar Robocar | Navtech Spinning Radar |  Odometry | [Website](https://oxford-robotics-institute.github.io/radar-robotcar-dataset/) |
 |RADIATE| Navtech Spinning  Radar | Odometry, Detection, Tracking | [Website](http://pro.hw.ac.uk/radiate/doc/dataset/)|
 | MulRan | Navtech Spinning  Radar | Place Recognition |[Website](https://sites.google.com/view/mulran-pr/dataset)|
@@ -66,29 +72,18 @@ Brief Review: Astyx is small, VoD focuses on VRU classification, RADIal's annota
 ## Radar Toolbox and ROS Node
 
 ### TI Signal Processing SDK:
-RaDICaL's Toolbox: [SDK](https://github.com/moodoki/radical_sdk); 
-PyRapid: [SDK](http://radar.alizadeh.ca)
-OpenRadar : [SDK](https://github.com/presenseradar/openradar)
-Pymmw: [SDK](https://github.com/m6c7l/pymmw)
-Open radar initiative: [SDK](https://github.com/openradarinitiative)
-RADIal's Emptyband-DDM Script: [Code](https://github.com/valeoai/RADIal/tree/main/SignalProcessing)
+RaDICaL's Toolbox: [SDK](https://github.com/moodoki/radical_sdk); <br>PyRapid: [SDK](http://radar.alizadeh.ca);<br>OpenRadar : [SDK](https://github.com/presenseradar/openradar);<br>Pymmw: [SDK](https://github.com/m6c7l/pymmw);<br>Open radar initiative: [SDK](https://github.com/openradarinitiative);<br>RADIal's Emptyband-DDM Script: [Code](https://github.com/valeoai/RADIal/tree/main/SignalProcessing)
 
 ### Official SDK:
-NXP Premium Radar SDK: [Link](https://www.nxp.com/design/automotive-software-and-tools/premium-radar-sdk-advanced-radar-processing:PREMIUM-RADAR-SDK)
-TI mmWAVE Studio: [Link](https://www.ti.com/tool/MMWAVE-STUDIO)
-TI Toolbox: [Link](https://dev.ti.com/tirex/explore/node?node=AHJY4qNCowO17wH-P2ICKQ)
-Matlab Radar Toolbox: [Link](https://uk.mathworks.com/products/radar.html)
+NXP Premium Radar SDK: [Link](https://www.nxp.com/design/automotive-software-and-tools/premium-radar-sdk-advanced-radar-processing:PREMIUM-RADAR-SDK);<br>TI mmWAVE Studio: [Link](https://www.ti.com/tool/MMWAVE-STUDIO)<br>TI Toolbox: [Link](https://dev.ti.com/tirex/explore/node?node=AHJY4qNCowO17wH-P2ICKQ)<br>Matlab Radar Toolbox: [Link](https://uk.mathworks.com/products/radar.html)
 
 ### ROS:
-Ainstein Radar ROS Node: [ROS Node](https://github.com/AinsteinAI/ainstein_radar)
-Continental ARS 408 ROS Node: [ROS Node](https://gitlab.com/ApexAI/autowareclass2020/-/tree/master/code/src/09_Perception_Radar/Radar-Hands-On-WS)
-TI mmWave ROS Driver: [Guide](https://dev.ti.com/tirex/explore/node?node=ADINBw2NDaxb6JeW7V-lMQ__VLyFKFf__LATEST&search=ROS)
-RaDICaL's TI ROS Node: [ROS Node](https://github.com/moodoki/iwr_raw_rosnode)
-UoA's TI ROS Package: [ROS Node](https://github.com/radar-lab/ti_mmwave_rospkg)
+Ainstein Radar ROS Node: [ROS Node](https://github.com/AinsteinAI/ainstein_radar);<br>Continental ARS 408 ROS Node: [ROS Node](https://gitlab.com/ApexAI/autowareclass2020/-/tree/master/code/src/09_Perception_Radar/Radar-Hands-On-WS);<br>TI mmWave ROS Driver: [Guide](https://dev.ti.com/tirex/explore/node?node=ADINBw2NDaxb6JeW7V-lMQ__VLyFKFf__LATEST&search=ROS);<br>RaDICaL's TI ROS Node: [ROS Node](https://github.com/moodoki/iwr_raw_rosnode);<br>UoA's TI ROS Package: [ROS Node](https://github.com/radar-lab/ti_mmwave_rospkg)
 
 
 
 ## Seminars and Workshops
+### Radar
 * Automotive Radar – An Overview on State-of-the-Art Technology [[Video]](https://www.youtube.com/watch?v=P-C6_4ceY64&t=2416s)
 * Automotive Radar – A Signal Processing Perspective on Current Technology and Future Systems [[Video]](https://www.youtube.com/watch?v=IxoPYhXY30k&t=11s)[[Slides]](https://cloud.gardill.net/s/tjoSLSB7fXWTEBb)
 * Radar Old but Gold- current research challenges and activities in radar micro-Doppler signatures [[Video]](https://www.youtube.com/watch?v=ysL6rk-4L9o&list=PLa5-fgjZm9MtJBtb6M3YplIDSdgr1m94n&index=3)
@@ -98,6 +93,10 @@ UoA's TI ROS Package: [ROS Node](https://github.com/radar-lab/ti_mmwave_rospkg)
 * 2021 ICASSP Recent Advances in mmWave Radar Sensing for Autonomous Vehicles [[Website]](https://www.2021.ieeeicassp.org/Papers/ViewSession_MS.asp?Sessionid=1280)
 * IEEE AESS Virtual Distinguished Lecturer Webinar Series [[Website]](https://ieee-aess.org/activities/educational-activities/distinguished-lecturers)
 * Journal of Radar Webinar Series (in Chinese) [[Video]](https://space.bilibili.com/1288394672)
+### Uncertainty Quantification
+* History of Bayesian Neural Networks [[Video]](https://www.youtube.com/watch?v=FD8l2vPU5FY&list=PLa5-fgjZm9Mv-aNvqc-V40UgSF6fBeOwY&index=8)
+* Uncertainty and Out-of-Distribution Robustness in Deep Learning [[Video]](https://www.youtube.com/watch?v=ssD7jNDIL2c&list=PLa5-fgjZm9Mv-aNvqc-V40UgSF6fBeOwY&index=12)
+
 
 ## Recommended Books and Tutorials
 ### Radar Textbook
@@ -106,14 +105,17 @@ UoA's TI ROS Package: [ROS Node](https://github.com/radar-lab/ti_mmwave_rospkg)
 ### Signal Processing
 * [Introduction to mmwaveSensing: FMCW Radars](https://training.ti.com/sites/default/files/docs/mmwaveSensing-FMCW-offlineviewing_0.pdf)
 * [The fundamentals of millimeter wave sensors](https://www.ti.com/lit/wp/spyy005a/spyy005a.pdf?ts=1619205965675)
-* [Signal Processing for TDM MIMO FMCW Millimeter-Wave Radar Sensors]()
+* [Signal Processing for TDM MIMO FMCW Millimeter-Wave Radar Sensors](https://ieeexplore.ieee.org/document/9658500)
+### Waveform
+* [Analysis and Comparison of MIMO Radar Waveforms](https://ieeexplore.ieee.org/document/9658500)
 ### Quadrature Signal
 * [Quadrature Signals: Complex, But Not Complicated](https://dspguru.com/dsp/tutorials/quadrature-signals/) 
 * [Using a complex-baseband architecture in FMCW radar systems](https://www.ti.com/lit/wp/spyy007/spyy007.pdf)
 ### MIMO
 * [TI MIMO radar](https://www.ti.com/lit/an/swra554a/swra554a.pdf)
-* [TI EmptyBand DDM]()
-
+* [TI EmptyBand DDM (Chinese)]() [(English)]()
+### Conformal Prediction
+* [A Gentle Introduction to Conformal Prediction and Distribution-Free Uncertainty Quantification](https://arxiv.org/abs/2107.07511)
 
 ## Review Papers
 
@@ -121,36 +123,49 @@ UoA's TI ROS Package: [ROS Node](https://github.com/radar-lab/ti_mmwave_rospkg)
  * [Millimeter-Wave Technology for Automotive Radar Sensors in the 77 GHz Frequency Band](https://ieeexplore.ieee.org/document/6127923)
 * [Antenna Concepts for Millimeter-Wave Automotive Radar Sensors](https://ieeexplore.ieee.org/document/6165323)
 
-Radar Signal Processing
-* [Automotive Radar Signal Processing: Research Directions and Practical Challenges](https://ieeexplore.ieee.org/document/9369027)
-* [Recent Evolution of Automotive ImagingRadar and Its Information content](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/iet-rsn.2018.0026)
-* [Automotive Radars A review of signal processing techniques](https://ieeexplore.ieee.org/abstract/document/7870764)
-* [A Review of Recent Advancements Including Machine Learning on Synthetic Aperture Radar using Millimeter-Wave Radar](https://ieeexplore.ieee.org/abstract/document/9266501)
-* [A Comprehensive Survey of Machine Learning Applied to Radar Signal Processing](https://arxiv.org/abs/2009.13702)
-* [Micro-Doppler Effect in Radar: Phenomenon, Model, and Simulation Study](https://ieeexplore.ieee.org/document/1603402)
+
+Radar Signal Processing:
+* General: [The Rise of Radar for Autonomous Vehicles: Signal Processing Solutions and Future Research Directions](https://ieeexplore.ieee.org/document/8828025/)
+* Signal Processing: [Radar-on-Chip/in-Package in Autonomous Driving Vehicles and Intelligent Transport Systems](https://ieeexplore.ieee.org/document/9369027)
+* Signal Processing: [Automotive Radars A review of signal processing techniques](https://ieeexplore.ieee.org/abstract/document/7870764
+* PseudoNoise(PN): [On the Safe Road Toward Autonomous Driving: Phase Noise Monitoring in Radar Sensors for Functional Safety Compliance](https://ieeexplore.ieee.org/document/8827996)
+* MIMO: [MIMO Radar for Advanced Driver-Assistance Systems and Autonomous Driving: Advantages and Challenges](https://ieeexplore.ieee.org/document/9127853)
+* Digital Radar: [High-Performance Automotive Radar: A Review of Signal Processing Algorithms and Modulation Schemes](https://ieeexplore.ieee.org/document/8828004)
+* Interference: [Radar Interference Mitigation for Automated Driving: Exploring Proactive Strategies](https://ieeexplore.ieee.org/document/9127843)
+* Interference: [Interference in Automotive Radar Systems: Characteristics, Mitigation Techniques, and Current and Future Research](https://ieeexplore.ieee.org/document/8828037)
+* Micro-Doppler: [Micro-Doppler Effect in Radar: Phenomenon, Model, and Simulation Study](https://ieeexplore.ieee.org/document/1603402)
 
 
+Deep Learning Applications for Radar:
+* Overview: [Automotive Radar Signal Processing: Research Directions and Practical Challenges](https://ieeexplore.ieee.org/document/9369027)
+* Overview: [Millimeter Wave FMCW RADARs for perception, recognition and localization in automotive applications: A survey](https://ieeexplore.ieee.org/abstract/document/9760104)
+* Interference: [Interference Suppression Using Deep Learning: Current Approaches and Open Challenges](https://arxiv.org/abs/2112.08988)
+* DoA: [A Machine Learning Perspective on Automotive Radar Direction of Arrival Estimation](https://ieeexplore.ieee.org/abstract/document/9674901)
+* Detection: [Application of Deep Learning on Millimeter-Wave Radar Signals: A Review](https://www.mdpi.com/1424-8220/21/6/1951)
+* Localization: [MMW Radar-Based Technologies in Autonomous Driving: A Review](https://www.mdpi.com/1424-8220/20/24/7283)
+* Fusion: [MmWave Radar and Vision Fusion for Object Detection in Autonomous Driving: A Review](https://www.mdpi.com/1424-8220/22/7/2542)
+* Tracking: [On-Road Object Detection and Tracking Based on Radar and Vision Fusion: A Review](https://ieeexplore.ieee.org/document/9506829)
+* Semantic Understanding: [Radar for Autonomous Driving – Paradigm Shift from Mere Detection to Semantic Environment Understanding](https://link.springer.com/chapter/10.1007/978-3-658-23751-6_1)
+* Detection: [New Challenges for Deep Neural Networks in Automotive Radar Perception An Overview of Current Research Trend](https://www.springerprofessional.de/en/new-challenges-for-deep-neural-networks-in-automotive-radar-perc/19534946)
 
-Deep Learning Applications:
-* [Interference Suppression Using Deep Learning: Current Approaches and Open Challenges](https://arxiv.org/abs/2112.08988)
-* [A Machine Learning Perspective on Automotive Radar Direction of Arrival Estimation](https://ieeexplore.ieee.org/abstract/document/9674901)
-* [Application of Deep Learning on Millimeter-Wave Radar Signals: A Review](https://www.mdpi.com/1424-8220/21/6/1951)
-* [MMW Radar-Based Technologies in Autonomous Driving: A Review](https://www.mdpi.com/1424-8220/20/24/7283)
-* [Application of Deep Learning on Millimeter-Wave Radar Signal A Review](https://www.mdpi.com/1424-8220/21/6/1951)
 
-
-Detection:
+General Object Detection:
 * [3D Object Detection from Images for Autonomous Driving: A Survey](https://arxiv.org/abs/2202.02980)
 * [Deep Learning for 3D Point Clouds: A Survey](https://arxiv.org/abs/1912.12033)
-* [A Review and Comparative Study on Probabilistic Object Detection in Autonomous Driving](https://arxiv.org/abs/2011.10671)
 * [Attention Mechanisms in Computer Vision: A Survey](https://arxiv.org/abs/2111.07624)
 
+
 Sensor Fusion:
-* [Lidar for Autonomous Driving]()
-* [Multisensor data fusion: A review of the state-of-the-art](https://www.sciencedirect.com/science/article/abs/pii/S1566253511000558)
+* To understand Vision: [Object Detection Under Rainy Conditions for Autonomous Vehicles: A Review of State-of-the-Art and Emerging Techniques](https://ieeexplore.ieee.org/document/9307324)
+* To understand LiDAR: [Testing and Validation of Automotive Point-Cloud Sensors in Adverse Weather Conditions](https://www.mdpi.com/2076-3417/9/11/2341)
+* Learning: [Multi-Modal 3D Object Detection in Autonomous Driving: a Survey](https://arxiv.org/abs/2106.12735)
+* Learning: [Deep Multi-Modal Object Detection and Semantic Segmentation for Autonomous Driving: Datasets, Methods, and Challenges](https://ieeexplore.ieee.org/document/9000872)
+* Traditional: [Multisensor data fusion: A review of the state-of-the-art](https://www.sciencedirect.com/science/article/abs/pii/S1566253511000558)
 * [Information Decomposition of Target Effects from Multi-Source Interactions: Perspectives on Previous, Current and FutureWork](https://www.mdpi.com/1099-4300/20/4/307)
 
+
 Uncertainty Estimation:
+* [A Review and Comparative Study on Probabilistic Object Detection in Autonomous Driving](https://arxiv.org/abs/2011.10671)
 * [Aleatoric and Epistemic Uncertainty in Machine Learning: An Introduction to Concepts and Methods](https://link.springer.com/article/10.1007/s10994-021-05946-3)
 
 
@@ -158,8 +173,8 @@ Uncertainty Estimation:
 
 ## Radar Characteristics
 ### RCS
-2018-[Review of Radar Classification & RCS Characterisation Techniques for Small UAVs or Drones](http://eprints.gla.ac.uk/164563/)
-2021-[Machine Learning-Based Target Classification for MMW Radar in Autonomous Driving](https://ieeexplore.ieee.org/document/9319548)
+* 2018-[Review of Radar Classification & RCS Characterisation Techniques for Small UAVs or Drones](http://eprints.gla.ac.uk/164563/)
+* 2021-[Machine Learning-Based Target Classification for MMW Radar in Autonomous Driving](https://ieeexplore.ieee.org/document/9319548)
 
 ### Reflection Signature
 * 2017-[Radar Reflection Characteristics of Vehicles for Contour and Feature Estimation](https://ieeexplore.ieee.org/abstract/document/8126352)
