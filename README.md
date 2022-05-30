@@ -12,10 +12,11 @@ In my review paper (still under review), there is a table with more detials.
 | DENSE| 77Ghz Long-Range Radar | Sparse PC | 3D bbox |[Website](https://www.uni-ulm.de/en/in/driveu/projects/dense-datasets) |
 | PixSet| TI AWR1843| Sparse PC | 3D bbox, TrackID|  [Website](https://leddartech.com/solutions/leddar-pixset-dataset/)|
 | Radar Scenes | 77GHz Middle-Range Radar x4 | Dense PC |2D point-wise, TrackID| [Website](https://radar-scenes.com/)|
+| Pointillism | 2 TI AWR 1443 | PC | 3D bbox | [Github](https://github.com/Kshitizbansal/pointillism-multi-radar-data) |
 | Zendar SAR | SAR | ADC, RD, PC|Pointwise Mask of Moving Vehicle |[Github](https://github.com/ZendarInc/ZendarSDK) |
 
 
-<br>Brief Review: nuScenes, DENSE and Pixset are for sensor fusion, but not particularly address the role of radar. Radar scenes provides point-wise annotations for radar point cloud, but has no other modalities. Zendar seems no longer available for downloading.
+<br>Brief Review: nuScenes, DENSE and Pixset are for sensor fusion, but not particularly address the role of radar. Radar scenes provides point-wise annotations for radar point cloud, but has no other modalities. Pointillism uses 2 radars with overlapped view. Zendar seems no longer available for downloading.
 
 
 ### Pre-CFAR Datasets for Detection
@@ -172,6 +173,13 @@ Uncertainty Estimation:
 
 
 ## Radar Characteristics
+### Weather Effects
+* [The Impact of Adverse Weather Conditions on Autonomous Vehicles: How Rain, Snow, Fog, and Hail Affect the Performance of a Self-Driving Car](https://ieeexplore.ieee.org/abstract/document/8666747)
+* [Seeing through dust and water vapor: Millimeter wave radar sensors for mining applications](https://onlinelibrary.wiley.com/doi/abs/10.1002/rob.20166)
+* [Analysis of rain clutter detections in commercial 77 GHz automotive radar](https://ieeexplore.ieee.org/abstract/document/8249138)
+* [The Perception System of Intelligent Ground Vehicles in All Weather Conditions: A Systematic Literature Review](https://www.mdpi.com/1424-8220/20/22/6532)
+
+
 ### RCS
 * 2018-[Review of Radar Classification & RCS Characterisation Techniques for Small UAVs or Drones](http://eprints.gla.ac.uk/164563/)
 * 2021-[Machine Learning-Based Target Classification for MMW Radar in Autonomous Driving](https://ieeexplore.ieee.org/document/9319548)
