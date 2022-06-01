@@ -2,9 +2,15 @@
 A curated list of radar datasets, detection, tracking and fusion. <br>Keep updating.<br>Author: Yi Zhou<br>Contact: zhouyi1023@tju.edu.cn
 <br>Update some public-available codes, see [useful_codes.md](./useful_codes.md)
 
+🚩I have published a review paper on radar perception. Please see the link below. It is open access. If you find the contents are useful, please cite this paper in your work. I will keep updating this repository for the lateset works in radar field.
+
+## [Towards Deep Radar Perception for Autonomous Driving: Datasets, Methods, and Challenges](https://www.mdpi.com/1424-8220/22/11/4208)
+
 
 ## Radar Datasets
 In my review paper (still under review), there is a table with more detials.
+
+
 ### Conventional Radar Datasets for Autonomous Driving
 | Dataset | Radar Type | Data Type| Annotation | Link |
 | ---- |----| ---- | ---- | ---- |
