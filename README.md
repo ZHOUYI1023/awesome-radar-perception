@@ -91,15 +91,28 @@ Ainstein Radar ROS Node: [ROS Node](https://github.com/AinsteinAI/ainstein_radar
 
 ## Seminars and Workshops
 ### Radar
-* Automotive Radar – An Overview on State-of-the-Art Technology [[Video]](https://www.youtube.com/watch?v=P-C6_4ceY64&t=2416s)
-* Automotive Radar – A Signal Processing Perspective on Current Technology and Future Systems [[Video]](https://www.youtube.com/watch?v=IxoPYhXY30k&t=11s)[[Slides]](https://cloud.gardill.net/s/tjoSLSB7fXWTEBb)
-* Radar Old but Gold- current research challenges and activities in radar micro-Doppler signatures [[Video]](https://www.youtube.com/watch?v=ysL6rk-4L9o&list=PLa5-fgjZm9MtJBtb6M3YplIDSdgr1m94n&index=3)
-* Soli: Millimeter-wave radar for touchless interaction [[Video]](https://www.youtube.com/watch?v=JFr8Whnx630)
-* 2021 CVPR Workshop on Autonomous Driving (Tesla's Famous Talk) [[Video]](https://www.youtube.com/watch?v=g6bOwQdCJrc)
 * 2021 ICRA Radar Perception for All-Weather Autonomy [[Website]](https://sites.google.com/view/radar-robotics/home)
 * 2021 ICASSP Recent Advances in mmWave Radar Sensing for Autonomous Vehicles [[Website]](https://www.2021.ieeeicassp.org/Papers/ViewSession_MS.asp?Sessionid=1280)
+* Radar in Action Series by Fraunhofer FHR [[Video]](https://www.youtube.com/hashtag/radarinaction)
 * IEEE AESS Virtual Distinguished Lecturer Webinar Series [[Website]](https://ieee-aess.org/activities/educational-activities/distinguished-lecturers)
 * Journal of Radar Webinar Series (in Chinese) [[Video]](https://space.bilibili.com/1288394672)
+
+* Markus Gardill: Automotive Radar – An Overview on State-of-the-Art Technology [[Video]](https://www.youtube.com/watch?v=P-C6_4ceY64&t=2416s)
+* Markus Gardill: Automotive Radar – A Signal Processing Perspective on Current Technology and Future Systems [[Video]](https://www.youtube.com/watch?v=IxoPYhXY30k&t=11s)[[Slides]](https://cloud.gardill.net/s/tjoSLSB7fXWTEBb)
+* Francesco Fioranelli: Radar Old but Gold- current research challenges and activities in radar micro-Doppler signatures [[Video]](https://www.youtube.com/watch?v=ysL6rk-4L9o&list=PLa5-fgjZm9MtJBtb6M3YplIDSdgr1m94n&index=3)
+* Andrej Karpathy from Tesla:  [[Video]](https://www.youtube.com/watch?v=g6bOwQdCJrc)
+* Ole Schumann: Radar Perception for Automated Driving – Data and Methods [[Video]](https://www.youtube.com/watch?v=UQL7_Zy2Kjg&t=73s)
+* Sani Ronen from Arbe: Using AI layer to transform HR radar into insights for Autonomous Driving applications [[Video]](https://www.youtube.com/watch?v=TtJW-c02YH8)
+* Stefan Haag: Co-Development of Automatic Annotation for ML and Sensor Fusion Improvement System  [[Video]](https://www.youtube.com/watch?v=ANbmXg2TxlE)
+* Arthur Ouaknine: Deep Learning & Scene Understanding for autonomous vehicle [[Video]](https://www.youtube.com/watch?v=sOOvnTCnhPg)
+* Paul Newman: The Road to Anywhere-Autonomy [[Video]](https://www.youtube.com/watch?v=MzYQMRG9HW0)
+* Jaime Lien: Soli: Millimeter-wave radar for touchless interaction [[Video]](https://www.youtube.com/watch?v=JFr8Whnx630)
+* Accelerating end-to-end Development of Software-Defined 4D Imaging Radar [[Videp]](https://www.youtube.com/watch?v=QPoj1zM2vCs)
+* Radar-Imaging - An Introduction to the Theory Behind [[Video]](https://www.youtube.com/watch?v=ej2smyTZLHE)
+* NXP - Radar Experts Discuss the Evolution of Automotive Radar [[Video]](https://www.youtube.com/watch?v=RfJiiSlesyE&t=347s)
+* Need to Successfully Design a Milimeter-Wave Automotive Radar Antenna? [[Video]](https://www.youtube.com/watch?v=0lK8qJSWY_c)
+* Webinar SAR Imaging using Ancortek’s Software Defined Radars [[Video]](https://www.youtube.com/watch?v=BMSVvQJYCIs)
+
 ### Uncertainty Quantification
 * History of Bayesian Neural Networks [[Video]](https://www.youtube.com/watch?v=FD8l2vPU5FY&list=PLa5-fgjZm9Mv-aNvqc-V40UgSF6fBeOwY&index=8)
 * Uncertainty and Out-of-Distribution Robustness in Deep Learning [[Video]](https://www.youtube.com/watch?v=ssD7jNDIL2c&list=PLa5-fgjZm9Mv-aNvqc-V40UgSF6fBeOwY&index=12)
