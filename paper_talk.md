@@ -5,7 +5,7 @@
 * Quantized Neural Networks for Radar Interference Mitigation [[Video]](https://www.youtube.com/watch?v=1k3q9zTLMAo)
 * Deep Interference Mitigation and Denoising of Real-World FMCW Radar Signals [[Video]](https://www.youtube.com/watch?v=DJY9Zk1p9-g)
 * RadarNet [[Video]](https://www.youtube.com/watch?v=1INZR5QAv60)
-* Rethinking of Radar’s Role [[Video]]()
+* Rethinking of Radar’s Role [[Video]](https://www.youtube.com/watch?v=gLu-lVM3X7s)
 * Radar Camera Fusion via Representation Learning in Autonomous Driving [[Video]](https://www.youtube.com/watch?v=kBkdw4qFznU&t=5s)
 * HawkEye  [[Video1]](https://www.youtube.com/watch?v=JskCM4uWajw) [[Video2]](https://www.youtube.com/watch?v=GrAiUcYimI0)
 * CenterFusion:Center-based Radar and Camera Fusionfor 3D Object Detection [[Video]](https://www.youtube.com/watch?v=tr5jyfO55U8)
