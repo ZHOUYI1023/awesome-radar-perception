@@ -7,8 +7,15 @@ A curated list of radar datasets, detection, tracking and fusion. <br>Keep updat
 ## [Towards Deep Radar Perception for Autonomous Driving: Datasets, Methods, and Challenges](https://www.mdpi.com/1424-8220/22/11/4208)
 
 
+Radar perception is getting popular. More and more researchers from computer vision, intelligent vehicle and robotics are starting to enter this field. I hope my review article and this repository can be a good starting point for these newcomers.
+<div align="center">
+    <img class="aligncenter" src="images/radar_stat.png"/>
+</div>
+<br/>
+
+
 ## Radar Datasets
-In my review paper (still under review), there is a table with more detials.
+In my [review paper](https://www.mdpi.com/1424-8220/22/11/4208), there is a table with more detials.
 
 
 ### Conventional Radar Datasets for Autonomous Driving
