@@ -6,6 +6,7 @@ A curated list of radar datasets, detection, tracking and fusion. <br>Keep updat
 
 ## [Towards Deep Radar Perception for Autonomous Driving: Datasets, Methods, and Challenges](https://www.mdpi.com/1424-8220/22/11/4208)
 
+## The 41-page slides associated with this paper: [Link](https://www.slideshare.net/YiZhou66/slidesdeepradarperceptionforautonomousdrivingpdf) ; [Link for China Mainland](https://www.aliyundrive.com/s/CZ3SKqY3U4w) 
 
 Radar perception is getting popular. More and more researchers from computer vision, intelligent vehicle and robotics are starting to enter this field. I hope my review article and this repository can be a good starting point for these newcomers.
 <div align="center">
@@ -146,8 +147,12 @@ Ainstein Radar ROS Node: [ROS Node](https://github.com/AinsteinAI/ainstein_radar
 
 ## Review Papers
 
- Antenna:
- * [Millimeter-Wave Technology for Automotive Radar Sensors in the 77 GHz Frequency Band](https://ieeexplore.ieee.org/document/6127923)
+Radar vs Lidar
+* [Comparative Analysis of Radar and Lidar Technologies for Automotive Applications](https://ieeexplore.ieee.org/document/9760734/)
+* [Testing and Validation of Automotive Point-Cloud Sensors in Adverse Weather Conditions](https://www.mdpi.com/2076-3417/9/11/2341)
+
+Antenna:
+* [Millimeter-Wave Technology for Automotive Radar Sensors in the 77 GHz Frequency Band](https://ieeexplore.ieee.org/document/6127923)
 * [Antenna Concepts for Millimeter-Wave Automotive Radar Sensors](https://ieeexplore.ieee.org/document/6165323)
 
 
