@@ -2,6 +2,11 @@
 A curated list of radar datasets, detection, tracking and fusion. <br>Keep updating.<br>Author: Yi Zhou<br>Contact: zhouyi1023@tju.edu.cn
 <br>Update some public-available codes, see [useful_codes.md](./useful_codes.md)
 
+🚩 There are three papers about radar in the coming CVPR 2022.
+<br>Modality-Agnostic Learning for Radar-Lidar Fusion in Vehicle Detection 	
+<br>[Raw High-Definition Radar for Multi-Task Learning](https://arxiv.org/abs/2112.10646)
+<br>[Exploiting Temporal Relations on Radar Perception for Autonomous Driving](https://arxiv.org/abs/2204.01184)
+
 🚩I have published a review paper on radar perception. Please see the link below. It is open access. If you find the contents are useful, please cite this paper in your work. I will keep updating this repository for the latest works in the radar perception field.
 
 ## [Towards Deep Radar Perception for Autonomous Driving: Datasets, Methods, and Challenges](https://www.mdpi.com/1424-8220/22/11/4208)
@@ -81,7 +86,7 @@ In my [review paper](https://www.mdpi.com/1424-8220/22/11/4208), there is a tabl
 | ColoRadar | TI AWR2243 Cascade + AWR1843 |Odometry |  [Website](https://arpg.github.io/coloradar/) |
 | USVInland | TI AWR1843 | SLAM in inland waterways, Water segmentation| [Website](http://orca-tech.cn/datasets/USVInland/Introduction) |
 | Endeavour Radar Dataset | Conti ARS 430 x5 | Odometry | [Website](https://gloryhry.github.io/2021/06/25/Endeavour_Radar_Dataset.html)|
-
+| OdomBeyondVision |  TI AWR1843 | Odometry | [Website](https://github.com/MAPS-Lab/OdomBeyondVision) |
 
 
 ## Radar Toolbox and ROS Node
