@@ -2,6 +2,9 @@
 A curated list of radar datasets, detection, tracking and fusion. <br>Keep updating.<br>Author: Yi Zhou<br>Contact: zhouyi1023@tju.edu.cn
 <br>Update some public-available codes, see [useful_codes.md](./useful_codes.md)
 
+🚩 An interesting demo video of radar as a microphone [Link](https://zhaorunning.github.io/Radio2Speech/)
+
+
 🚩 The View-of-Delft dataset is public available. [Homepage](https://tudelft-iv.github.io/view-of-delft-dataset/)
 
 
@@ -113,14 +116,15 @@ In my [review paper](https://www.mdpi.com/1424-8220/22/11/4208), there is a tabl
 
 
 ### Human Activity
-| Dataset | Radar Type | Task | Link |
-| ---- |----| ---- | ---- | 
-| DopNet | 24GHz | Gesture | [Website](http://dop-net.com/)|
-|MCD-Gesture | 77GHz | Gesture | [Website](https://github.com/DI-HGR/cross_domain_gesture_dataset)|
-| Radar signatures of human activities  | 5.8 GHz |  Human activities | [Dataset](http://researchdata.gla.ac.uk/848/) |
-|Ci4R human activity dataset | 77GHz & 24GHz & 10GHz | Human activities | [Website](https://github.com/ci4r/CI4R-Activity-Recognition-datasets/) |
-
-
+| Dataset | Radar Type | Data Type | Task | Link |
+| ---- |----| ---- | ---- | ---- | 
+| DopNet | 24GHz | Spectrogram | Gesture | [Website](http://dop-net.com/)|
+| MCD-Gesture | 77GHz | RAD tensor |Gesture | [Website](https://github.com/DI-HGR/cross_domain_gesture_dataset)|
+|DeepSoli | 60GHz | RD map | Gesture | [Website](https://github.com/simonwsw/deep-soli) | 
+| Radar signatures of human activities  | 5.8 GHz | ADC | Human activities | [Dataset](http://researchdata.gla.ac.uk/848/) |
+|Ci4R human activity dataset | 77GHz & 24GHz & 10GHz |Spectrogram | Human activities | [Website](https://github.com/ci4r/CI4R-Activity-Recognition-datasets/) |
+| RadHAR | 77GHz | Point Cloud | Human activities  | [Website](https://github.com/nesl/RadHAR) |
+| Vital Sign | 60GHz| ADC, heart/breathing rate  | Child vital sign | [Dataset](https://figshare.com/s/936cf9f0dd25296495d3) |
 
 
 ## Radar Toolboxes and ROS Nodes
