@@ -47,19 +47,25 @@ Signal Processing:
 - [Denoising](#Denoising)
 
 Applications:
-- [Ego-Motion Estimation]()
+- [Ego-Motion Estimation](#Ego-Motion-Estimation)
 - [Velocity Estimation](#Velocity-Estimation)
 - [Depth Estimation](#Depth-Estimation)
 - [Object Detection](#Object-Detection)
 - [Sensor Fusion](#Sensor-Fusion)
 - [Weakly Supervised](#Weakly-Supervised)
-- [Mutiple Object Tracking]()
-- [Odometry and SLAM]()
-- [Micro-Doppler for HAR]()
-- [Radar-Audio]()
+- [Tracking](#Tracking)
+- [Prediction](#Prediction)
+- [Occupancy Grid Map](#Occupancy-Grid-Map)
+- [Open Space Segmentation](#Open-Space-Segmentation)
+- [Scene Understanding (Static Segmentation)](#Scene-Understanding)
+- [Place Recognition](#Place-Recognition)
+- [Odometry and SLAM](#Odometry-and-SLAM)
+- [Automotive SAR](#Automotive-SAR)
+- [Human Activity](#Human-Activity)
+- [Radar-Audio](#Radar-Audio)
 
 Challenges:
-- [Weather Effect](#Weather-Effect)
+- [Weather Effect](#Weather-Effects)
 - [Multi Path Effect](#Multi-Path-Effect)
 - [Mutual Interference](#Mutual-Interference)
 - [Cell Migration](#Range-and-Doppler-Cell-Migration)
@@ -198,13 +204,16 @@ Ainstein Radar ROS Node: [ROS Node](https://github.com/AinsteinAI/ainstein_radar
 
 Radar Hardware:
 * [Millimeter-Wave Technology for Automotive Radar Sensors in the 77 GHz Frequency Band](https://ieeexplore.ieee.org/document/6127923)
+* [Radar-on-Chip/in-Package in Autonomous Driving Vehicles and Intelligent Transport Systems](https://ieeexplore.ieee.org/abstract/document/8830483)
 * [Antenna Concepts for Millimeter-Wave Automotive Radar Sensors](https://ieeexplore.ieee.org/document/6165323)
 
 
 Radar Signal Processing:
 * General: [The Rise of Radar for Autonomous Vehicles: Signal Processing Solutions and Future Research Directions](https://ieeexplore.ieee.org/document/8828025/)
-* Signal Processing: [Radar-on-Chip/in-Package in Autonomous Driving Vehicles and Intelligent Transport Systems](https://ieeexplore.ieee.org/document/9369027)
+* Signal Processing: [Automotive Radar Signal Processing: Research Directions and Practical Challenges](https://ieeexplore.ieee.org/document/9369027)
 * Signal Processing: [Automotive Radars A review of signal processing techniques](https://ieeexplore.ieee.org/abstract/document/7870764)
+* Signal Processing: [Advances in Automotive Radar
+A framework on computationally efficient high-resolution frequency estimation](https://ieeexplore.ieee.org/abstract/document/7870737)
 * MIMO: [MIMO Radar for Advanced Driver-Assistance Systems and Autonomous Driving: Advantages and Challenges](https://ieeexplore.ieee.org/document/9127853)
 * Digital Radar: [High-Performance Automotive Radar: A Review of Signal Processing Algorithms and Modulation Schemes](https://ieeexplore.ieee.org/document/8828004)
 * Micro-Doppler: [Micro-Doppler Effect in Radar: Phenomenon, Model, and Simulation Study](https://ieeexplore.ieee.org/document/1603402)
@@ -330,6 +339,7 @@ Sensor Fusion:
 ---
 
 ## Labelling
+* 2021-Spatio-Temporal Consistency for Semi-supervised Learning Using 3D Radar Cubes __`IV`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9575247)
 * 2021-Automatic labeling of vulnerable road users in multi-sensor data __`ITSC`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9564692)
 * 2021-Rethinking of Radar’s Role: A Camera-Radar Dataset and Systematic Annotator via Coordinate Alignment __`CVPRW`__; __`CRUW`__; [Paper](https://openaccess.thecvf.com/content/CVPR2021W/WAD/html/Wang_Rethinking_of_Radars_Role_A_Camera-Radar_Dataset_and_Systematic_Annotator_CVPRW_2021_paper.html)
 * 2021-RADDet: Range-Azimuth-Doppler based Radar Object Detection for Dynamic Road Users __`CRV`__; __`RADDet`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9469418)
@@ -566,7 +576,6 @@ Architecture for 2D Object Detection __`Arxiv`__; __`CrossAttention`__; __`nuSce
 * 2021-Robust Small Object Detection on the Water Surface through Fusion of Camera and MillimeterWave Radar __`ICCV`__; __`Attention`__; [Paper](https://openaccess.thecvf.com/content/ICCV2021/html/Cheng_Robust_Small_Object_Detection_on_the_Water_Surface_Through_Fusion_ICCV_2021_paper.html)
 * 2021-Robust Multimodal Vehicle Detection in Foggy Weather Using Complementary Lidar and Radar Signals __`CVPR`__; __`Attention`__; __`Oxford_Foggy`__; [Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Qian_Robust_Multimodal_Vehicle_Detection_in_Foggy_Weather_Using_Complementary_Lidar_CVPR_2021_paper.html); [Code](https://github.com/qiank10/MVDNet)
 * 2021-CFTrack: Center-based Radar and Camera Fusion for 3D Multi-Object Tracking __`IV`__; __`CenterFusion+Track`__; __`nuScenes`__;  [Paper](https://arxiv.org/abs/2107.05150); [Video](https://www.youtube.com/watch?v=_vuO19L6L0Q)
-* 
 
 ## Radar Camera Fusion
 ### Feature-level Fusion
@@ -643,10 +652,12 @@ Architecture for 2D Object Detection __`Arxiv`__; __`CrossAttention`__; __`nuSce
 ---
 
 ## Ego Motion Estimation
-* 2018-[Precise Ego-Motion Estimation with Millimeter-Wave Radar under Diverse and Challenging Conditions](https://ieeexplore.ieee.org/abstract/document/8460687)
-* 2019-[An Instantaneous 3D Ego-Velocity Measurement Algorithm for Frequency Modulated Continuous Wave Doppler Radar Data](https://www.proquest.com/openview/0354baf8a7e55480288b5abc6bb52677/1?pq-origsite=gscholar&cbl=18750&diss=y)
-* 2020-[Radar-Inertial Ego-Velocity Estimation for Visually Degraded Environments](https://ieeexplore.ieee.org/abstract/document/9196666)
-* 2020-[milliEgo: Single-chip mmWave Aided Egomotion Estimation with Deep Sensor Fusion](https://dl.acm.org/doi/abs/10.1145/3384419.3430776?casa_token=-THoSVYXSK0AAAAA:W29x9r07Oow3kwQL8zyj9BtJj6liQLYi0yzsB47PzK7H3B8Mi3LHExeql9h7_5CR8o2EEBMqU7j_DMI)
+* 2022-A Credible and Robust Approach to Ego-Motion Estimation Using an Automotive Radar __`RAL`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9743799)
+* 2021-3D ego-Motion Estimation Using low-Cost mmWave Radars via Radar Velocity Factor for Pose-Graph SLAM __`ICRA`__; [Paper](https://ieeexplore.ieee.org/document/9495184)
+* 2020-milliEgo: Single-chip mmWave Aided Egomotion Estimation with Deep Sensor Fusion __`SenSys`__; [Paper](https://dl.acm.org/doi/abs/10.1145/3384419.3430776); [Code](https://github.com/ChristopherLu/milliEgo)
+* 2020-Radar-Inertial Ego-Velocity Estimation for Visually Degraded Environments __`ICRA`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9196666)
+* 2018-Precise Ego-Motion Estimation with Millimeter-Wave Radar under Diverse and Challenging Conditions __`ICRA`__; [Paper](https://ieeexplore.ieee.org/abstract/document/8460687)
+* 2014-Instantaneous Ego-Motion Estimation using Multiple Doppler Radars __`ICRA`__; [Paper](https://ieeexplore.ieee.org/abstract/document/6907064)
 
 ---
 
@@ -654,6 +665,7 @@ Architecture for 2D Object Detection __`Arxiv`__; __`CrossAttention`__; __`nuSce
 * 2022-Self-Supervised Scene Flow Estimation with 4D Automotive Radar __`RAL`__; __`4DRadar`__; __`FlowNet`__; [Paper](https://arxiv.org/abs/2203.01137); [Code](https://github.com/Toytiny/RaFlow)
 * 2021-Full-Velocity Radar Returns by Radar-Camera Fusion __`ICCV`__; __`nuScenes`__; __`OpticalFlow`__; [Paper](https://openaccess.thecvf.com/content/ICCV2021/html/Long_Full-Velocity_Radar_Returns_by_Radar-Camera_Fusion_ICCV_2021_paper.html)
 * 2021-3D Radar Velocity Maps for Uncertain Dynamic Environments __`IROS`__; __`Bayesian`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9636019); [Code](https://github.com/RansML/BDF)
+* 2020-An RLS-Based Instantaneous Velocity Estimator for Extended Radar Tracking  __`IROS`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9341127)
 * 2018- Instantaneous Actual Motion Estimation with a Single High-Resolution Radar Sensor __`Nonlinear`__ [Paper](https://ieeexplore.ieee.org/document/8443553)
 * 2014-Instantaneous Full-Motion Estimation of Arbitrary Objects using Dual Doppler Radar  __`DualRadar`__; [Paper](https://ieeexplore.ieee.org/document/6856449)
 * 2013-Instantaneous lateral velocity estimation of a vehicle using Doppler radar __`MultiPts`__; [Paper](https://ieeexplore.ieee.org/abstract/document/6641086)
@@ -661,24 +673,184 @@ Architecture for 2D Object Detection __`Arxiv`__; __`CrossAttention`__; __`nuSce
 
 ---
 
-## Radar Tracking
-* 2010-[Road Intensity Based Mapping Using Radar Measurements With a Probability Hypothesis Density Filter](https://ieeexplore.ieee.org/document/5677613)
-* 2015-[Tracking of Extended Objects with High-Resolution Doppler Radar](https://ieeexplore.ieee.org/document/7355362)
-* 2018-[Rfcm for Data Association and Multitarget Tracking Using 3D Radar](https://ieeexplore.ieee.org/document/8461917)
-* 2018-[Classification Assisted Tracking for Autonomous Driving Domain](https://ieeexplore.ieee.org/document/8547138)
-* 2019-[Extended Object Tracking assisted Adaptive Clustering for Radar in Autonomous Driving Applications](https://ieeexplore.ieee.org/abstract/document/8916658)
-* 2020-[BAAS: Bayesian Tracking and Fusion Assisted Object Annotation of Radar Sensor Data for Artificial Intelligence Application](https://ieeexplore.ieee.org/document/9266698)
-* 2020-[An RLS-Based Instantaneous Velocity Estimator for Extended Radar Tracking](https://ieeexplore.ieee.org/document/9341127)
-* 2020-[Extended Object Tracking Using Hierarchical Truncation Measurement Model with Automotive Radar](https://ieeexplore.ieee.org/document/9054614)
-* 2020-[Extended Object Tracking Using Spatially Resolved Micro-Doppler Signatures](https://ieeexplore.ieee.org/document/9247291)
-* 2021-[A Graph-Based Track-Before-Detect Algorithm for Automotive Radar Target Detection](https://ieeexplore.ieee.org/document/9276431)
-* 2021-[Learning-Based Extended Object Tracking Using Hierarchical Truncation Measurement Model With Automotive Radar](https://ieeexplore.ieee.org/document/9351598)
-* 2021-[Road-Map Aided GM-PHD Filter for Multi-Vehicle Tracking with Automotive Radar](https://ieeexplore.ieee.org/document/9403944)
-* 2021-[Extended Object Tracking assisted Adaptive Multi-Hypothesis Clustering for Radar in Autonomous Driving Domain](https://ieeexplore.ieee.org/abstract/document/9466233)
+## Tracking
+
+### Neural Network
+* 2022-Exploiting Temporal Relations on Radar Perception for Autonomous Driving __`CVPR`__; __`Oxford`__; __`Attention`__; [Paper](https://openaccess.thecvf.com/content/CVPR2022/html/Li_Exploiting_Temporal_Relations_on_Radar_Perception_for_Autonomous_Driving_CVPR_2022_paper.html)
+* 2021-CFTrack: Center-based Radar and Camera Fusion for 3D Multi-Object Tracking __`IV`__; __`CenterFusion+Track`__; __`nuScenes`__;  [Paper](https://arxiv.org/abs/2107.05150); [Video](https://www.youtube.com/watch?v=_vuO19L6L0Q)
+
+### Bayesian Filtering
+* 2021-Road-Map Aided GM-PHD Filter for Multi-Vehicle Tracking with Automotive Radar [Paper](https://ieeexplore.ieee.org/document/9403944)
+* 2021-Bayesradar: Bayesian Metric-Kalman Filter Learning for Improved and Reliable Radar Target Classification [Paper](https://ieeexplore.ieee.org/abstract/document/9596290)
+* 2021-Extended Object Tracking assisted Adaptive Multi-Hypothesis Clustering for Radar in Autonomous Driving Domain [Paper](https://ieeexplore.ieee.org/abstract/document/9466233)
+* 2021-A Graph-Based Track-Before-Detect Algorithm for Automotive Radar Target Detection [Paper](https://ieeexplore.ieee.org/document/9276431)
+* 2020-BAAS: Bayesian Tracking and Fusion Assisted Object Annotation of Radar Sensor Data for Artificial Intelligence Application __`RadarConf`__; [Paper](https://ieeexplore.ieee.org/document/9266698)
+* 2020-An RLS-Based Instantaneous Velocity Estimator for Extended Radar Tracking  __`IROS`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9341127)
+* 2021-Automotive Radar-Based Vehicle Tracking Using Data-Region Association __`TITS`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9525315)
+* 2020-Extended Object Tracking Using Spatially Resolved Micro-Doppler Signatures __`TIV`__; [Paper](https://ieeexplore.ieee.org/document/9247291)
+* 2019-Extended Object Tracking assisted Adaptive Clustering for Radar in Autonomous Driving Applications [Paper](https://ieeexplore.ieee.org/abstract/document/8916658)
+* 2018- Rfcm for Data Association and Multitarget Tracking Using 3D Radar __`ICASSP`__; [Paper](https://ieeexplore.ieee.org/document/8461917)
+* 2018-Classification Assisted Tracking for Autonomous Driving Domain [Paper](https://ieeexplore.ieee.org/document/8547138)
+* 2015-Tracking of Extended Objects with High-Resolution Doppler Radar __`TITS`__; [Paper](https://ieeexplore.ieee.org/document/7355362)
+* 2010-Road Intensity Based Mapping Using Radar Measurements With a Probability Hypothesis Density Filter __`TSP`__; [Paper](https://ieeexplore.ieee.org/document/5677613)
+
+
+### Modelling
+* 2022-A Data-driven Approach for Stochastic Modeling of Automotive Radar Detections for Extended Objects __`GeMic`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9783497)
+* 2021-A Multi-Layered Approach for Measuring the Simulation-to-Reality Gap of Radar Perception for Autonomous Driving __`IV`__; [Paper](https://ieeexplore.ieee.org/document/9564521)
+* 2021-Learning-Based Extended Object Tracking Using Hierarchical Truncation Measurement Model With Automotive Radar __`JSTSP`__; [Paper](https://ieeexplore.ieee.org/document/9351598)
+* 2020-Extended Object Tracking Using Hierarchical Truncation Measurement Model with Automotive Radar __`ICASSP`__; [Paper](https://ieeexplore.ieee.org/document/9054614)
+
 
 
 ---
 
+## Prediction
+* 2021-Predicting Vehicle Behavior Using Automotive Radar and Recurrent Neural Networks [Paper](https://ieeexplore.ieee.org/abstract/document/9520242)
+* 2021-Deep-Learning Based Decentralized Frame-to-Frame
+Trajectory Prediction Over Binary Range-Angle
+Maps for Automotive Radars __`TVT`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9437958)
+* 2020-LiRaNet: End-to-End Trajectory Prediction using Spatio-Temporal Radar Fusion [Paper](https://arxiv.org/abs/2010.00731)
+
+---
+
+## Occupancy Grid Map
+* 2022-Radar Occupancy Prediction With Lidar Supervision While Preserving Long-Range Sensing and Penetrating Capabilities __`RAL`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9689995)
+* 2020-See Through Smoke: Robust Indoor Mapping with Low-cost
+mmWave Radar __`MobiSys`__; [Paper](https://dl.acm.org/doi/abs/10.1145/3386901.3388945)
+* 2019-Road Scene Understanding by Occupancy Grid Learning from Sparse Radar Clusters using Semantic Segmentation __`ICCV`__; [Paper](https://openaccess.thecvf.com/content_ICCVW_2019/html/CVRSUAD/Sless_Road_Scene_Understanding_by_Occupancy_Grid_Learning_from_Sparse_Radar_ICCVW_2019_paper.html)
+* 2019- Probably Unknown: Deep Inverse Sensor Modelling Radar __`ICRA`__; [Paper](https://ieeexplore.ieee.org/document/8793263)
+* 2019-Occupancy Grids Generation Using Deep Radar Network for Autonomous Driving __`ITSC`__; [Paper](https://ieeexplore.ieee.org/abstract/document/8916897)
+* 2015-Automotive Radar Gridmap Representations [Paper](https://ieeexplore.ieee.org/abstract/document/7117922)
+
+### Point Cloud Map
+* 2022-High Resolution Point Clouds from mmWave Radar [Paper](https://arxiv.org/abs/2206.09273)
+* 2020-Remove, then Revert: Static Point cloud Map Construction using Multiresolution Range Images __`IROS`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9340856)
+
+
+---
+
+## Open Space Segmentation
+* 2022-Raw High-Definition Radar for Multi-Task Learning __`CVPR`__; __`Dataset`__; [Paper](https://openaccess.thecvf.com/content/CVPR2022/html/Rebut_Raw_High-Definition_Radar_for_Multi-Task_Learning_CVPR_2022_paper.html)
+* 2022-Deformable Radar Polygon: A Lightweight and Predictable Occupancy Representation for Short-range Collision Avoidance [Paper](https://arxiv.org/abs/2203.01442)
+* 2022-Drivable Region Estimation for Self-Driving Vehicles Using Radar __`TVT`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9740418)
+* 2021-PolarNet: Accelerated Deep Open Space Segmentation Using Automotive Radar in Polar Domain [Paper](https://arxiv.org/abs/2103.03387)
+* 2020-Deep Open Space Segmentation using Automotive Radar __`Dataset`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9299052)
+* 2018-High Resolution Radar-based Occupancy Grid Mapping and Free Space Detection [Paper](https://www.scitepress.org/papers/2018/66673/)
+
+---
+
+## Scene Understanding
+* 2020-Semantic Segmentation on 3D Occupancy Grids for Automotive Radar [Paper](https://ieeexplore.ieee.org/abstract/document/9229096)
+* 2020-Statistical Image Segmentation and Region Classification Approaches for Automotive Radar __`EuRAD`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9337399)
+* 2019-Scene Understanding With Automotive Radar __`TIV`__; [Paper](https://ieeexplore.ieee.org/abstract/document/8911477)
+* 2018-Semantic Segmentation on Radar Point Clouds __`FUSION`__; [Paper](https://ieeexplore.ieee.org/abstract/document/8455344)
+
+---
+
+## Place Recognition
+* 2022-AutoPlace: Robust Place Recognition with Single-chip Automotive Radar __`ICRA`__; [Paper](https://www.research.ed.ac.uk/en/publications/autoplace-robust-place-recognition-with-single-chip-automotive-ra)
+* 2021-Contrastive Learning for Unsupervised Radar Place Recognition [Paper](https://ieeexplore.ieee.org/abstract/document/9659335)
+* 2021-Radar-to-Lidar: Heterogeneous Place Recognition via Joint Learning [Paper](https://www.frontiersin.org/articles/10.3389/frobt.2021.661199/full)
+* 2021-Unsupervised Place Recognition with Deep Embedding Learning over Radar Videos [Paper](https://arxiv.org/abs/2106.06703)
+* 2020-Look Around You: Sequence-based Radar Place Recognition with Learned Rotational Invariance [Paper](https://ieeexplore.ieee.org/abstract/document/9109951)
+* 2020-MulRan Multimodal Range Dataset for Urban Place Recognition  __`ICRA`__; __`Dataset`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9197298)
+
+---
+
+## Odometry and SLAM
+### Odometry
+* 2022-Fast-MbyM: Leveraging Translational Invariance of the Fourier Transform for Efficient and Accurate Radar Odometry [Paper](https://arxiv.org/abs/2203.00459); [Code](https://github.com/applied-ai-lab/f-mbym)
+* 2021-Radar Odometry Combining Probabilistic Estimation and Unsupervised Feature Learning [Paper](https://arxiv.org/abs/2105.14152)
+* 2021-Radar Odometry on SE(3) With Constant Velocity Motion Prior __`RAL`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9463737)
+* 2022-What Goes Around: Leveraging a Constant-curvature Motion Constraint in Radar Odometry __`RAL`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9808131)
+* 2021-Do We Need to Compensate for Motion Distortion and Doppler Effects in Spinning Radar Navigation __`RAL`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9327473); [Code](https://github.com/keenan-burnett/yeti_radar_odometry)
+* 2021-A Normal Distribution Transform-Based Radar Odometry Designed For Scanning and Automotive Radars __`ICRA`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9561413)
+* 2021-BFAR – Bounded False Alarm Rate detector for improved radar odometry estimation [Paper](https://arxiv.org/abs/2109.09669)
+* 2021-CFEAR Radarodometry - Conservative Filtering for Efficient and Accurate Radar Odometry __`IROS`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9636253)
+* 2021-Continuous-time Radar-inertial Odometry for Automotive Radars __`IROS`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9636014)
+* 2021-Oriented surface points for efficient and accurate radar odometry [Paper](https://arxiv.org/abs/2109.09994)
+* 2020-PhaRaO: Direct Radar Odometry using Phase Correlation __`ICRA`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9197231)
+* 2019-Masking by Moving: Learning Distraction-Free Radar Odometry from Pose Information __`CoRL`__; [Paper](https://proceedings.mlr.press/v100/barnes20a)
+
+### SLAM
+* 2022-CorAl: Introspection for robust radar and lidar perception in diverse environments using differential entropy __`RAS`__;  [Paper](https://www.sciencedirect.com/science/article/pii/S0921889022000768)
+* 2022-Are We Ready for Radar to Replace Lidar in All-Weather Mapping and Localization [Paper](http://128.84.4.18/abs/2203.10174)
+* 2021-SERALOC: SLAM on semantically annotated radar point-clouds __`ITSC`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9564693)
+* 2021-RaLL: End-to-End Radar Localization on Lidar Map Using Differentiable Measurement Model __`TITS`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9370010)
+* 2021-Improved Radar Localization on Lidar Maps Using Shared Embedding [Paper](https://arxiv.org/abs/2106.10000)
+* 2021-Cross-Modal Contrastive Learning of Representations for Navigation using Lightweight, Low-Cost Millimeter Wave Radar for Adverse Environmental Conditions __`RAL`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9362209)
+* 2021-RadarLoc: Learning to Relocalize in FMCW Radar __`ICRA`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9560858)
+* 2021-Radar SLAM: A Robust SLAM System for All Weather Conditions [Paper](https://arxiv.org/abs/2104.05347)
+* 2020-RadarSLAM: Radar based Large-Scale SLAM in All Weathers __`IROS`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9341287)
+* 2020-Self-Supervised Localisation between Range Sensors and Overhead Imagery [Paper](https://arxiv.org/abs/2006.02108)
+* 2020-RSL-Net: Localising in Satellite Images From a Radar on the Ground __`RAL`__; [Paper](https://ieeexplore.ieee.org/abstract/document/8957240)
+* 2020-Under the Radar: Learning to Predict Robust Keypoints for Odometry Estimation and Metric Localisation in Radar __`ICRA`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9196835)
+* 2020-Radar-on-Lidar: metric radar localization on prior lidar maps [Paper](https://ieeexplore.ieee.org/abstract/document/9303291)
+* 2020-kRadar++: Coarse-to-Fine FMCW Scanning Radar Localisation [Paper](https://www.mdpi.com/1424-8220/20/21/6002)
+* 2020-Kidnapped Radar: Topological Radar Localisation using Rotationally-Invariant Metric Learning __`ICRA`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9196682)
+* 2020-A Scalable Framework for Robust Vehicle State Estimation with a Fusion of a Low-Cost IMU, the GNSS, Radar, a Camera and Lidar __`IROS`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9341419)
+* 2005-An Augmented State SLAM formulation for Multiple Line-of-Sight Features with Millimetre Wave RADAR __`IROS`__; [Paper](https://ieeexplore.ieee.org/abstract/document/1545232)
+
+
+---
+
+## Automotive SAR
+* 2022-Synthetic Aperture Radar Imaging of Moving Targets for Automotive Applications __`EuRAD`__; __`Bosch`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9784564)
+* 2022-Performance Analysis of Automotive SAR With Radar Based Motion Estimation __`GM`__;  [Paper](https://arxiv.org/abs/2204.10406)
+* 2022-Residual Motion Compensation in Automotive MIMO SAR Imaging __`RadarConf`__; __`Huawei`__;  [Paper](https://ieeexplore.ieee.org/abstract/document/9764310)
+* 2022-A Quick and Dirty processor for automotive forward SAR imaging __`RadarConf`__; __`Huawei`__;  [Paper](https://ieeexplore.ieee.org/abstract/document/9764234)
+* 2021-Cooperative Synthetic Aperture Radar in an Urban Connected Car Scenario __`Huawei`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9376348)
+* 2021-Navigation-Aided Automotive SAR for High-Resolution Imaging of Driving Environments  __`Huawei`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9363205)
+* 2021-Imaging radar for automated driving functions __`Continental`__; [Paper](https://www.cambridge.org/core/journals/international-journal-of-microwave-and-wireless-technologies/article/imaging-radar-for-automated-driving-functions/81B92D1CCF86309E8A354783A343861E)
+* 2021-MIMO-SAR: A Hierarchical High-resolution Imaging Algorithm for mmWave FMCW Radar in Autonomous Driving __`TVT`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9465646)
+* 2020-3D Point Cloud Generation with Millimeter-Wave Radar [Paper](https://dl.acm.org/doi/abs/10.1145/3432221)
+* 2020-High Resolution Radar Dataset for Semi-Supervised Learning of Dynamic
+Objects __`CVPRW`__; [Paper](https://openaccess.thecvf.com/content_CVPRW_2020/html/w6/Mostajabi_High-Resolution_Radar_Dataset_for_Semi-Supervised_Learning_of_Dynamic_Objects_CVPRW_2020_paper.html)
+
+### ISAR
+* 2022-Classification Of Automotive Targets Using Inverse Synthetic Aperture Radar Images [Paper](https://ieeexplore.ieee.org/abstract/document/9695280)
+* 2021-Inverse Synthetic Aperture Radar Imaging: A Historical Perspective and State-of-the-Art Survey [Paper](https://ieeexplore.ieee.org/abstract/document/9513303/)
+
+---
+ 
+## Human Activity
+* 2022-mTransSee: Enabling Environment-Independent mmWave Sensing Based Gesture Recognition via Transfer Learning [Paper](https://dl.acm.org/doi/abs/10.1145/3517231)
+* 2022-Attention-Based Dual-Stream Vision Transformer for Radar Gait Recognition __`ICASSP`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9746565)
+* 2022-Unsupervised Learning for Human Sensing Using Radio Signals __`WACV`__; [Paper](https://openaccess.thecvf.com/content/WACV2022/html/Li_Unsupervised_Learning_for_Human_Sensing_Using_Radio_Signals_WACV_2022_paper.html)
+* 2022-Tesla-Rapture: A Lightweight Gesture Recognition System from mmWave Radar Sparse Point Clouds __`TMC`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9720163)
+* 2022-Few-Shot User-Definable Radar-Based Hand Gesture Recognition at the Edge [Paper](https://ieeexplore.ieee.org/abstract/document/9722880)
+* 2021-RadarNet: Efficient Gesture Recognition Technique Utilizing a Miniature Radar Sensor __`CHI`__; [Paper](https://dl.acm.org/doi/abs/10.1145/3411764.3445367)
+* 2021-Domain-Independent and Real-Time Gesture Recognition Using mmWave Signal [Paper](https://arxiv.org/abs/2111.06195)
+* 2021-m-Activity Accurate and Real-Time Human Activity Recognition Via Millimeter Wave Radar __`ICASSP`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9414686)
+* 2021-Human Motion Recognition With Limited Radar Micro-Doppler Signatures __`TGRS`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9222330)
+* 2020-Real-time Arm Gesture Recognition in Smart Home Scenarios via
+MillimeterWave Sensing [Paper](https://dl.acm.org/doi/abs/10.1145/3432235)
+* 2019-RadHAR: Human Activity Recognition from Point Clouds Generated through a Millimeter-wave Radar [Paper](https://dl.acm.org/doi/abs/10.1145/3349624.3356768)
+* 2016-Interacting with Soli: Exploring Fine-Grained Dynamic Gesture Recognition in the Radio-Frequency Spectrum [Paper](https://dl.acm.org/doi/abs/10.1145/2984511.2984565); [Video](https://youtu.be/ZSkl9zoNZRY)
+* 2015-Short-Range FMCW Monopulse Radar for Hand-Gesture Sensing __`RadarConf`__; [Paper](https://ieeexplore.ieee.org/abstract/document/7131232)
+
+
+
+---
+
+## Radar-Audio
+### Speech Recovery
+* 2022-Radio2Speech: High Quality Speech Recovery from Radio Frequency Signals [Paper](https://arxiv.org/abs/2206.11066)
+* 2021-mmPhone: Acoustic Eavesdropping on Loudspeakers via mmWave-characterized Piezoelectric Effect __`INFOCOM`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9796806)
+
+### Vocal Chord
+* 2022-Multi-target Time-Varying Vocal Folds Vibration
+Detection Using MIMO FMCW Radar [Paper](https://ieeexplore.ieee.org/abstract/document/9765794)
+* 2021-VocalPrint: A mmWave-based Unmediated Vocal Sensing
+System for Secure Authentication [Paper](https://ieeexplore.ieee.org/abstract/document/9444641)
+
+### Separation
+* 2022-RadioSES: mmWave-Based Audioradio Speech Enhancement and Separation System [Paper](https://arxiv.org/abs/2204.07092)
+* 2021-Wavoice: A Noise-resistant Multi-modal Speech Recognition System Fusing mmWave and Audio Signals __`SenSys`__; [Paper](https://dl.acm.org/doi/abs/10.1145/3485730.3485945)
+
+
+---
 
 ## Weather Effects
 
