@@ -41,10 +41,12 @@ Data Perspective:
 
 Signal Processing:
 - [Radar Toolbox](#Radar-Toolbox)
+- [MIMO Calibration](#MIMO-Calibration)
 - [Detector](#Detector)
 - [Super Resolution](#Super-Resolution)
 - [Clustering](#Clustering)
 - [Denoising](#Denoising)
+
 
 Applications:
 - [Ego-Motion Estimation](#Ego-Motion-Estimation)
@@ -61,7 +63,7 @@ Applications:
 - [Place Recognition](#Place-Recognition)
 - [Odometry and SLAM](#Odometry-and-SLAM)
 - [Automotive SAR](#Automotive-SAR)
-- [Human Activity](#Human-Activity)
+- [Human Activity](#Human-Activity-Recognition)
 - [Radar-Audio](#Radar-Audio)
 
 Challenges:
@@ -101,9 +103,10 @@ In my [review paper](https://www.mdpi.com/1424-8220/22/11/4208), there is a tabl
 | RADDet | TI AWR1843 | RAD | 3D bbox for RAD tensor | [Github](https://github.com/ZhangAoCanada/RADDet) |
 | RaDICaL | TI IWR1443 | ADC | 2D bbox | [Website](https://publish.illinois.edu/radicaldata/)|
 | GhentVRU | TI AWR1243 Short Range | RAD | Segmentation Mask for VRUs| [Paper](https://ieeexplore.ieee.org/document/9294399) |
+| ODA | 24GHz | RAW | Obstacle Detection and Avoidance for Drones | [Paper](https://dl.acm.org/doi/10.1145/3522784.3522786) |
 
 
-<br>Comments: CARRADA is captured in clean scenarios, CRUW uses RA maps, RADDet provides annotations for RAD tensor, RADICaL provides raw ADC data and signal processing toolboxes, GhentVRU can be accssed by contacting with authors.
+<br>Comments: CARRADA is captured in clean scenarios, CRUW uses RA maps, RADDet provides annotations for RAD tensor, RADICaL provides raw ADC data and signal processing toolboxes, GhentVRU can be accssed by contacting with authors, ODA is for drones and provides event camera data.
 
 ### 4D Radar Datasets for Detection
 | Dataset | Radar Type | Data Type| Annotation | Link |
@@ -196,6 +199,7 @@ Ainstein Radar ROS Node: [ROS Node](https://github.com/AinsteinAI/ainstein_radar
 * NXP - Radar Experts Discuss the Evolution of Automotive Radar [[Video]](https://www.youtube.com/watch?v=RfJiiSlesyE&t=347s)
 * Need to Successfully Design a Milimeter-Wave Automotive Radar Antenna? [[Video]](https://www.youtube.com/watch?v=0lK8qJSWY_c)
 * Webinar SAR Imaging using Ancortek’s Software Defined Radars [[Video]](https://www.youtube.com/watch?v=BMSVvQJYCIs)
+* TI: Managing interference in FMCW radar systems [[Video]](https://training.ti.com/managing-interference-fmcw-radar-systems)
 
 
 ---
@@ -231,10 +235,11 @@ Automotive Radar Applications:
 * Semantic Understanding: [Radar for Autonomous Driving – Paradigm Shift from Mere Detection to Semantic Environment Understanding](https://link.springer.com/chapter/10.1007/978-3-658-23751-6_1)
 * Radar vs Lidar: [Comparative Analysis of Radar and Lidar Technologies for Automotive Applications](https://ieeexplore.ieee.org/document/9760734/)
 
-Consumer Radar Applications:
+Other Radar Applications:
 * Human Activity Recognition: [Deep Learning for Sensor-based Human Activity Recognition: Overview, Challenges, and Opportunities](https://dl.acm.org/doi/abs/10.1145/3447744)
 * Gesture: [Motion Sensing Using Radar: Gesture Interaction and Beyond](https://ieeexplore.ieee.org/abstract/document/8755821)
 * Vital Sign: [Contactless Radar-Based Sensors: Recent Advances in Vital-Signs Monitoring of Multiple Subjects](https://ieeexplore.ieee.org/abstract/document/9785580)
+* UAV: [Radar Perception for Autonomous Unmanned Aerial Vehicles: a Survey](https://dl.acm.org/doi/10.1145/3522784.3522787)
 
 General Object Detection:
 * [3D Object Detection from Images for Autonomous Driving: A Survey](https://arxiv.org/abs/2202.02980)
@@ -313,7 +318,8 @@ Sensor Fusion:
 
 ## Calibration
 ### Radar
-* 2022-A novel method for calibration and verification of roadsidemillimetre-wave radar [Paper](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/itr2.12151)
+* 2022-Radar Calibration by Corner Reflectors with Mass-production Errors [Paper](https://ieeexplore.ieee.org/abstract/document/9784534)
+* 2022-A novel method for calibration and verification of road side millimetre-wave radar [Paper](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/itr2.12151)
 * 2021-Auto-Calibration of Automotive Radars in Operational Mode Using Simultaneous Localisation and Mapping __`TVT`__; [Paper](https://ieeexplore.ieee.org/document/9353252)
 * 2020-Motion Based Online Calibration for 4D Imaging Radar in Autonomous Driving Applications __`GeMic`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9080233)
 * 2018-Multi-Radar Self-Calibration Method using High-Definition Digital Maps for Autonomous Driving __`ITSC`__; [Paper](https://ieeexplore.ieee.org/document/8569272/)
@@ -402,7 +408,14 @@ Sensor Fusion:
 
 ---
 
+## MIMO Calibration
+* 2021-Auto-Calibration of Automotive Radars in Operational Mode Using Simultaneous Localisation and Mapping __`TVT`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9353252)
+* 2021-A Practical Concept for Precise Calibration of MIMO Radar Systems __`EuRAD`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9784495)
+
+---
+
 ## Detector
+* 2022-A Novel Radar Point Cloud Generation Method for Robot Environment Perception [Paper](https://ieeexplore.ieee.org/abstract/document/9823311)
 * 2021-DNN-Based Peak Sequence Classification CFAR Detection Algorithm for High-Resolution FMCW Radar [Paper](https://ieeexplore.ieee.org/abstract/document/9547416)
 * 2020-Object surface estimation from radar images [Paper](https://ieeexplore.ieee.org/abstract/document/9054622)
 * 2020-Deep temporal detection - A machine learning approach to multiple-dwell target detection [Paper](https://ieeexplore.ieee.org/abstract/document/9114828)
@@ -411,7 +424,6 @@ Sensor Fusion:
 
 ## Super Resolution
 * 2022-A Machine Learning Perspective on Automotive Radar Direction of Arrival Estimation [Paper](https://ieeexplore.ieee.org/abstract/document/9674901)
-* 2021-A New Automotive Radar 4D Point Clouds Detector by Using Deep Learning [Paper](https://ieeexplore.ieee.org/abstract/document/9413682)
 * 2020-Radar Image Reconstruction from Raw ADC Data using Parametric Variational Autoencoder with Domain Adaptation [Paper](https://ieeexplore.ieee.org/abstract/document/9412858)
 
 ## Clustering
@@ -468,10 +480,6 @@ Sensor Fusion:
 * 2020-[Off-the-shelf sensor vs. experimental radar - How much resolution is necessary in automotive radar classification](https://ieeexplore.ieee.org/abstract/document/9190338)
 * 2021-[Deep Learning for Automotive Object Classification with Radar Reflections](https://ieeexplore.ieee.org/abstract/document/9455334) 
 
-### SAR & ISAR Imaging
-* 2020-[High Resolution Radar Dataset for Semi-Supervised Learning of Dynamic Objects](https://ieeexplore.ieee.org/document/9150648)
-* 2021-[MIMO-SAR A Hierarchical High-Resolution Imaging Algorithm for mmWave FMCW Radar in Autonomous Driving](https://ieeexplore.ieee.org/abstract/document/9465646)
-* 2021-[Classification Of Automotive Targets Using Inverse Synthetic Aperture Radar Images](https://arxiv.org/abs/2101.12535)
 
 
 ---
@@ -630,6 +638,7 @@ Architecture for 2D Object Detection __`Arxiv`__; __`CrossAttention`__; __`nuSce
 ---
 
 ## Weakly Supervised
+* 2022-A Novel Radar Point Cloud Generation Method for Robot Environment Perception [Paper](https://ieeexplore.ieee.org/abstract/document/9823311)
 * 2022-Look, Radiate, and Learn: Self-supervised Localisation via Radio-Visual Correspondence __`Arxiv`__; __`Simulation`__; __`SpatialContrastive`__; [Paper](https://arxiv.org/abs/2206.06424)
 * 2021-R4Dyn: Exploring Radar for Self-Supervised Monocular Depth Estimation of Dynamic Scenes __`3DIMPVT`__; __`nuScenes`__; __`SSL`__; [Paper](https://arxiv.org/abs/2108.04814)
 * 2021- RODNet: A Real-Time Radar Object Detection Network Cross-Supervised by Camera-Radar Fused Object 3D Localization __`IJSTSP`__; __`CRUW`__; __`ConfMap`__; [Paper](https://ieeexplore.ieee.org/document/9353210); [Code](https://github.com/yizhou-wang/RODNet); [Video](https://www.youtube.com/watch?v=UZbxI4o2-7g)
@@ -814,7 +823,7 @@ Objects __`CVPRW`__; [Paper](https://openaccess.thecvf.com/content_CVPRW_2020/ht
 
 ---
  
-## Human Activity
+## Human Activity Recognition
 * 2022-mTransSee: Enabling Environment-Independent mmWave Sensing Based Gesture Recognition via Transfer Learning [Paper](https://dl.acm.org/doi/abs/10.1145/3517231)
 * 2022-Attention-Based Dual-Stream Vision Transformer for Radar Gait Recognition __`ICASSP`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9746565)
 * 2022-Unsupervised Learning for Human Sensing Using Radio Signals __`WACV`__; [Paper](https://openaccess.thecvf.com/content/WACV2022/html/Li_Unsupervised_Learning_for_Human_Sensing_Using_Radio_Signals_WACV_2022_paper.html)
@@ -824,6 +833,8 @@ Objects __`CVPRW`__; [Paper](https://openaccess.thecvf.com/content_CVPRW_2020/ht
 * 2021-Domain-Independent and Real-Time Gesture Recognition Using mmWave Signal [Paper](https://arxiv.org/abs/2111.06195)
 * 2021-m-Activity Accurate and Real-Time Human Activity Recognition Via Millimeter Wave Radar __`ICASSP`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9414686)
 * 2021-Human Motion Recognition With Limited Radar Micro-Doppler Signatures __`TGRS`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9222330)
+* 2021-Semisupervised Human Activity Recognition With Radar Micro-Doppler Signatures __`TGRS`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9467531)
+* 2021-Continual Learning of Micro-Doppler Signature-Based Human Activity Classification __`GRSL`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9319850)
 * 2020-Real-time Arm Gesture Recognition in Smart Home Scenarios via
 MillimeterWave Sensing [Paper](https://dl.acm.org/doi/abs/10.1145/3432235)
 * 2019-RadHAR: Human Activity Recognition from Point Clouds Generated through a Millimeter-wave Radar [Paper](https://dl.acm.org/doi/abs/10.1145/3349624.3356768)
@@ -836,6 +847,8 @@ MillimeterWave Sensing [Paper](https://dl.acm.org/doi/abs/10.1145/3432235)
 
 ## Radar-Audio
 ### Speech Recovery
+* 2022-Wavesdropper: Through-wallWord Detection of Human Speech via
+Commercial mmWave Devices [Paper](https://dl.acm.org/doi/abs/10.1145/3534592)
 * 2022-Radio2Speech: High Quality Speech Recovery from Radio Frequency Signals [Paper](https://arxiv.org/abs/2206.11066)
 * 2021-mmPhone: Acoustic Eavesdropping on Loudspeakers via mmWave-characterized Piezoelectric Effect __`INFOCOM`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9796806)
 
@@ -865,14 +878,15 @@ System for Secure Authentication [Paper](https://ieeexplore.ieee.org/abstract/do
 * What Happens for a ToF LiDAR in Fog? [Paper](https://ieeexplore.ieee.org/abstract/document/9121741)
 
 ### Datasets
-* Oxford Foggy
+* Oxford Foggy [Code]((https://github.com/qiank10/MVDNet))
 * DENSE 
 * RADIATE 
 * Boreas
-* K-Radar </br>See the dataset section for details.
+* K-Radar
+ </br>See the dataset section for details.
 
 ###  Methods
-* 2022-Modality-Agnostic Learning for Radar-Lidar Fusion in Vehicle Detection[Paper](https://openaccess.thecvf.com/content/CVPR2022/html/Li_Modality-Agnostic_Learning_for_Radar-Lidar_Fusion_in_Vehicle_Detection_CVPR_2022_paper.html)
+* 2022-Modality-Agnostic Learning for Radar-Lidar Fusion in Vehicle Detection [Paper](https://openaccess.thecvf.com/content/CVPR2022/html/Li_Modality-Agnostic_Learning_for_Radar-Lidar_Fusion_in_Vehicle_Detection_CVPR_2022_paper.html)
 * 2021-Robust Multimodal Vehicle Detection in Foggy Weather Using Complementary Lidar and Radar Signals [Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Qian_Robust_Multimodal_Vehicle_Detection_in_Foggy_Weather_Using_Complementary_Lidar_CVPR_2021_paper.html)	
 * 2020-Seeing Through Fog Without Seeing Fog: Deep Multimodal Sensor Fusion in Unseen Adverse Weather [Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Bijelic_Seeing_Through_Fog_Without_Seeing_Fog_Deep_Multimodal_Sensor_Fusion_CVPR_2020_paper.html); [Code](); [Video](https://www.youtube.com/watch?v=HPT4nsCkT5Q)
 * 2020-Through Fog High Resolution Imaging Using Millimeter Wave Radar [Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Guan_Through_Fog_High-Resolution_Imaging_Using_Millimeter_Wave_Radar_CVPR_2020_paper.html); [Code](https://github.com/JaydenG1019/HawkEye-Data-Code); [Video](https://www.youtube.com/watch?v=HPT4nsCkT5Q)
