@@ -1,4 +1,9 @@
-# Awesome Radar Perception
+<div align="center">
+    <img class="aligncenter" src="images/logo.png"/>
+</div>
+<br>
+
+
 A curated list of radar datasets, detection, tracking and fusion. <br>Keep updating.<br>Author: Yi Zhou<br>Contact: zhouyi1023@tju.edu.cn
 <br>Update some public-available codes, see [useful_codes.md](./useful_codes.md)
 
@@ -10,8 +15,6 @@ A curated list of radar datasets, detection, tracking and fusion. <br>Keep updat
 <br>Fast-MbyM: Leveraging Translational Invariance of the Fourier Transform for Efficient and Accurate Radar Odometry [Paper](https://ieeexplore.ieee.org/document/9812063); [Code](https://github.com/applied-ai-lab/f-mbym)
 <br>Evolved neuromorphic radar-based altitude controller for an autonomous open-source blimp [Paper](https://ieeexplore.ieee.org/document/9812149)
 <br>DC-Loc: Accurate Automotive Radar Based Metric Localization with Explicit Doppler Compensation [Paper](https://ieeexplore.ieee.org/document/9811561) 
-
-[Exploiting Temporal Relations on Radar Perception for Autonomous Driving](https://openaccess.thecvf.com/content/CVPR2022/html/Li_Exploiting_Temporal_Relations_on_Radar_Perception_for_Autonomous_Driving_CVPR_2022_paper.html)
 
 🚩I have published a review paper on radar perception. Please see the link below. It is open access. If you find the contents are useful, please cite this paper in your work. I will keep updating this repository for the latest works in the radar perception field.
 
@@ -52,6 +55,7 @@ Signal Processing:
 
 
 Applications:
+- [TI Reference Designs](#TI-Reference-Designs)
 - [Ego-Motion Estimation](#Ego-Motion-Estimation)
 - [Velocity Estimation](#Velocity-Estimation)
 - [Depth Estimation](#Depth-Estimation)
@@ -437,12 +441,36 @@ Sensor Fusion:
 * 2019-Robust and Adaptive Radar Elliptical Density-Based Spatial Clustering and labeling for mmWave Radar Point Cloud Data [Paper](https://ieeexplore.ieee.org/abstract/document/9048869)
 * 2018-Supervised Clustering for Radar Applications On the Way to Radar Instance Segmentation [Paper](https://ieeexplore.ieee.org/abstract/document/8443534)
 * 2016-Adaptive Clustering for Contour Estimation of Vehicles for High-Resolution Radar [Paper](https://ieeexplore.ieee.org/abstract/document/7533930)
-* 2012- Grid-Based DBSCAN for Clustering Extended Objects in Radar Data[Paper](https://ieeexplore.ieee.org/abstract/document/6232167)
+* 2012- Grid-Based DBSCAN for Clustering Extended Objects in Radar Data [Paper](https://ieeexplore.ieee.org/abstract/document/6232167)
 
 
 ## Denoising
 * Deep Convolutional Autoencoder Applied for Noise Reduction in Range-Doppler Maps of FMCW Radars
 * Learning from Natural Noise to Denoise Micro-Doppler Spectrogram
+
+
+---
+
+## TI Reference Designs
+* TIDEP-01027 High-end corner radar reference design __`AWR2944`__; [Link](https://www.ti.com/tool/TIDEP-01027)
+* TIDEP-01025 mmWave diagnostic and monitoring reference design [Link](https://www.ti.com/tool/TIDEP-01025)
+* TIDEP-01024 Obstacle detection reference design using 76-Ghz to 81-GHz antenna-on-package (AoP) mmWave sensor __`AWR1843AOP`__; [Link](https://www.ti.com/tool/TIDEP-01024)
+* TIDEP-01023 Child-presence and occupant-detection reference design using 60-GHz antenna-on-package mmWave sensor __`AWR6843AOP`__; [Link](https://www.ti.com/tool/TIDEP-01023)
+* TIDEP-01021 Beamsteering for corner radar reference design __`AWR1843BOOST`__; [Link](https://www.ti.com/tool/TIDEP-01021)
+* TIDEP-01018 Automated doors reference design using TI mmWave sensors __`IWR6843ISK`__; [Link](https://www.ti.com/tool/TIDEP-01018)
+* TIDEP-01013 Gesture controlled HMI with mmWave sensors and Sitara™ processors reference design __` IWR6843ISK`__; [Link](https://www.ti.com/tool/TIDEP-01013)
+* TIDEP-01012 Imaging radar using cascaded mmWave sensor reference design __`AWR2243`__; [Link](https://www.ti.com/tool/TIDEP-01012)
+* TIDEP-01011 Automated parking system reference design using 77-GHz mmWave sensor __`AWR1843`__; [Link](https://www.ti.com/tool/TIDEP-01011)
+* TIDEP-01010 Area scanner using mmWave Sensor with integrated antenna-on-package reference design __`IWR6843`__; [Link](https://www.ti.com/tool/TIDEP-01010)
+* TIDEP-0104 Obstacle detection reference design using 77-GHz mmWave sensor __`AWR1642`__; [Link](https://www.ti.com/tool/TIDEP-0104)
+* TIDEP-01006 Autonomous robot reference design using ROS on Sitara™ MPU & antenna-on-package mmWave sensors __`IWR6843`__; [Link](https://www.ti.com/tool/TIDEP-01006)
+* TIDEP-01003 Zone occupancy detection using mmWave sensor reference design __` IWR1443BOOST`__; [Link](https://www.ti.com/tool/TIDEP-01003) 
+* TIDEP-01001 Vehicle occupant detection reference design __`AWR6843`__; [Link](https://www.ti.com/tool/TIDEP-01001)
+* TIDEP-01000 People Counting and Tracking Reference Design Using mmWave Radar Sensor __`IWR6843`__; [Link](https://www.ti.com/tool/TIDEP-01000)
+* TIDEP-0094 80m-Range Object Detection Reference Design With Integrated Single-Chip mmWave Sensor  __`IWR1642`__; [Link](https://www.ti.com/tool/TIDEP-0094)
+* TIDEP-0092 Short-range radar (SRR) reference design __`IWR1642`__; [Link](https://www.ti.com/tool/TIDEP-0092)
+* TIDEP-0091 Power optimization for 77GHz-level transmitter reference design __`IWR1443`__; [Link](https://www.ti.com/tool/TIDEP-0091)
+* TIDEP-0090 Traffic Monitoring Object Detection and Tracking Reference Design Using mmWave Radar Sensor [Link](https://www.ti.com/tool/TIDEP-0090)
 
 
 ---
