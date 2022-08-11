@@ -137,6 +137,8 @@ In my [review paper](https://www.mdpi.com/1424-8220/22/11/4208), there is a tabl
 | GROUNDED | Ground Penetrating Radar | Localization | [Website](https://lgprdata.com/)|
 |FloW Dataset | TI AWR1843 | Floating waste detection | [Website](http://orca-tech.cn/datasets/FloW/Introduction) |
 | OLIMP | UWB + Continental ARS404|  Multi-sensor fusion for detection|[Website](https://sites.google.com/view/ihsen-alouani/datasets)|
+| DeepSense 6G | Radar+Lidar+Camera+GPS | Beam prediction | [Website](https://deepsense6g.net/)|
+
 
 ### Odometry and Localization
 | Dataset | Radar Type | Task | Link |
@@ -573,6 +575,7 @@ Sensor Fusion:
 ---
 
 ## Sensor Fusion
+* 2022- RadSegNet: A Reliable Approach to Radar Camera Fusion __`RADIATE`__; [Paper](https://arxiv.org/abs/2208.03849)
 * 2022- HRFuser: A Multi-resolution Sensor Fusion
 Architecture for 2D Object Detection __`Arxiv`__; __`CrossAttention`__; __`nuScenes`__ ; __`DENSE`__ ; [Paper](https://arxiv.org/abs/2206.15157); [Code](https://arxiv.org/abs/2206.15157)
 * 2022-A Simple Baseline for BEV Perception Without LiDAR __`Arxiv`__; __`BEVFeature`__; __`nuScenes`__ ;[Paper](https://arxiv.org/abs/2206.07959)
@@ -952,6 +955,7 @@ Automotive Scenarios with Deep Learning [Paper](https://ieeexplore.ieee.org/abst
 
 ## Tx-Rx Leakage
 * 2022-Mitigation of Leakage and Stationary Clutters in Short-Range FMCW Radar With Hybrid Analog and Digital Compensation Technique [Paper](https://ieeexplore.ieee.org/abstract/document/9583883)
+* 2019-The Effect of Antenna Mutual Coupling on MIMO Radar System Performance [Paper](https://ieeexplore.ieee.org/abstract/document/8581509)
 
 ## Imperfect Waveform Separation
 * 2020-Slow-Time MIMO-FMCW Automotive Radar Detection with Imperfect Waveform Separation [Paper](https://ieeexplore.ieee.org/document/9053892)
