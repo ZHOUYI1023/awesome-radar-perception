@@ -122,7 +122,7 @@ In my [review paper](https://www.mdpi.com/1424-8220/22/11/4208), there is a tabl
 | View-of-Delft | ZF FRGen21 Short Range| PC | 3D bbox |[Website](https://intelligent-vehicles.org/datasets/view-of-delft/)|
 | RADIal | Valeo Middel Range DDM | ADC,RAD,PC | Point-level Vehicle; Open Space Mask|[Github](https://github.com/valeoai/RADIal)|
 | TJ4DRadSet | Oculii Eagle Long Range | PC |  3D bbox, TrackID| [Github](https://github.com/TJRadarLab/TJ4DRadSet) |
-|K-Radar| Macnica RETINA | RAD |3D bbox, Track ID|[Github](https://github.com/kaist-avelab/K-Radar)|
+|K-Radar| Macnica RETINA | RAD |3D bbox, Track ID|[Github](https://github.com/kaist-avelab/K-Radar); [OpenReview](https://openreview.net/forum?id=W_bsDmzwaZ7) |
 
 <br>Comments: Astyx is small, VoD focuses on VRU classification, RADIal's annotation is coarse but provides raw data, TJ4D features for its long range detection, K-Radar provides RAD tensor and 3D annotations. TJ4D and K-radar are not yet public available. 
 
@@ -575,10 +575,11 @@ Sensor Fusion:
 ---
 
 ## Sensor Fusion
+* 2022- Bridging the View Disparity of Radar and Camera Features for Multi-modal Fusion 3D Object Detection  __`BEVFeature`__; __`nuScenes`__ ; [Paper](https://arxiv.org/abs/2208.12079)
 * 2022- RadSegNet: A Reliable Approach to Radar Camera Fusion __`RADIATE`__; [Paper](https://arxiv.org/abs/2208.03849)
 * 2022- HRFuser: A Multi-resolution Sensor Fusion
-Architecture for 2D Object Detection __`Arxiv`__; __`CrossAttention`__; __`nuScenes`__ ; __`DENSE`__ ; [Paper](https://arxiv.org/abs/2206.15157); [Code](https://arxiv.org/abs/2206.15157)
-* 2022-A Simple Baseline for BEV Perception Without LiDAR __`Arxiv`__; __`BEVFeature`__; __`nuScenes`__ ;[Paper](https://arxiv.org/abs/2206.07959)
+Architecture for 2D Object Detection __`CrossAttention`__; __`nuScenes`__ ; __`DENSE`__ ; [Paper](https://arxiv.org/abs/2206.15157); [Code](https://arxiv.org/abs/2206.15157)
+* 2022-A Simple Baseline for BEV Perception Without LiDAR  __`BEVFeature`__; __`nuScenes`__ ;[Paper](https://arxiv.org/abs/2206.07959)
 * 2022-Modality-Agnostic Learning for Radar-Lidar Fusion in Vehicle Detection __`CVPR`__; __`TeacherStudent`__ ;__`Oxford_Foggy`__; [Paper](https://openaccess.thecvf.com/content/CVPR2022/html/Li_Modality-Agnostic_Learning_for_Radar-Lidar_Fusion_in_Vehicle_Detection_CVPR_2022_paper.html) 
 * 2022-Global-Local Feature Enhancement Network for Robust Object Detection using mmWave Radar and Camera __`ICASSP`__; __`ROI+Transformer`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9746764)
 * 2022-Radar Guided Dynamic Visual Attention for Resource-Efficient RGB Object Detection __`IJCNN`__; __`RadarROI`__; __`nuScenes`__ ;  [Paper](https://arxiv.org/abs/2206.01772)
