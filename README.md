@@ -96,7 +96,8 @@ In my [review paper](https://www.mdpi.com/1424-8220/22/11/4208), there is a tabl
 | PixSet| TI AWR1843| Sparse PC | 3D bbox, TrackID|  [Website](https://leddartech.com/solutions/leddar-pixset-dataset/)|
 | Radar Scenes | 77GHz Middle-Range Radar x4 | Dense PC |2D point-wise, TrackID| [Website](https://radar-scenes.com/)|
 | Pointillism | 2 TI AWR 1443 | PC | 3D bbox | [Github](https://github.com/Kshitizbansal/pointillism-multi-radar-data) |
-| Zendar SAR | SAR | ADC, RD, PC|Pointwise Mask of Moving Vehicle |[Github](https://github.com/ZendarInc/ZendarSDK) |
+| Zendar SAR | SAR | ADC, RD, PC| Pointwise Mask of Moving Vehicle |[Github](https://github.com/ZendarInc/ZendarSDK) |
+| Cooperative Radars | 77GHz Radar x 3 | PC | Trajctory from GNSS-RTK | [Website](https://ieee-dataport.org/documents/radar-measurements-two-vehicles-three-cooperative-imaging-sensors) |
 
 
 <br>Comments: nuScenes, DENSE and Pixset are for sensor fusion, but not particularly address the role of radar. Radar scenes provides point-wise annotations for radar point cloud, but has no other modalities. Pointillism uses 2 radars with overlapped view. Zendar seems no longer available for downloading.
@@ -138,7 +139,8 @@ In my [review paper](https://www.mdpi.com/1424-8220/22/11/4208), there is a tabl
 |FloW Dataset | TI AWR1843 | Floating waste detection | [Website](http://orca-tech.cn/datasets/FloW/Introduction) |
 | OLIMP | UWB + Continental ARS404|  Multi-sensor fusion for detection|[Website](https://sites.google.com/view/ihsen-alouani/datasets)|
 | DeepSense 6G | Radar+Lidar+Camera+GPS | Beam prediction | [Website](https://deepsense6g.net/)|
-
+| COSMOS | Radar+Camera | Interference analysis | [Website](https://edata.bham.ac.uk/801/) |
+| Radar^2 | TI AWR1843 | Spy radar detection | [Website](https://ieee-dataport.org/documents/radar2) |
 
 ### Odometry and Localization
 | Dataset | Radar Type | Task | Link |
@@ -219,6 +221,7 @@ Radar Hardware:
 * [Millimeter-Wave Technology for Automotive Radar Sensors in the 77 GHz Frequency Band](https://ieeexplore.ieee.org/document/6127923)
 * [Radar-on-Chip/in-Package in Autonomous Driving Vehicles and Intelligent Transport Systems](https://ieeexplore.ieee.org/abstract/document/8830483)
 * [Antenna Concepts for Millimeter-Wave Automotive Radar Sensors](https://ieeexplore.ieee.org/document/6165323)
+* [System Performance of a 79 GHz High-Resolution 4D Imaging MIMO Radar With 1728 Virtual Channels](https://ieeexplore.ieee.org/abstract/document/9866614)
 
 
 Radar Signal Processing:
@@ -228,13 +231,16 @@ Radar Signal Processing:
 * Signal Processing: [Advances in Automotive Radar
 A framework on computationally efficient high-resolution frequency estimation](https://ieeexplore.ieee.org/abstract/document/7870737)
 * MIMO: [MIMO Radar for Advanced Driver-Assistance Systems and Autonomous Driving: Advantages and Challenges](https://ieeexplore.ieee.org/document/9127853)
+* DOA: [Calibration and Direction-of-Arrival Estimation of mm-Wave Radars: A Practical Introduction](https://ieeexplore.ieee.org/abstract/document/9099537)
 * Digital Radar: [High-Performance Automotive Radar: A Review of Signal Processing Algorithms and Modulation Schemes](https://ieeexplore.ieee.org/document/8828004)
 * Micro-Doppler: [Micro-Doppler Effect in Radar: Phenomenon, Model, and Simulation Study](https://ieeexplore.ieee.org/document/1603402)
 * Dynamic Range: [Dynamic Range Considerations for Modern Digital
 Array Radars](https://ieeexplore.ieee.org/document/9114607)
 * Phase Noise: [On the Safe Road Toward Autonomous Driving: Phase Noise Monitoring in Radar Sensors for Functional Safety Compliance](https://ieeexplore.ieee.org/document/8827996)
+* Phase Noise: [Detailed Analysis and Modeling of Phase Noise and Systematic Phase Distortions in FMCW Radar Systems](https://ieeexplore.ieee.org/document/9875949)
 * Interference: [Radar Interference Mitigation for Automated Driving: Exploring Proactive Strategies](https://ieeexplore.ieee.org/document/9127843)
 * Interference: [Interference in Automotive Radar Systems: Characteristics, Mitigation Techniques, and Current and Future Research](https://ieeexplore.ieee.org/document/8828037)
+
 
 
 Automotive Radar Applications:
