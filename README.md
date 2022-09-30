@@ -501,9 +501,10 @@ Sensor Fusion:
 ---
 
 ## Object Detection
-### ADC
+* 2022-mmWave-YOLO: A mmWave Imaging Radar-Based Real-Time Multiclass Object Recognition System for ADAS Applications [Paper](https://ieeexplore.ieee.org/document/9777730)
+* 2022-NVRadarNet: Real-Time Radar Obstacle and Free Space Detection for Autonomous Driving [Paper](https://arxiv.org/abs/2209.14499)
+* 2022-ERASE-Net: Efficient Segmentation Networks for Automotive Radar Signals __`Segmentation`__;__`CARRADA`__; [Paper](https://arxiv.org/abs/2209.12940)
 * 2022-Raw High-Definition Radar for Multi-Task Learning __`CVPR`__; __`RADIAL`__; [Paper](https://openaccess.thecvf.com/content/CVPR2022/html/Rebut_Raw_High-Definition_Radar_for_Multi-Task_Learning_CVPR_2022_paper.html)
-### Pre-CFAR
 * 2022-Exploiting Temporal Relations on Radar Perception for Autonomous Driving __`CVPR`__; __`Oxford`__; [Paper](https://openaccess.thecvf.com/content/CVPR2022/html/Li_Exploiting_Temporal_Relations_on_Radar_Perception_for_Autonomous_Driving_CVPR_2022_paper.html)
 * 2021-Graph Convolutional Networks for 3D Object Detection on Radar Data __`ICCVW`__; __`3DDetection`__; [Paper](https://openaccess.thecvf.com/content/ICCV2021W/AVVision/html/Meyer_Graph_Convolutional_Networks_for_3D_Object_Detection_on_Radar_Data_ICCVW_2021_paper.html)
 * 2021-High-resolution radar road segmentation using weakly supervised learning __`Segmentation`__; [Paper](https://www.nature.com/articles/s42256-020-00288-6)[Code](https://github.com/itaiorr/radar_road_seg)
@@ -515,7 +516,6 @@ Sensor Fusion:
 * 2019-[Vehicle Detection With Automotive Radar Using Deep Learning on Range-Azimuth-Doppler Tensors](https://openaccess.thecvf.com/content_ICCVW_2019/html/CVRSUAD/Major_Vehicle_Detection_With_Automotive_Radar_Using_Deep_Learning_on_Range-Azimuth-Doppler_ICCVW_2019_paper.html)
 * 2020-[CNN Based Road User Detection Using the 3D Radar Cube](https://ieeexplore.ieee.org/abstract/document/8962258)
 * 2020-[RAMP-CNN A Novel Neural Network for Enhanced Automotive Radar Object Recognition](https://ieeexplore.ieee.org/abstract/document/9249018)
-(https://arxiv.org/abs/2103.16214)
 
 
 ### PointCloud
@@ -573,17 +573,10 @@ Sensor Fusion:
 * 2021-[Efficient-ROD: Efficient Radar Object Detection based on Densely Connected Residual Network](https://dl.acm.org/doi/abs/10.1145/3460426.3463657)
 * 2021-[ROD2021 Challenge: A Summary for Radar Object Detection Challenge for Autonomous Driving Applications](https://dl.acm.org/doi/10.1145/3460426.3463658)
 
-#### Range Azimuth Doppler
-
-
-#### Raw Signal
-* 2018-[Classification of Intra-Pulse Modulation of Radar Signals by Feature Fusion Based Convolutional Neural Networks](https://ieeexplore.ieee.org/abstract/document/8553176)
-
-
-
 ---
 
 ## Sensor Fusion
+* DeepFusion: A Robust and Modular 3D Object Detector for Lidars, Cameras and Radars __`nuScenes`__ ; [Paper](https://arxiv.org/abs/2209.12729)
 * 2022-CRAFT: Camera-Radar 3D Object Detection with Spatio-Contextual Fusion Transformer __`nuScenes`__ ; [Paper](https://arxiv.org/abs/2209.06535)
 * 2022- Bridging the View Disparity of Radar and Camera Features for Multi-modal Fusion 3D Object Detection  __`BEVFeature`__; __`nuScenes`__ ; [Paper](https://arxiv.org/abs/2208.12079)
 * 2022- RadSegNet: A Reliable Approach to Radar Camera Fusion __`RADIATE`__; [Paper](https://arxiv.org/abs/2208.03849)
