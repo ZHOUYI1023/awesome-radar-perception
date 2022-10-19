@@ -576,6 +576,7 @@ Sensor Fusion:
 ---
 
 ## Sensor Fusion
+* 2022-CramNet: Camera-Radar Fusion with Ray-Constrained Cross-Attention for Robust 3D Object Detection; __`ECCV`__; __`RADIATE`__; [Paper](https://arxiv.org/abs/2210.09267)
 * DeepFusion: A Robust and Modular 3D Object Detector for Lidars, Cameras and Radars __`nuScenes`__ ; [Paper](https://arxiv.org/abs/2209.12729)
 * 2022-CRAFT: Camera-Radar 3D Object Detection with Spatio-Contextual Fusion Transformer __`nuScenes`__ ; [Paper](https://arxiv.org/abs/2209.06535)
 * 2022- Bridging the View Disparity of Radar and Camera Features for Multi-modal Fusion 3D Object Detection  __`BEVFeature`__; __`nuScenes`__ ; [Paper](https://arxiv.org/abs/2208.12079)
