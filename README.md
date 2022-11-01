@@ -5,16 +5,7 @@
 
 
 A curated list of radar datasets, detection, tracking and fusion. <br>Keep updating.<br>Author: Yi Zhou<br>Contact: zhouyi1023@tju.edu.cn
-<br>Update some public-available codes, see [useful_codes.md](./useful_codes.md)
 
-🚩 The View-of-Delft dataset is public available. [Homepage](https://tudelft-iv.github.io/view-of-delft-dataset/)
-
-
-🚩 ICRA 2022 papers are available in IEEE Explore. Papers about radar are listed below (also included in the correponding sections):
-<br>AutoPlace: Robust Place Recognition with Single-chip Automotive Radar __`ICRA`__; [Paper](https://ieeexplore.ieee.org/document/9811869); [Code](https://github.com/ramdrop/AutoPlace)
-<br>Fast-MbyM: Leveraging Translational Invariance of the Fourier Transform for Efficient and Accurate Radar Odometry [Paper](https://ieeexplore.ieee.org/document/9812063); [Code](https://github.com/applied-ai-lab/f-mbym)
-<br>Evolved neuromorphic radar-based altitude controller for an autonomous open-source blimp [Paper](https://ieeexplore.ieee.org/document/9812149)
-<br>DC-Loc: Accurate Automotive Radar Based Metric Localization with Explicit Doppler Compensation [Paper](https://ieeexplore.ieee.org/document/9811561) 
 
 🚩I have published a review paper on radar perception. Please see the link below. It is open access. If you find the contents are useful, please cite this paper in your work. I will keep updating this repository for the latest works in the radar perception field.
 
@@ -169,6 +160,8 @@ In my [review paper](https://www.mdpi.com/1424-8220/22/11/4208), there is a tabl
 | mRI | 77GHz| PC, RGBD camera, IMU | Human pose estimation  | [Website](https://sizhean.github.io/mri)|
 | mmBody  | Arbe Phoenix 4D Radar | PC, RGBD  | 3D body reconstruction | [Website](https://chen3110.github.io/mmbody/index.html) |
 | Pantomime | TI IWR1443 | PC | Gesture  | [Dataset](https://zenodo.org/record/4459969) |
+| HuPR | 2 TI 1843 | RAD | Pose | [Github](https://github.com/robert80203/HuPR-A-Benchmark-for-Human-Pose-Estimation-Using-Millimeter-Wave-Radar) |
+
 
 ---
 
