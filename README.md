@@ -114,7 +114,7 @@ In my [review paper](https://www.mdpi.com/1424-8220/22/11/4208), there is a tabl
 | View-of-Delft | ZF FRGen21 Short Range| PC | 3D bbox |[Website](https://intelligent-vehicles.org/datasets/view-of-delft/)|
 | RADIal | Valeo Middel Range DDM | ADC,RAD,PC | Point-level Vehicle; Open Space Mask|[Github](https://github.com/valeoai/RADIal)|
 | TJ4DRadSet | Oculii Eagle Long Range | PC |  3D bbox, TrackID| [Github](https://github.com/TJRadarLab/TJ4DRadSet) |
-|K-Radar| Macnica RETINA | RAD |3D bbox, Track ID|[Github](https://github.com/kaist-avelab/K-Radar); [OpenReview](https://openreview.net/forum?id=W_bsDmzwaZ7) |
+| K-Radar | Macnica RETINA | RAD |3D bbox, Track ID|[Github](https://github.com/kaist-avelab/K-Radar); [OpenReview](https://openreview.net/forum?id=W_bsDmzwaZ7) |
 
 <br>Comments: Astyx is small, VoD focuses on VRU classification, RADIal's annotation is coarse but provides raw data, TJ4D features for its long range detection, K-Radar provides RAD tensor and 3D annotations. TJ4D and K-radar are not yet public available. 
 
@@ -132,6 +132,7 @@ In my [review paper](https://www.mdpi.com/1424-8220/22/11/4208), there is a tabl
 | DeepSense 6G | Radar+Lidar+Camera+GPS | Beam prediction | [Website](https://deepsense6g.net/)|
 | CTA | Radar+Camera | Interference analysis | [Website](https://edata.bham.ac.uk/801/) |
 | Radar^2 | TI AWR1843 | Spy radar detection | [Website](https://ieee-dataport.org/documents/radar2) |
+| Darting Pedestrians dataset | ZF FRGen21 Short Range | Darting pedestrians detection | [Website](https://intelligent-vehicles.org/datasets/darting-pedestrians-dataset/) |
 
 ### Odometry and Localization
 | Dataset | Radar Type | Task | Link |
@@ -154,7 +155,7 @@ In my [review paper](https://www.mdpi.com/1424-8220/22/11/4208), there is a tabl
 | MCD-Gesture | 77GHz | RAD tensor |Gesture | [Website](https://github.com/DI-HGR/cross_domain_gesture_dataset)|
 |DeepSoli | 60GHz | RD map | Gesture | [Website](https://github.com/simonwsw/deep-soli) | 
 | Radar signatures of human activities  | 5.8 GHz | ADC | Human activities | [Dataset](http://researchdata.gla.ac.uk/848/) |
-|Ci4R human activity dataset | 77GHz & 24GHz & 10GHz |Spectrogram | Human activities | [Website](https://github.com/ci4r/CI4R-Activity-Recognition-datasets/) |
+| Ci4R human activity dataset | 77GHz & 24GHz & 10GHz |Spectrogram | Human activities | [Website](https://github.com/ci4r/CI4R-Activity-Recognition-datasets/) |
 | RadHAR | 77GHz | Point Cloud | Human activities  | [Website](https://github.com/nesl/RadHAR) |
 | Vital Sign | 60GHz| ADC, heart/breathing rate  | Child vital sign | [Dataset](https://figshare.com/s/936cf9f0dd25296495d3) |
 | mRI | 77GHz| PC, RGBD camera, IMU | Human pose estimation  | [Website](https://sizhean.github.io/mri)|
@@ -494,40 +495,31 @@ Sensor Fusion:
 ---
 
 ## Object Detection
+* 2022-3D Object Detection for Multi-frame 4D Automotive Millimeter-wave Radar Point Cloud  __`3DDetection`__;  __`TJ4D`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9944629)
 * 2022-mmWave-YOLO: A mmWave Imaging Radar-Based Real-Time Multiclass Object Recognition System for ADAS Applications [Paper](https://ieeexplore.ieee.org/document/9777730)
 * 2022-NVRadarNet: Real-Time Radar Obstacle and Free Space Detection for Autonomous Driving [Paper](https://arxiv.org/abs/2209.14499)
 * 2022-ERASE-Net: Efficient Segmentation Networks for Automotive Radar Signals __`Segmentation`__;__`CARRADA`__; [Paper](https://arxiv.org/abs/2209.12940)
 * 2022-Raw High-Definition Radar for Multi-Task Learning __`CVPR`__; __`RADIAL`__; [Paper](https://openaccess.thecvf.com/content/CVPR2022/html/Rebut_Raw_High-Definition_Radar_for_Multi-Task_Learning_CVPR_2022_paper.html)
 * 2022-Exploiting Temporal Relations on Radar Perception for Autonomous Driving __`CVPR`__; __`Oxford`__; [Paper](https://openaccess.thecvf.com/content/CVPR2022/html/Li_Exploiting_Temporal_Relations_on_Radar_Perception_for_Autonomous_Driving_CVPR_2022_paper.html)
-* 2021-Graph Convolutional Networks for 3D Object Detection on Radar Data __`ICCVW`__; __`3DDetection`__; [Paper](https://openaccess.thecvf.com/content/ICCV2021W/AVVision/html/Meyer_Graph_Convolutional_Networks_for_3D_Object_Detection_on_Radar_Data_ICCVW_2021_paper.html)
-* 2021-High-resolution radar road segmentation using weakly supervised learning __`Segmentation`__; [Paper](https://www.nature.com/articles/s42256-020-00288-6)[Code](https://github.com/itaiorr/radar_road_seg)
-* 2021-Multi-View Radar Semantic Segmentation __`ICCVW`__; __`CARRADA`__;  __`Segmentation`__;  [Paper](https://openaccess.thecvf.com/content/ICCV2021/html/Ouaknine_Multi-View_Radar_Semantic_Segmentation_ICCV_2021_paper.html); [Code](https://github.com/valeoai/MVRSS)
-
-
-
-* 2019-[Experiments with mmWave Automotive Radar Test-bed](https://ieeexplore.ieee.org/abstract/document/9048939)
-* 2019-[Vehicle Detection With Automotive Radar Using Deep Learning on Range-Azimuth-Doppler Tensors](https://openaccess.thecvf.com/content_ICCVW_2019/html/CVRSUAD/Major_Vehicle_Detection_With_Automotive_Radar_Using_Deep_Learning_on_Range-Azimuth-Doppler_ICCVW_2019_paper.html)
-* 2020-[CNN Based Road User Detection Using the 3D Radar Cube](https://ieeexplore.ieee.org/abstract/document/8962258)
-* 2020-[RAMP-CNN A Novel Neural Network for Enhanced Automotive Radar Object Recognition](https://ieeexplore.ieee.org/abstract/document/9249018)
-
-
-### PointCloud
 * 2022-Deep Instance Segmentation with Automotive Radar Detection Points __`TIV`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9762032)
 * 2022-Improved Orientation Estimation and Detection with Hybrid Object Detection Networks for Automotive Radar
 * 2022-HARadNet: Anchor-free target detection for radar point clouds using hierarchical attention and multi-task learning
 * Radar-PointGNN: Graph Based Object Recognition for Unstructured Radar Point-cloud Data
 * 2021-Radar Voxel Fusion for 3D Object Detection [Paper](https://www.mdpi.com/2076-3417/11/12/5598); [Code](https://github.com/TUMFTM/RadarVoxelFusionNet)
-
-
-### Sparse 2D Point Cloud 
+* 2021-Graph Convolutional Networks for 3D Object Detection on Radar Data __`ICCVW`__; __`3DDetection`__; [Paper](https://openaccess.thecvf.com/content/ICCV2021W/AVVision/html/Meyer_Graph_Convolutional_Networks_for_3D_Object_Detection_on_Radar_Data_ICCVW_2021_paper.html)
+* 2021-High-resolution radar road segmentation using weakly supervised learning __`Segmentation`__; [Paper](https://www.nature.com/articles/s42256-020-00288-6)[Code](https://github.com/itaiorr/radar_road_seg)
+* 2021-Multi-View Radar Semantic Segmentation __`ICCVW`__; __`CARRADA`__;  __`Segmentation`__;  [Paper](https://openaccess.thecvf.com/content/ICCV2021/html/Ouaknine_Multi-View_Radar_Semantic_Segmentation_ICCV_2021_paper.html); [Code](https://github.com/valeoai/MVRSS)
+* 2021-RPFA-Net: a 4D RaDAR Pillar Feature Attention Network for 3D Object Detection [Paper](https://ieeexplore.ieee.org/abstract/document/9564754/)
+* 2019-[Experiments with mmWave Automotive Radar Test-bed](https://ieeexplore.ieee.org/abstract/document/9048939)
+* 2019-[Vehicle Detection With Automotive Radar Using Deep Learning on Range-Azimuth-Doppler Tensors](https://openaccess.thecvf.com/content_ICCVW_2019/html/CVRSUAD/Major_Vehicle_Detection_With_Automotive_Radar_Using_Deep_Learning_on_Range-Azimuth-Doppler_ICCVW_2019_paper.html)
+* 2020-[CNN Based Road User Detection Using the 3D Radar Cube](https://ieeexplore.ieee.org/abstract/document/8962258)
+* 2020-[RAMP-CNN A Novel Neural Network for Enhanced Automotive Radar Object Recognition](https://ieeexplore.ieee.org/abstract/document/9249018)
 * 2019-[2D Car Detection in Radar Data with PointNets](https://ieeexplore.ieee.org/abstract/document/8917000)
 * 2020-[Detection and Tracking on Automotive Radar Data with Deep Learning](https://ieeexplore.ieee.org/document/9190261)
 * 2020-[Pointillism Accurate 3D Bounding Box Estimation with Multi-Radars](https://dl.acm.org/doi/abs/10.1145/3384419.3430783)
 * 2020-[Radar-based 2D Car Detection Using Deep Neural Networks](https://ieeexplore.ieee.org/abstract/document/9294546)
 * 2021-[Radar Voxel Fusion for 3D Object Detection](https://www.mdpi.com/2076-3417/11/12/5598)
 * 2021-[Kernel Point Convolution LSTM Networks for Radar Point Cloud Segmentation](https://www.mdpi.com/2076-3417/11/6/2599)
-
-### 4D Point Cloud 
 * 2019-[Deep Radar Detector](https://ieeexplore.ieee.org/abstract/document/8835792)
 * 2019-[mID Tracking and Identifying People with Millimeter Wave Radar](https://ieeexplore.ieee.org/abstract/document/8804831)
 * 2020-[Improved and Optimal DBSCAN for Embedded Applications Using High-Resolution Automotive Radar](https://ieeexplore.ieee.org/abstract/document/9253774)
@@ -536,8 +528,6 @@ Sensor Fusion:
 * 2020-[Deep Learning on Radar Centric 3D Object Detection](https://arxiv.org/abs/2003.00851)
 * 2021-[Radar Transformer An Object Classification Network Based on 4D MMW Imaging Radar](https://www.mdpi.com/1424-8220/21/11/3854)
 * 2021-[mmPose-NLP A Natural Language Processing Approach to Precise Skeletal Pose Estimation using mmWave Radars](https://arxiv.org/abs/2107.10327)
-* 2021-[RPFA-Net: a 4D RaDAR Pillar Feature Attention Network for 3D Object Detection](https://ieeexplore.ieee.org/abstract/document/9564754/)
-
 
 
 ### Pre-CFAR Data
@@ -556,7 +546,7 @@ Sensor Fusion:
 * 2019-[A Study on Radar Target Detection Based on Deep Neural Networks](https://ieeexplore.ieee.org/abstract/document/8629967)
 * 2020-[Object Detection and 3d Estimation Via an FMCW Radar Using a Fully Convolutional Network](https://ieeexplore.ieee.org/abstract/document/9054511)
 * 2021-[Detecting High-Speed Maneuvering Targets by Exploiting Range-Doppler Relationship for LFM Radar](https://ieeexplore.ieee.org/abstract/document/9347707)
-* 2021-[DeepHybrid: Deep Learning on Automotive Radar Spectra and Reflections for Object Classification]()
+* 2021-[DeepHybrid: Deep Learning on Automotive Radar Spectra and Reflections for Object Classification](https://ieeexplore.ieee.org/document/9564526)
 
 #### ROD2021 Challenge Paper
 * 2021-[Radar Object Detection Using Data Merging, Enhancement and Fusion](https://dl.acm.org/doi/10.1145/3460426.3463653)
@@ -569,6 +559,7 @@ Sensor Fusion:
 ---
 
 ## Sensor Fusion
+* 2022-Detecting darting out pedestrians with occlusion aware sensor fusion of radar and stereo camera ; __`TIV`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9941368)
 * 2022-CramNet: Camera-Radar Fusion with Ray-Constrained Cross-Attention for Robust 3D Object Detection; __`ECCV`__; __`RADIATE`__; [Paper](https://arxiv.org/abs/2210.09267)
 * DeepFusion: A Robust and Modular 3D Object Detector for Lidars, Cameras and Radars __`nuScenes`__ ; [Paper](https://arxiv.org/abs/2209.12729)
 * 2022-CRAFT: Camera-Radar 3D Object Detection with Spatio-Contextual Fusion Transformer __`nuScenes`__ ; [Paper](https://arxiv.org/abs/2209.06535)
