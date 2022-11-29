@@ -495,6 +495,7 @@ Sensor Fusion:
 ---
 
 ## Object Detection
+* 2022-Gaussian Radar Transformer for Semantic Segmentation in Noisy Radar Data  __`Segmentation`__; __`RadarScenes`__; __`RAL`__ [Paper](https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/zeller2022ral.pdf)
 * 2022-3D Object Detection for Multi-frame 4D Automotive Millimeter-wave Radar Point Cloud  __`3DDetection`__;  __`TJ4D`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9944629)
 * 2022-mmWave-YOLO: A mmWave Imaging Radar-Based Real-Time Multiclass Object Recognition System for ADAS Applications [Paper](https://ieeexplore.ieee.org/document/9777730)
 * 2022-NVRadarNet: Real-Time Radar Obstacle and Free Space Detection for Autonomous Driving [Paper](https://arxiv.org/abs/2209.14499)
