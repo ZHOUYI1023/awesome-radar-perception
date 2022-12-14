@@ -588,6 +588,7 @@ Architecture for 2D Object Detection __`CrossAttention`__; __`nuScenes`__ ; __`D
 * 2020-[YOdar Uncertainty-based Sensor Fusion for Vehicle Detection with Camera and Radar Sensors](https://arxiv.org/abs/2010.03320v2)
 * 2020-[Radar+ RGB Fusion For Robust Object Detection In Autonomous Vehicle](https://ieeexplore.ieee.org/abstract/document/9191046)
 * 2020-[Low-level Sensor Fusion for 3D Vehicle Detection using Radar Range-Azimuth Heatmap and Monocular Image](https://openaccess.thecvf.com/content/ACCV2020/html/Kim_Low-level_Sensor_Fusion_Network_for_3D_Vehicle_Detection_using_Radar_ACCV_2020_paper.html)
+* 2020-[Spatial Attention Fusion for Obstacle Detection Using MmWave Radar and Vision Sensor](https://www.mdpi.com/1424-8220/20/4/956)
 
 
 
