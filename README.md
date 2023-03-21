@@ -133,6 +133,8 @@ In my [review paper](https://www.mdpi.com/1424-8220/22/11/4208), there is a tabl
 | Radar^2 | TI AWR1843 | Spy radar detection | [Website](https://ieee-dataport.org/documents/radar2) |
 | Darting Pedestrians dataset | ZF FRGen21 Short Range | Darting pedestrians detection | [Website](https://intelligent-vehicles.org/datasets/darting-pedestrians-dataset/) |
 | ODA | 24GHz |  Obstacle detection and avoidance for drones | [Website](https://github.com/tudelft/ODA_Dataset) |
+| Scattering Dataset | 77GHz | [Website](https://www.fzd-datasets.de/rcs/)|
+| Radar Clutter Dataset | 77GHz | Clutter detections | [Website](https://github.com/kopp-j/clutter-ds) |
 
 
 ### Odometry and Localization
@@ -508,7 +510,11 @@ Sensor Fusion:
 ---
 
 ## Object Detection
-* 2022-Gaussian Radar Transformer for Semantic Segmentation in Noisy Radar Data  __`Segmentation`__; __`RadarScenes`__; __`RAL`__ [Paper](https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/zeller2022ral.pdf)
+* 2023-Enhanced K-Radar: Optimal Density Reduction to Improve Detection Performance and Accessibility of 4D Radar Tensor-based Object Detection  __`KRadar`__; [Paper](https://arxiv.org/abs/2303.06342)
+* Automotive RADAR sub-sampling via object detection networks: Leveraging prior signal information __`Oxford`__; __`RADIATE`__; [Paper](https://arxiv.org/abs/2302.10450)
+* 2022-A recurrent CNN for online object detection on raw radar frames__`CARRADA`__; __`ROD`__; [Paper](https://arxiv.org/abs/2212.11172)
+* 2022-Radatron: Accurate Detection Using Multi-Resolution Cascaded MIMO Radar __`ECCV`__; [Paper](https://link.springer.com/chapter/10.1007/978-3-031-19842-7_10)
+* 2022-Gaussian Radar Transformer for Semantic Segmentation in Noisy Radar Data  __`Segmentation`__; __`RadarScenes`__; __`RAL`__; [Paper](https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/zeller2022ral.pdf)
 * 2022-3D Object Detection for Multi-frame 4D Automotive Millimeter-wave Radar Point Cloud  __`3DDetection`__;  __`TJ4D`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9944629)
 * 2022-mmWave-YOLO: A mmWave Imaging Radar-Based Real-Time Multiclass Object Recognition System for ADAS Applications [Paper](https://ieeexplore.ieee.org/document/9777730)
 * 2022-NVRadarNet: Real-Time Radar Obstacle and Free Space Detection for Autonomous Driving [Paper](https://arxiv.org/abs/2209.14499)
@@ -573,6 +579,7 @@ Sensor Fusion:
 ---
 
 ## Sensor Fusion
+* 2023-MVFusion: Multi-View 3D Object Detection with Semantic-aligned Radar and Camera Fusion __`nuScenes`__; [Paper](https://arxiv.org/abs/2302.10511)
 * 2022-RADIANT: Radar-Image Association Network for 3D Object Detection __`AAAI`__; __`nuScenes`__; [Paper](http://cvlab.cse.msu.edu/pdfs/Long_Kumar_Morris_Liu_Castro_Chakravarty_AAAI2023.pdf)
 * 2022-Detecting darting out pedestrians with occlusion aware sensor fusion of radar and stereo camera ; __`TIV`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9941368)
 * 2022-CramNet: Camera-Radar Fusion with Ray-Constrained Cross-Attention for Robust 3D Object Detection; __`ECCV`__; __`RADIATE`__; [Paper](https://arxiv.org/abs/2210.09267)
@@ -679,6 +686,7 @@ Architecture for 2D Object Detection __`CrossAttention`__; __`nuScenes`__ ; __`D
 ---
 
 ## Velocity Estimation
+* 2023-Hidden Gems: 4D Radar Scene Flow Learning Using Cross-Modal Supervision  __`CVPR`__; [Paper](https://arxiv.org/abs/2303.00462)
 * 2022-Self-Supervised Velocity Estimation for Automotive Radar Object Detection Networks __`nuScenes`__; [Paper](https://arxiv.org/abs/2207.03146)
 * 2022-Self-Supervised Scene Flow Estimation with 4D Automotive Radar __`RAL`__; __`4DRadar`__; __`FlowNet`__; [Paper](https://arxiv.org/abs/2203.01137); [Code](https://github.com/Toytiny/RaFlow)
 * 2021-Full-Velocity Radar Returns by Radar-Camera Fusion __`ICCV`__; __`nuScenes`__; __`OpticalFlow`__; [Paper](https://openaccess.thecvf.com/content/ICCV2021/html/Long_Full-Velocity_Radar_Returns_by_Radar-Camera_Fusion_ICCV_2021_paper.html)
