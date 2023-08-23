@@ -106,7 +106,7 @@ In my [review paper](https://www.mdpi.com/1424-8220/22/11/4208), there is a tabl
 
 <br>Comments: CARRADA is captured in clean scenarios, CRUW uses RA maps, RADDet provides annotations for RAD tensor, RADICaL provides raw ADC data and signal processing toolboxes, GhentVRU can be accssed by contacting with authors, ODA is for drones and provides event camera data.
 
-### 4D Radar Datasets for Detection
+### 4D Radar Datasets
 | Dataset | Radar Type | Data Type| Annotation | Link |
 | ---- |----| ---- | ---- | ---- |
 | Astyx  Hires2019 | Astyx 6455 HiRes Middel Range| PC | 3D bbox|[Dateset](https://github.com/under-the-radar/radar_dataset_astyx)|
@@ -114,8 +114,11 @@ In my [review paper](https://www.mdpi.com/1424-8220/22/11/4208), there is a tabl
 | RADIal | Valeo Middel Range DDM | ADC,RAD,PC | Point-level Vehicle; Open Space Mask|[Github](https://github.com/valeoai/RADIal)|
 | TJ4DRadSet | Oculii Eagle Long Range | PC |  3D bbox, TrackID| [Github](https://github.com/TJRadarLab/TJ4DRadSet) |
 | K-Radar | Macnica RETINA | RAD |3D bbox, Track ID|[Github](https://github.com/kaist-avelab/K-Radar); [OpenReview](https://openreview.net/forum?id=W_bsDmzwaZ7) |
+| ZF 4DRadar Dataset |  ZF FRGen21 4D  | 3D | TBD [Github](https://github.com/ZF4DRadSet/ZF-4DRadar-Dataset) |
+| ThermRad | Oculii Eagle | PC | 3D | TBD | 
+| MSC-RAD4R | Oculii Eagle | PC | SLAM | [Website](https://mscrad4r.github.io/home/) | 
 
-<br>Comments: Astyx is small, VoD focuses on VRU classification, RADIal's annotation is coarse but provides raw data, TJ4D features for its long range detection, K-Radar provides RAD tensor and 3D annotations. TJ4D and K-radar are not yet public available. 
+<br>Comments: Astyx is small, VoD focuses on VRU classification, RADIal's annotation is coarse but provides raw data, TJ4D features for its long range detection, K-Radar provides RAD tensor and 3D annotations.  ZF 4DRadar Dataset is not yet public available. 
 
 ### Specific Tasks
 | Dataset | Radar Type | Task | Link |
