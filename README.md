@@ -592,6 +592,7 @@ Sensor Fusion:
 ---
 
 ## Sensor Fusion
+* 2023-CRN: Camera Radar Net for Accurate, Robust, Efficient 3D Perception __`nuScenes`__; [Paper](https://openaccess.thecvf.com/content/ICCV2023/html/Kim_CRN_Camera_Radar_Net_for_Accurate_Robust_Efficient_3D_Perception_ICCV_2023_paper.html)
 * 2023-LXL: LiDAR Excluded Lean 3D Object Detection with 4D Imaging Radar and Camera Fusion __`VOD`__; __`CVPR`__; [Paper](https://arxiv.org/abs/2307.00724)
 * 2023-RaLiBEV: Radar and LiDAR BEV Fusion Learning for Anchor Box Free Object Detection Systems [Paper](https://arxiv.org/abs/2211.06108)
 * 2023-Bi-LRFusion: Bi-Directional LiDAR-Radar Fusion for 3D Dynamic Object Detection __`CVPR`__; [Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Wang_Bi-LRFusion_Bi-Directional_LiDAR-Radar_Fusion_for_3D_Dynamic_Object_Detection_CVPR_2023_paper.html)
