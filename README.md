@@ -117,6 +117,7 @@ In my [review paper](https://www.mdpi.com/1424-8220/22/11/4208), there is a tabl
 | ZF 4DRadar Dataset |  ZF FRGen21 4D  | 3D | |  TBD [Github](https://github.com/ZF4DRadSet/ZF-4DRadar-Dataset) |
 | ThermRad | Oculii Eagle | PC | 3D | TBD | 
 | MSC-RAD4R | Oculii Eagle | PC | SLAM | [Website](https://mscrad4r.github.io/home/) | 
+| 4D Radar SLAM Dataset |  ZF FRGen21 Short Range | PC | SLAM | [Website](https://robotics.sjtu.edu.cn/en/xwxshd/1203.html) | 
 
 <br>Comments: Astyx is small, VoD focuses on VRU classification, RADIal's annotation is coarse but provides raw data, TJ4D features for its long range detection, K-Radar provides RAD tensor and 3D annotations.  ZF 4DRadar Dataset is not yet public available. 
 
