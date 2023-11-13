@@ -817,6 +817,7 @@ mmWave Radar __`MobiSys`__; [Paper](https://dl.acm.org/doi/abs/10.1145/3386901.3
 * 2019-Masking by Moving: Learning Distraction-Free Radar Odometry from Pose Information __`CoRL`__; [Paper](https://proceedings.mlr.press/v100/barnes20a)
 
 ### SLAM
+* 2023-4D Radar-Based Pose Graph SLAM With Ego-Velocity Pre-Integration Factor [Paper](https://ieeexplore.ieee.org/document/10173499)
 * 2022-CorAl: Introspection for robust radar and lidar perception in diverse environments using differential entropy __`RAS`__;  [Paper](https://www.sciencedirect.com/science/article/pii/S0921889022000768)
 * 2022-Are We Ready for Radar to Replace Lidar in All-Weather Mapping and Localization [Paper](http://128.84.4.18/abs/2203.10174)
 * 2021-SERALOC: SLAM on semantically annotated radar point-clouds __`ITSC`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9564693)
