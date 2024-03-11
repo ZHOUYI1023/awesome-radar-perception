@@ -10,14 +10,7 @@ A curated list of radar datasets, detection, tracking and fusion. <br>Keep updat
 🚩I have published a review paper on radar perception. Please see the link below. It is open access. If you find the contents are useful, please cite this paper in your work. I will keep updating this repository for the latest works in the radar perception field.
 
 ## [Towards Deep Radar Perception for Autonomous Driving: Datasets, Methods, and Challenges](https://www.mdpi.com/1424-8220/22/11/4208)
-
 ## The 41-page slides associated with this paper: [Link](https://www.slideshare.net/YiZhou66/slidesdeepradarperceptionforautonomousdrivingpdf) ; [Link for China Mainland](https://www.aliyundrive.com/s/CZ3SKqY3U4w) 
-
-Radar perception is getting popular. More and more researchers from computer vision, intelligent vehicle and robotics are starting to enter this field. I hope my review article and this repository can be a good starting point for these newcomers.
-<div align="center">
-    <img class="aligncenter" src="images/radar_stat.png"/>
-</div>
-<br/>
 
 ---
 
@@ -139,10 +132,12 @@ In my [review paper](https://www.mdpi.com/1424-8220/22/11/4208), there is a tabl
 | Scattering Dataset | 77GHz | | [Website](https://www.fzd-datasets.de/rcs/)|
 | Radar Clutter Dataset | 77GHz | Clutter detections | [Website](https://github.com/kopp-j/clutter-ds) |
 | Interference Dataset | 77GHz | Interference | [Website](https://ieee-dataport.org/documents/raw-adc-data-fmcw-radar-77-ghz-interference#files) |
+| OSDaR23 | Navtech Radar | Rail-specific object detection | [Website](https://github.com/DSD-DBS/raillabel) |
 
 ### Odometry and Localization
 | Dataset | Radar Type | Task | Link |
 | ---- |----| ---- | ---- | 
+| The Oxford Offroad Radar Dataset | Navtech Spinning Radar | Place Recognition |  [Website](oxford-robotics-institute.github.io/oord-dataset) |
 | Oxford Radar Robocar | Navtech Spinning Radar |  Odometry, (Detection) | [Website](https://oxford-robotics-institute.github.io/radar-robotcar-dataset/); [Detection Annotation](https://github.com/qiank10/MVDNet) |
 |RADIATE| Navtech Spinning  Radar | Odometry, Detection, Tracking | [Website](http://pro.hw.ac.uk/radiate/doc/dataset/)|
 | MulRan | Navtech Spinning  Radar | Place Recognition |[Website](https://sites.google.com/view/mulran-pr/dataset)|
@@ -402,7 +397,7 @@ Sensor Fusion:
 ---
 
 ## Simulator
-
+* 2024-RadSimReal: Bridging the Gap Between Synthetic and Real Data in Radar Object Detection With Simulation  __`CVPR`__;
 * 2021-MaxRay: A Raytracing-based Integrated Sensing and Communication Framework __`OpenSoucre`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9743510)
 * 2021-Virtual Radar: Real-Time Millimeter-Wave Radar Sensor Simulation for Perception-Driven Robotics __`RAL`__; __`OpenSoucre`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9387149); [Code](https://github.com/chstetco/virtualradar)
 * 2020-Scalable and Physical Radar Sensor Simulation for Interacting Digital Twins[Paper](https://ieeexplore.ieee.org/abstract/document/9205224)
@@ -455,6 +450,8 @@ Sensor Fusion:
 * 2019-Feature Detection With a Constant FAR in Sparse 3-D Point Cloud Data [Paper](https://ieeexplore.ieee.org/abstract/document/8924890)
 
 ## Super Resolution
+* 2024-DART: Implicit Doppler Tomography for Radar Novel View Synthesis __`CVPR`__;[Paper](https://arxiv.org/abs/2403.03896); [Codes](https://github.com/WiseLabCMU/dart)
+* 2023-Data-driven Spatial Super-Resolution for FMCW mmWave Sensing Systems [Paper](https://ieeexplore.ieee.org/document/10287476)
 * 2023-Super-Resolution Radar Imaging with Sparse Arrays Using a Deep Neural Network Trained with Enhanced Virtual Data [Paper](https://arxiv.org/abs/2306.09839)
 * 2023-Azimuth Super-Resolution for FMCW Radar in Autonomous Driving __`CVPR`__; [Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Li_Azimuth_Super-Resolution_for_FMCW_Radar_in_Autonomous_Driving_CVPR_2023_paper.html)
 * 2023-Self-Supervised Learning for Enhancing Angular Resolution in Automotive MIMO Radars [Paper](https://ieeexplore.ieee.org/abstract/document/10106481)
@@ -517,6 +514,9 @@ Sensor Fusion:
 ---
 
 ## Object Detection
+* 2024-Bootstrapping Autonomous Radars with Self-Supervised Learning __`CVPR`__; [Paper](https://arxiv.org/abs/2312.04519)
+* 2024-RadarDistill: Boosting Radar-based Object Detection Performance via Knowledge Distillation from LiDAR Features __`CVPR`__;
+* 2024-SIRA: Scalable Inter-frame Relation and Association for Radar Perception __`CVPR`__;
 * 2023-SMURF: Spatial Multi-Representation Fusion for 3D Object Detection with 4D Imaging Radar __`VOD`__; __`TJ4D`__; [Paper](https://arxiv.org/abs/2307.10784)
 * 2023-PeakConv: Learning Peak Receptive Field for Radar Semantic Segmentation __`CVPR`__;  [Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Zhang_PeakConv_Learning_Peak_Receptive_Field_for_Radar_Semantic_Segmentation_CVPR_2023_paper.html)
 * 2023-Enhanced K-Radar: Optimal Density Reduction to Improve Detection Performance and Accessibility of 4D Radar Tensor-based Object Detection  __`KRadar`__; [Paper](https://arxiv.org/abs/2303.06342)
@@ -593,6 +593,9 @@ Sensor Fusion:
 ---
 
 ## Sensor Fusion
+* 2024-RCBEVDet: Radar-camera Fusion in Bird’s Eye View for 3D Object Detection __`CVPR`__; [Paper](https://arxiv.org/abs/2305.15883)
+* 2024-Towards Robust 3D Object Detection with LiDAR and 4D Radar Fusion in Various Weather Conditions __`CVPR`__;
+* 2024-CRKD: Enhanced Camera-Radar Object Detection with Cross-modality Knowledge Distillation __`CVPR`__;
 * 2023-CRN: Camera Radar Net for Accurate, Robust, Efficient 3D Perception __`nuScenes`__; [Paper](https://openaccess.thecvf.com/content/ICCV2023/html/Kim_CRN_Camera_Radar_Net_for_Accurate_Robust_Efficient_3D_Perception_ICCV_2023_paper.html)
 * 2023-LXL: LiDAR Excluded Lean 3D Object Detection with 4D Imaging Radar and Camera Fusion __`VOD`__; __`CVPR`__; [Paper](https://arxiv.org/abs/2307.00724)
 * 2023-RaLiBEV: Radar and LiDAR BEV Fusion Learning for Anchor Box Free Object Detection Systems [Paper](https://arxiv.org/abs/2211.06108)
@@ -790,6 +793,7 @@ mmWave Radar __`MobiSys`__; [Paper](https://dl.acm.org/doi/abs/10.1145/3386901.3
 ---
 
 ## Place Recognition
+* 2024-TransLoc4D: Transformer-based 4D-Radar Place Recognition __`CVPR`__
 * 2022-AutoPlace: Robust Place Recognition with Single-chip Automotive Radar __`ICRA`__; [Paper](https://ieeexplore.ieee.org/document/9811869); [Code](https://github.com/ramdrop/AutoPlace)
 * 2021-Contrastive Learning for Unsupervised Radar Place Recognition [Paper](https://ieeexplore.ieee.org/abstract/document/9659335)
 * 2021-Radar-to-Lidar: Heterogeneous Place Recognition via Joint Learning [Paper](https://www.frontiersin.org/articles/10.3389/frobt.2021.661199/full)
