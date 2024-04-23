@@ -398,7 +398,7 @@ Sensor Fusion:
 
 ## Simulator
 * 2024-RadSimReal: Bridging the Gap Between Synthetic and Real Data in Radar Object Detection With Simulation  __`CVPR`__;
-* 2024-SHENRON - Scalable, High Fidelity and EfficieNt Radar SimulatiON __`RAL`__; [Paper](https://ieeexplore.ieee.org/document/10361276)
+* 2024-SHENRON - Scalable, High Fidelity and EfficieNt Radar SimulatiON __`RAL`__; [Paper](https://ieeexplore.ieee.org/document/10361276) [Video](https://youtu.be/xupnpWCeoNM)
 * 2021-MaxRay: A Raytracing-based Integrated Sensing and Communication Framework __`OpenSoucre`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9743510)
 * 2021-Virtual Radar: Real-Time Millimeter-Wave Radar Sensor Simulation for Perception-Driven Robotics __`RAL`__; __`OpenSoucre`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9387149); [Code](https://github.com/chstetco/virtualradar)
 * 2020-Scalable and Physical Radar Sensor Simulation for Interacting Digital Twins[Paper](https://ieeexplore.ieee.org/abstract/document/9205224)
