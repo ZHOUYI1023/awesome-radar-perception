@@ -351,6 +351,8 @@ Sensor Fusion:
 * 2018-Multi-Radar Self-Calibration Method using High-Definition Digital Maps for Autonomous Driving __`ITSC`__; [Paper](https://ieeexplore.ieee.org/document/8569272/)
 
 ### Radar-Camera
+* 2023-Online targetless radar-camera extrinsic calibration based on the common features of radar and camera __`NAECON`__; [Paper](https://arxiv.org/abs/2309.00787)
+* 2023-3D radar and camera co-calibration: A flexible and accurate method for target-based extrinsic calibration __`RadarConf`__; [Paper](https://arxiv.org/abs/2307.15264)
 * 2021-A Continuous-Time Approach for 3D Radar-to-Camera Extrinsic Calibration __`ICRA`__; __`Motion`__ ; [Paper](https://ieeexplore.ieee.org/abstract/document/9561938)
 * 2021-Spatio-Temporal Multisensor Calibration Based on Gaussian Processes Moving Object Tracking __`ToR`__; __`Trajectory`__ ; [Paper](https://ieeexplore.ieee.org/abstract/document/9387269)
 * 2019-Targetless Rotational Auto-Calibration of Radar and Camera for Intelligent Transportation Systems __`ITSC`__; __`NN`__; [Paper](https://ieeexplore.ieee.org/document/8917135)
@@ -593,6 +595,7 @@ Sensor Fusion:
 ---
 
 ## Sensor Fusion
+* 2024-Deep Learning-Based Robust Multi-Object Tracking via Fusion of mmWave Radar and Camera Sensors __`ITIS`__; [Paper](https://ieeexplore.ieee.org/document/10592816)
 * 2024-RCBEVDet: Radar-camera Fusion in Bird’s Eye View for 3D Object Detection __`CVPR`__; [Paper](https://arxiv.org/abs/2305.15883)
 * 2024-Towards Robust 3D Object Detection with LiDAR and 4D Radar Fusion in Various Weather Conditions __`CVPR`__;
 * 2024-CRKD: Enhanced Camera-Radar Object Detection with Cross-modality Knowledge Distillation __`CVPR`__;
@@ -601,6 +604,7 @@ Sensor Fusion:
 * 2023-RaLiBEV: Radar and LiDAR BEV Fusion Learning for Anchor Box Free Object Detection Systems [Paper](https://arxiv.org/abs/2211.06108)
 * 2023-Bi-LRFusion: Bi-Directional LiDAR-Radar Fusion for 3D Dynamic Object Detection __`CVPR`__; [Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Wang_Bi-LRFusion_Bi-Directional_LiDAR-Radar_Fusion_for_3D_Dynamic_Object_Detection_CVPR_2023_paper.html)
 * 2023-MVFusion: Multi-View 3D Object Detection with Semantic-aligned Radar and Camera Fusion __`nuScenes`__; [Paper](https://arxiv.org/abs/2302.10511)
+* 2022-Robust multiobject tracking using mmwave radar-camera sensor fusion __`IEEESensorsLetters`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9916096)
 * 2022-RADIANT: Radar-Image Association Network for 3D Object Detection __`AAAI`__; __`nuScenes`__; [Paper](http://cvlab.cse.msu.edu/pdfs/Long_Kumar_Morris_Liu_Castro_Chakravarty_AAAI2023.pdf)
 * 2022-Detecting darting out pedestrians with occlusion aware sensor fusion of radar and stereo camera ; __`TIV`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9941368)
 * 2022-CramNet: Camera-Radar Fusion with Ray-Constrained Cross-Attention for Robust 3D Object Detection; __`ECCV`__; __`RADIATE`__; [Paper](https://arxiv.org/abs/2210.09267)
@@ -718,6 +722,8 @@ Architecture for 2D Object Detection __`CrossAttention`__; __`nuScenes`__ ; __`D
 ## Tracking
 
 ### Neural Network
+* 2024-Deep Learning-Based Robust Multi-Object Tracking via Fusion of mmWave Radar and Camera Sensors __`ITIS`__; [Paper](https://ieeexplore.ieee.org/document/10592816)
+* 2022-Robust multiobject tracking using mmwave radar-camera sensor fusion __`IEEESensorsLetters`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9916096)
 * 2022- Deep Learning Method for Cell-Wise Object Tracking, Velocity Estimation and Projection of Sensor Data over Time
  [Paper](https://arxiv.org/abs/2306.06126)
 * 2022-Exploiting Temporal Relations on Radar Perception for Autonomous Driving __`CVPR`__; __`Oxford`__; __`Attention`__; [Paper](https://openaccess.thecvf.com/content/CVPR2022/html/Li_Exploiting_Temporal_Relations_on_Radar_Perception_for_Autonomous_Driving_CVPR_2022_paper.html)
