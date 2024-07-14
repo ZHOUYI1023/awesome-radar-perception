@@ -595,7 +595,7 @@ Sensor Fusion:
 ---
 
 ## Sensor Fusion
-* 2024-Deep Learning-Based Robust Multi-Object Tracking via Fusion of mmWave Radar and Camera Sensors __`ITIS`__; [Paper](https://ieeexplore.ieee.org/document/10592816)
+* 2024-Deep Learning-Based Robust Multi-Object Tracking via Fusion of mmWave Radar and Camera Sensors __`TITS`__; [Paper](https://ieeexplore.ieee.org/document/10592816)
 * 2024-RCBEVDet: Radar-camera Fusion in Bird’s Eye View for 3D Object Detection __`CVPR`__; [Paper](https://arxiv.org/abs/2305.15883)
 * 2024-Towards Robust 3D Object Detection with LiDAR and 4D Radar Fusion in Various Weather Conditions __`CVPR`__;
 * 2024-CRKD: Enhanced Camera-Radar Object Detection with Cross-modality Knowledge Distillation __`CVPR`__;
@@ -722,7 +722,7 @@ Architecture for 2D Object Detection __`CrossAttention`__; __`nuScenes`__ ; __`D
 ## Tracking
 
 ### Neural Network
-* 2024-Deep Learning-Based Robust Multi-Object Tracking via Fusion of mmWave Radar and Camera Sensors __`ITIS`__; [Paper](https://ieeexplore.ieee.org/document/10592816)
+* 2024-Deep Learning-Based Robust Multi-Object Tracking via Fusion of mmWave Radar and Camera Sensors __`TITS`__; [Paper](https://ieeexplore.ieee.org/document/10592816)
 * 2022-Robust multiobject tracking using mmwave radar-camera sensor fusion __`IEEESensorsLetters`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9916096)
 * 2022- Deep Learning Method for Cell-Wise Object Tracking, Velocity Estimation and Projection of Sensor Data over Time
  [Paper](https://arxiv.org/abs/2306.06126)
