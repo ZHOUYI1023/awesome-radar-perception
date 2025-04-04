@@ -183,7 +183,8 @@ In my [review paper](https://www.mdpi.com/1424-8220/22/11/4208), there is a tabl
 ### Simulation
 RadarSimPy: [Code](https://github.com/rookiepeng/radarsimpy);<br>
 Virtual Radar: [Code](https://github.com/chstetco/virtualradar);<br>
-MaxRay: [Paper](https://arxiv.org/abs/2112.01751)
+MaxRay: [Paper](https://arxiv.org/abs/2112.01751);<br>
+RadaRays: [Paper](https://ieeexplore.ieee.org/document/10845807), [Code](https://github.com/uos/radarays), [Video](https://www.youtube.com/watch?v=fLH8JPYk67o)
 
 ### TI Signal Processing SDK:
 RaDICaL's Toolbox: [SDK](https://github.com/moodoki/radical_sdk); <br>PyRapid: [SDK](http://radar.alizadeh.ca);<br>OpenRadar : [SDK](https://github.com/presenseradar/openradar);<br>Pymmw: [SDK](https://github.com/m6c7l/pymmw);<br>Open radar initiative: [SDK](https://github.com/openradarinitiative);<br>RADIal's Emptyband-DDM Script: [Code](https://github.com/valeoai/RADIal/tree/main/SignalProcessing) 
