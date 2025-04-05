@@ -46,12 +46,11 @@ https://github.com/uos/radarays
 @article{mock2025radarays,
   author={Mock, Alexander and Magnusson, Martin and Hertzberg, Joachim},
   journal={IEEE Robotics and Automation Letters}, 
-  title={RadaRays: Real-Time Simulation of Rotating FMCW Radar for Mobile Robotics via Hardware-Accelerated Ray Tracing}, 
+  title={{RadaRays}: Real-Time Simulation of Rotating FMCW Radar for Mobile Robotics via Hardware-Accelerated Ray Tracing}, 
   year={2025},
   volume={10},
   number={3},
   pages={2470-2477},
-  keywords={Radar;Radar imaging;Robots;Spaceborne radar;Ray tracing;Meteorological radar;Real-time systems;Radar scattering;Radar antennas;Radar cross-sections;Simulation and animation;range sensing;software tools for robot programming;SLAM;collision avoidance},
   doi={10.1109/LRA.2025.3531689}
 }
 
