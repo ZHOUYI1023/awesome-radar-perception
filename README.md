@@ -398,6 +398,7 @@ Sensor Fusion:
 ---
 
 ## Simulator
+* 2025-RadaRays: Real-Time Simulation of Rotating FMCW Radar for Mobile Robotics via Hardware-Accelerated Ray Tracing __`RAL`__; __`OpenSoucre`__; [Paper](https://ieeexplore.ieee.org/document/10845807); [Code](https://github.com/uos/radarays)
 * 2024-RadSimReal: Bridging the Gap Between Synthetic and Real Data in Radar Object Detection With Simulation  __`CVPR`__;
 * 2021-MaxRay: A Raytracing-based Integrated Sensing and Communication Framework __`OpenSoucre`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9743510)
 * 2021-Virtual Radar: Real-Time Millimeter-Wave Radar Sensor Simulation for Perception-Driven Robotics __`RAL`__; __`OpenSoucre`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9387149); [Code](https://github.com/chstetco/virtualradar)
