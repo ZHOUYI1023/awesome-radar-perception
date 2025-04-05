@@ -595,7 +595,8 @@ Sensor Fusion:
 ## Sensor Fusion
 * 2024-RCBEVDet: Radar-camera Fusion in Bird’s Eye View for 3D Object Detection __`CVPR`__; [Paper](https://arxiv.org/abs/2305.15883)
 * 2024-Towards Robust 3D Object Detection with LiDAR and 4D Radar Fusion in Various Weather Conditions __`CVPR`__;
-* 2024-CRKD: Enhanced Camera-Radar Object Detection with Cross-modality Knowledge Distillation __`CVPR`__;
+* 2024-CRKD: Enhanced Camera-Radar Object Detection with Cross-modality Knowledge Distillation __`CVPR`__; [Paper](https://openaccess.thecvf.com/content/CVPR2024/html/Zhao_CRKD_Enhanced_Camera-Radar_Object_Detection_with_Cross-modality_Knowledge_Distillation_CVPR_2024_paper.html)
+* 2024-LiRaFusion: Deep Adaptive LiDAR-Radar Fusion for 3D Object Detection __`ICRA`__; __`nuScenes`__ [Paper](https://arxiv.org/abs/2402.11735)
 * 2023-CRN: Camera Radar Net for Accurate, Robust, Efficient 3D Perception __`nuScenes`__; [Paper](https://openaccess.thecvf.com/content/ICCV2023/html/Kim_CRN_Camera_Radar_Net_for_Accurate_Robust_Efficient_3D_Perception_ICCV_2023_paper.html)
 * 2023-LXL: LiDAR Excluded Lean 3D Object Detection with 4D Imaging Radar and Camera Fusion __`VOD`__; __`CVPR`__; [Paper](https://arxiv.org/abs/2307.00724)
 * 2023-RaLiBEV: Radar and LiDAR BEV Fusion Learning for Anchor Box Free Object Detection Systems [Paper](https://arxiv.org/abs/2211.06108)
