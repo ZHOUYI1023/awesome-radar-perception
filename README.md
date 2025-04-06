@@ -110,6 +110,7 @@ In my [review paper](https://www.mdpi.com/1424-8220/22/11/4208), there is a tabl
 | ZF 4DRadar Dataset |  ZF FRGen21 4D  | 3D | |  TBD [Github](https://github.com/ZF4DRadSet/ZF-4DRadar-Dataset) |
 | ThermRad | Oculii Eagle | PC | 3D | TBD | 
 | MSC-RAD4R | Oculii Eagle | PC | SLAM | [Website](https://mscrad4r.github.io/home/) | 
+| 4D Radar SLAM Dataset |  ZF FRGen21 Short Range | PC | SLAM | [Website](https://robotics.sjtu.edu.cn/en/xwxshd/1203.html) | 
 
 <br>Comments: Astyx is small, VoD focuses on VRU classification, RADIal's annotation is coarse but provides raw data, TJ4D features for its long range detection, K-Radar provides RAD tensor and 3D annotations.  ZF 4DRadar Dataset is not yet public available. 
 
@@ -822,6 +823,7 @@ mmWave Radar __`MobiSys`__; [Paper](https://dl.acm.org/doi/abs/10.1145/3386901.3
 * 2019-Masking by Moving: Learning Distraction-Free Radar Odometry from Pose Information __`CoRL`__; [Paper](https://proceedings.mlr.press/v100/barnes20a)
 
 ### SLAM
+* 2023-4D Radar-Based Pose Graph SLAM With Ego-Velocity Pre-Integration Factor [Paper](https://ieeexplore.ieee.org/document/10173499)
 * 2022-CorAl: Introspection for robust radar and lidar perception in diverse environments using differential entropy __`RAS`__;  [Paper](https://www.sciencedirect.com/science/article/pii/S0921889022000768)
 * 2022-Are We Ready for Radar to Replace Lidar in All-Weather Mapping and Localization [Paper](http://128.84.4.18/abs/2203.10174)
 * 2021-SERALOC: SLAM on semantically annotated radar point-clouds __`ITSC`__; [Paper](https://ieeexplore.ieee.org/abstract/document/9564693)
