@@ -193,7 +193,7 @@ RaDICaL's Toolbox: [SDK](https://github.com/moodoki/radical_sdk); <br>PyRapid: [
 NXP Premium Radar SDK: [Link](https://www.nxp.com/design/automotive-software-and-tools/premium-radar-sdk-advanced-radar-processing:PREMIUM-RADAR-SDK);<br>TI mmWAVE Studio: [Link](https://www.ti.com/tool/MMWAVE-STUDIO);<br>TI Toolbox: [Link](https://dev.ti.com/tirex/explore/node?node=AHJY4qNCowO17wH-P2ICKQ);<br>Matlab Radar Toolbox: [Link](https://uk.mathworks.com/products/radar.html)
 
 ### Data Capturing:
-Real-Time Raw-Data Acquisition and Visualization System for TI Radar Using DCA1000: [Code](https://github.com/Tkwer/RadarStream);<br>
+Real-Time Raw-Data Acquisition and Visualization System for TI Radar Using DCA1000 (Captures and visualizes raw radar data): [Code](https://github.com/Tkwer/RadarStream);<br>
 TI Radar and Camera in Python:[Code](https://github.com/yizhou-wang/cr-data-collector);<br>
 Ainstein Radar ROS Node: [ROS Node](https://github.com/AinsteinAI/ainstein_radar);<br>Continental ARS 408 ROS Node: [ROS Node](https://gitlab.com/ApexAI/autowareclass2020/-/tree/master/code/src/09_Perception_Radar/Radar-Hands-On-WS);<br>TI mmWave ROS Driver: [Guide](https://dev.ti.com/tirex/explore/node?node=ADINBw2NDaxb6JeW7V-lMQ__VLyFKFf__LATEST&search=ROS);<br>RaDICaL's TI ROS Node: [ROS Node](https://github.com/moodoki/iwr_raw_rosnode);<br>UoA's TI ROS Package: [ROS Node](https://github.com/radar-lab/ti_mmwave_rospkg)
 
