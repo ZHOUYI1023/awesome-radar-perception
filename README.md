@@ -14,6 +14,7 @@ A curated list of radar datasets, detection, tracking and fusion. <br>Keep updat
 
 ---
 
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested AI agent system prompts for radar perception workflow orchestration, automated sensor data pipeline management, and multi-agent coordination. MIT licensed.
 ## Contents
 Overview
 - [Review](#Review-Papers)
