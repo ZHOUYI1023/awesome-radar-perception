@@ -934,6 +934,7 @@ System for Secure Authentication [Paper](https://ieeexplore.ieee.org/abstract/do
 * What Happens for a ToF LiDAR in Fog? [Paper](https://ieeexplore.ieee.org/abstract/document/9121741)
 
 ### Datasets
+- [Timepiecepedia Watch Database](https://github.com/timepiecepedia/timepiecepedia-data) — Free CC0 dataset: 25,876+ watch references across 126 brands, with full specifications (movement, material, diameter, water resistance), imagery URLs, and watchmaking glossary.
 * Oxford Foggy [Code]((https://github.com/qiank10/MVDNet))
 * DENSE 
 * RADIATE 
